@@ -1,0 +1,230 @@
+﻿Log file open, 12/10/14 17:04:35
+LogInit:Display: Running engine for game: AsteroidMiner
+LogInit: Version: 4.6.0-2369412+++depot+UE4-Releases+4.6
+LogInit: API Version: 2369412
+LogInit: Compiled (64-bit): Nov 24 2014 21:54:04
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.6
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.6/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.12.10-17.04.36:034][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2014.12.10-17.04.36:103][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.12.10-17.04.36:152][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.12.10-17.04.36:170][  0]LogInit: Object subsystem initialized
+[2014.12.10-17.04.36:173][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2014.12.10-17.04.36:173][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.10-17.04.36:173][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2014.12.10-17.04.36:174][  0]LogInit: Selected Device Profile: [Windows]
+[2014.12.10-17.04.36:174][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.12.10-17.04.36:214][  0]LogInit: Computer: LLOYDS_PC
+[2014.12.10-17.04.36:214][  0]LogInit: User: 10021000
+[2014.12.10-17.04.36:214][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.12.10-17.04.36:214][  0]LogInit: High frequency timer resolution =2.337877 MHz
+[2014.12.10-17.04.36:214][  0]LogMemory: Memory total: Physical=5.9GB (6GB approx) Virtual=131072.0GB
+[2014.12.10-17.04.36:215][  0]LogMemory: Platform Memory Stats for Windows
+[2014.12.10-17.04.36:215][  0]LogMemory: Process Physical Memory: 47.25 MB used, 47.25 MB peak
+[2014.12.10-17.04.36:215][  0]LogMemory: Process Virtual Memory: 23.05 MB used, 24.36 MB peak
+[2014.12.10-17.04.36:215][  0]LogMemory: Physical Memory: 2688.11 MB used, 6077.92 MB total
+[2014.12.10-17.04.36:215][  0]LogMemory: Virtual Memory: 272.18 MB used, 134217728.00 MB total
+[2014.12.10-17.04.36:274][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 680 (Feature Level 11_0)
+[2014.12.10-17.04.36:274][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2014.12.10-17.04.36:277][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.12.10-17.04.36:277][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.12.10-17.04.36:277][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.12.10-17.04.36:290][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.12.10-17.04.36:313][  0]LogD3D11RHI: Async texture creation enabled
+[2014.12.10-17.04.36:428][  0]LogTextLocalizationManager: The requested culture ('en_GB') has no localization data; parent culture's ('en') localization data will be used.
+[2014.12.10-17.04.36:740][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.12.10-17.04.47:402][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.10-17.04.48:546][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.10-17.04.48:663][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.12.10-17.04.48:904][  0]LogDerivedDataCache: Loaded boot cache 0.24s 39MB C:/Users/10021_000/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2014.12.10-17.04.48:904][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/10021_000/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2014.12.10-17.04.48:907][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.12.10-17.04.48:907][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.12.10-17.04.49:020][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.12.10-17.04.49:033][  0]LogDerivedDataCache: Using Local data cache path C:/Users/10021_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2014.12.10-17.04.49:345][  0]LogCollisionProfile:Warning: Profile (Trigger) - Custom Channel Name = 'Projectile' hasn't been found
+[2014.12.10-17.04.49:345][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2014.12.10-17.04.49:345][  0]LogCollisionProfile:Warning: Profile (Projectile) ObjectTypeName (Projectile) is invalid. 
+[2014.12.10-17.04.49:651][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.12.10-17.04.49:651][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.12.10-17.04.50:651][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.12.10-17.04.50:766][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2014.12.10-17.04.52:525][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.12.10-17.04.52:799][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Binaries/Win64. Error: 0
+[2014.12.10-17.04.53:138][  0]SourceControl: Info Source control is disabled
+[2014.12.10-17.04.53:138][  0]SourceControl: Info Source control is disabled
+[2014.12.10-17.04.53:152][  0]SourceControl: Info Source control is disabled
+[2014.12.10-17.04.53:393][  0]LogObj: 23754 objects as part of root set at end of initial load.
+[2014.12.10-17.04.53:393][  0]LogUObjectAllocator: 5168136 out of 0 bytes used by permanent object pool.
+[2014.12.10-17.04.53:493][  0]LogEngine: Initializing Engine...
+[2014.12.10-17.04.53:852][  0]LogInit: XAudio2 using '37'' TFT-TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2014.12.10-17.04.53:865][  0]LogInit: FAudioDevice initialized.
+[2014.12.10-17.04.53:904][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.12.10-17.04.54:007][  0]LogDerivedDataCache: Saved boot cache 0.10s 39MB C:/Users/10021_000/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2014.12.10-17.04.54:053][  0]LogInit: Texture streaming: Enabled
+[2014.12.10-17.04.54:108][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2014.12.10-17.04.54:108][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.0-2369412+++depot+UE4-Releases+4.6
+[2014.12.10-17.04.54:111][  0]LogAnalytics: SetUserId a29c071cf10a93fac0ff457d50595e17
+[2014.12.10-17.04.54:111][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2014.12.10-17.04.54:137][  0]LogInit: Transaction tracking system initialized
+[2014.12.10-17.04.54:330][  0]BlueprintLog: New page: Editor Load
+[2014.12.10-17.04.54:379][  0]LogAssetRegistry: FAssetRegistry took 0.0114 seconds to start up
+[2014.12.10-17.04.54:381][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2014.12.10-17.04.55:684][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.10-17.04.56:630][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.10-17.04.57:009][  0]LogConsoleResponse:Display: 
+[2014.12.10-17.04.57:114][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.10-17.04.57:498][  0]SourceControl: Info Source control is disabled
+[2014.12.10-17.04.57:498][  0]Cmd: MAP LOAD FILE="E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Maps/AsteroidMiner.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.10-17.04.57:503][  0]LightingResults: New page: Lighting Build
+[2014.12.10-17.04.57:521][  0]MapCheck: New page: Map Check
+[2014.12.10-17.04.57:521][  0]LightingResults: New page: Lighting Build
+[2014.12.10-17.04.57:540][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007AC2B09940
+[2014.12.10-17.04.57:805][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/M_SkyBox.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.10-17.04.57:808][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Textures/HighResSkyBox.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.10-17.04.58:780][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Meshes/DetailedSun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.10-17.04.58:783][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/M_Sun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.10-17.04.58:791][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Textures/T_Fire.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.10-17.04.59:003][  0]LogBlueprint:Warning: [AdjustVelocityBTT] CreatePinForVariable: 'VelocityChange?' variable not found. Base class was probably changed.
+[2014.12.10-17.04.59:035][  0]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "VelocityChange?" in 'BotShip_C'.
+Make sure 'BotShip_C' has been compiled for  Set VelocityChange? 
+[2014.12.10-17.04.59:039][  0]LogBlueprint:Error: [compiler] Error The property associated with  Velocity Change?  could not be found
+[2014.12.10-17.04.59:059][  0]LogBlueprint:Warning: [compiler] Warning [0026.73] Compile of AdjustVelocityBTT failed. 1 Fatal Issue(s) 1 Warning(s) [in 55 ms]
+[2014.12.10-17.04.59:276][  0]LoadErrors:Error: Error Failed import for BoolProperty
+[2014.12.10-17.04.59:736][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/Objects/B_Asteroid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.10-17.04.59:744][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Meshes/Rock.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.10-17.04.59:747][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/M_Asteroid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.10-17.04.59:768][  0]LoadErrors:Error: Error Failed import for BoolProperty
+[2014.12.10-17.04.59:865][  0]LogBlueprint:Warning: [compiler] Warning  Remove from Viewport  is deprecated; Use RemoveFromParent instead
+[2014.12.10-17.04.59:867][  0]LogBlueprint:Warning: [compiler] Warning [0027.53] Compile of GameOverWidget successful, but with 1 Warning(s) [in 9 ms]
+[2014.12.10-17.04.59:871][  0]LogBlueprint:Warning: [compiler] Warning  Remove from Viewport  is deprecated; Use RemoveFromParent instead
+[2014.12.10-17.04.59:874][  0]LogBlueprint:Warning: [compiler] Warning [0027.54] Compile of GameOverWidget successful, but with 1 Warning(s) [in 5 ms]
+[2014.12.10-17.04.59:875][  0]LogBlueprint:Warning: [compiler] Warning [0027.54] Compile of GameOverWidget successful, but with 2 Warning(s) [in 0 ms]
+[2014.12.10-17.04.59:930][  0]LogBlueprint:Warning: [compiler] Warning  Remove from Viewport  is deprecated; Use RemoveFromParent instead
+[2014.12.10-17.04.59:933][  0]LogBlueprint:Warning: [compiler] Warning [0027.60] Compile of PauseMenuWidget successful, but with 1 Warning(s) [in 10 ms]
+[2014.12.10-17.04.59:937][  0]LogBlueprint:Warning: [compiler] Warning  Remove from Viewport  is deprecated; Use RemoveFromParent instead
+[2014.12.10-17.04.59:939][  0]LogBlueprint:Warning: [compiler] Warning [0027.61] Compile of PauseMenuWidget successful, but with 1 Warning(s) [in 4 ms]
+[2014.12.10-17.04.59:939][  0]LogBlueprint:Warning: [compiler] Warning [0027.61] Compile of PauseMenuWidget successful, but with 2 Warning(s) [in 0 ms]
+[2014.12.10-17.05.01:818][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.10-17.05.01:818][  0]LogAIModule: Creating AISystem for world AsteroidMiner
+[2014.12.10-17.05.01:819][  0]Cmd: MAP CHECKDEP
+[2014.12.10-17.05.01:819][  0]MapCheck: New page: AsteroidMiner - 10 Dec 2014 17:05:01
+[2014.12.10-17.05.02:111][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 290.21ms to complete.
+[2014.12.10-17.05.02:111][  0]LogFileHelpers: Loading map 'AsteroidMiner' took 4.612
+[2014.12.10-17.05.02:239][  0]LogCollectionManager: Loaded 0 collections in 0.003866 seconds
+[2014.12.10-17.05.02:476][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.12.10-17.05.02:492][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2014.12.10-17.05.02:534][  0]LogLoad: Full Startup: 30.20 seconds (BP compile: 1.43 seconds)
+[2014.12.10-17.05.02:884][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/AI/BehaviourTreeTasks'
+[2014.12.10-17.05.03:265][  0]LogRenderer:Warning: Reallocating scene render targets to support 944x872.
+[2014.12.10-17.05.04:926][  5]LogAssetRegistry: Asset discovery search completed in 10.5588 seconds
+[2014.12.10-17.05.04:951][  5]LogAnalytics: Event Editor.Usage.AssetClasses has too many attributes (41). May be truncated at the collector.
+[2014.12.10-17.05.14:117][ 72]BlueprintLog: New page: Compile AdjustVelocityBTT
+[2014.12.10-17.05.14:576][ 72]BlueprintEditorCompileResults: Info [0042.24] Compile of AdjustVelocityBTT successful! [in 377 ms]
+[2014.12.10-17.05.22:987][279]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.10-17.05.22:995][279]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2014.12.10-17.05.23:122][279]LogPlayLevel: [PIE] Compiling AsteroidMiner before PIE...
+[2014.12.10-17.05.24:101][279]LogPlayLevel: PIE:  Blueprint regeneration took 1114 ms (2 blueprints)
+[2014.12.10-17.05.24:102][279]PIE: New page: PIE session: AsteroidMiner (10 Dec 2014 17:05:24)
+[2014.12.10-17.05.24:156][279]LogPlayLevel: PIE: StaticDuplicateObject took: (0.053424s)
+[2014.12.10-17.05.24:163][279]LogPlayLevel: PIE: World Init took: (0.006652s)
+[2014.12.10-17.05.24:164][279]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/AsteroidMiner.AsteroidMiner to /Game/Maps/UEDPIE_0_AsteroidMiner.AsteroidMiner (0.060643s)
+[2014.12.10-17.05.24:253][279]LogWorld: Game class is 'AsteroidMinerGameMode_C'
+[2014.12.10-17.05.24:257][279]LogAIModule: Creating AISystem for world AsteroidMiner
+[2014.12.10-17.05.24:259][279]LogWorld: Bringing World /Game/Maps/UEDPIE_0_AsteroidMiner.AsteroidMiner up for play (max tick rate 0) at 2014.12.10-17.05.24
+[2014.12.10-17.05.24:262][279]LogWorld: Bringing up level for play took: 0.003892
+[2014.12.10-17.05.24:267][279]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_AsteroidMiner 1.272
+[2014.12.10-17.05.24:297][279]LogScript:Warning: Accessed None 'CallFunc_PlaySoundAttached_ReturnValue'
+	AsteroidMinerCamera_C /Game/Maps/UEDPIE_0_AsteroidMiner.AsteroidMiner:PersistentLevel.AsteroidMinerCamera_C_0
+	Function /Game/Blueprints/GameComponents/AsteroidMinerCamera.AsteroidMinerCamera_C:ExecuteUbergraph_AsteroidMinerCamera:0091
+[2014.12.10-17.05.24:298][279]PIE:Error: Error Accessed None 'CallFunc_PlaySoundAttached_ReturnValue' from node Construction Script in blueprint AsteroidMinerCamera
+[2014.12.10-17.05.36:299][632]LogRenderer:Warning: Reallocating scene render targets to support 1088x872.
+[2014.12.10-17.05.44:186][860]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007AB98DA3E0
+[2014.12.10-17.05.45:653][900]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.10-17.05.45:675][900]LogPlayLevel: [PIE] Compiling AsteroidMiner before PIE...
+[2014.12.10-17.05.46:607][900]LogPlayLevel: PIE:  Blueprint regeneration took 953 ms (1 blueprints)
+[2014.12.10-17.05.46:608][900]PIE: New page: PIE session: AsteroidMiner (10 Dec 2014 17:05:46)
+[2014.12.10-17.05.46:657][900]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049246s)
+[2014.12.10-17.05.46:660][900]LogPlayLevel: PIE: World Init took: (0.002360s)
+[2014.12.10-17.05.46:660][900]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/AsteroidMiner.AsteroidMiner to /Game/Maps/UEDPIE_0_AsteroidMiner.AsteroidMiner (0.051976s)
+[2014.12.10-17.05.46:700][900]LogWorld: Game class is 'AsteroidMinerGameMode_C'
+[2014.12.10-17.05.46:704][900]LogAIModule: Creating AISystem for world AsteroidMiner
+[2014.12.10-17.05.46:705][900]LogWorld: Bringing World /Game/Maps/UEDPIE_0_AsteroidMiner.AsteroidMiner up for play (max tick rate 0) at 2014.12.10-17.05.46
+[2014.12.10-17.05.46:707][900]LogWorld: Bringing up level for play took: 0.002504
+[2014.12.10-17.05.46:710][900]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_AsteroidMiner 1.715
+[2014.12.10-17.05.46:745][900]LogScript:Warning: Accessed None 'CallFunc_PlaySoundAttached_ReturnValue'
+	AsteroidMinerCamera_C /Game/Maps/UEDPIE_0_AsteroidMiner.AsteroidMiner:PersistentLevel.AsteroidMinerCamera_C_1
+	Function /Game/Blueprints/GameComponents/AsteroidMinerCamera.AsteroidMinerCamera_C:ExecuteUbergraph_AsteroidMinerCamera:0091
+[2014.12.10-17.05.46:745][900]PIE:Error: Error Accessed None 'CallFunc_PlaySoundAttached_ReturnValue' from node Construction Script in blueprint AsteroidMinerCamera
+[2014.12.10-17.05.57:123][232]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007AB98D94E0
+[2014.12.10-17.05.59:688][301]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/GameComponents'
+[2014.12.10-17.06.54:185][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameComponents/DebugHud" FILE="E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/GameComponents/DebugHud.uasset" SILENT=true
+[2014.12.10-17.07.05:540][ 97]LogSavePackage: Save=10063.588867ms
+[2014.12.10-17.07.05:540][ 97]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/DebugHudA524EC4E4F8840476E37839EAABD1422.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/GameComponents/DebugHud.uasset'
+[2014.12.10-17.07.10:869][274]BlueprintLog: New page: Compile DebugHud
+[2014.12.10-17.07.11:751][274]BlueprintEditorCompileResults: Info [0159.42] Compile of DebugHud successful! [in 600 ms]
+[2014.12.10-17.07.13:597][317]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.10-17.07.13:609][317]LogPlayLevel: [PIE] Compiling BotShip before PIE...
+[2014.12.10-17.07.13:686][317]LogOutputDevice:Warning: 
+
+Script Stack:
+AsteroidMiner_C.ExecuteUbergraph_AsteroidMiner
+AsteroidMiner_C.BndEvt__BotShip_6_K2Node_ActorBoundEvent_407_ActorDestroyedSignature__DelegateSignature
+
+[2014.12.10-17.07.13:686][317]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2014.12.10-17.07.13:686][317]LogCrashTracker: 
+
+
+[2014.12.10-17.07.14:381][317]LogCrashTracker: 
+
+
+[2014.12.10-17.07.14:381][317]LogWindows: === Critical error: ===
+Assertion failed: PC [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.6\Engine\Source\Runtime\Engine\Private\GameplayStatics.cpp] [Line: 131] 
+
+
+
+KERNELBASE.dll!UnknownFunction (0x00007ffe3891606c) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffe191a2f6d) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffe190360e8) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffe19019182) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffe16acdbb7) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffe16806e61) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffe2ddb9af4) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffe2de7943f) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffe2de973bd) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffe2deba46a) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffe2de98a5e) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffe2de7999a) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffe2debbd74) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffe2de98a5e) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffe2ddb9af4) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffe2de981c6) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffe168c0851) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffe16826bf8) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffe1687304c) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffe16bd4f97) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffe16bdff43) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffe1583a12b) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffe158336f8) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffe1580b703) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffe152f8a5a) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffe15311ee3) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffe15057e53) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffe15500686) + 0 bytes [UnknownFile:0]
+UE4Editor.exe!FEngineLoop::Tick() (0x00007ff72a7bcd94) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\launchengineloop.cpp:2214]
+UE4Editor.exe!GuardedMain() (0x00007ff72a7b089f) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\launch.cpp:131]
+UE4Editor.exe!GuardedMainWrapper() (0x00007ff72a7b090a) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() (0x00007ff72a7be3d9) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\windows\launchwindows.cpp:202]
+UE4Editor.exe!__tmainCRTStartup() (0x00007ff72a7bf319) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL!UnknownFunction (0x00007ffe3b0516ad) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffe3b1f4409) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffe3b1f4409) + 0 bytes [UnknownFile:0]
+
+
+[2014.12.10-17.07.14:716][317]LogExit: Executing StaticShutdownAfterError
+[2014.12.10-17.07.14:729][317]LogWindows: FPlatformMisc::RequestExit(1)
+[2014.12.10-17.07.14:729][317]Log file closed, 12/10/14 17:07:14

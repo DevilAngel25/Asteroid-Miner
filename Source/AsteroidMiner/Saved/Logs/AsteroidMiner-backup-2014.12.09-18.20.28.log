@@ -1,0 +1,422 @@
+﻿Log file open, 12/09/14 16:08:51
+LogInit:Display: Running engine for game: AsteroidMiner
+LogInit: Version: 4.6.0-2369412+++depot+UE4-Releases+4.6
+LogInit: API Version: 2369412
+LogInit: Compiled (64-bit): Nov 24 2014 21:54:04
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.6
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.6/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.12.09-16.08.51:844][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2014.12.09-16.08.51:905][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.12.09-16.08.51:940][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.12.09-16.08.51:955][  0]LogInit: Object subsystem initialized
+[2014.12.09-16.08.51:958][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2014.12.09-16.08.51:958][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.09-16.08.51:959][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2014.12.09-16.08.51:959][  0]LogInit: Selected Device Profile: [Windows]
+[2014.12.09-16.08.51:959][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.12.09-16.08.51:990][  0]LogInit: Computer: LLOYDS_PC
+[2014.12.09-16.08.51:990][  0]LogInit: User: 10021000
+[2014.12.09-16.08.51:990][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.12.09-16.08.51:990][  0]LogInit: High frequency timer resolution =2.337877 MHz
+[2014.12.09-16.08.51:990][  0]LogMemory: Memory total: Physical=5.9GB (6GB approx) Virtual=131072.0GB
+[2014.12.09-16.08.51:990][  0]LogMemory: Platform Memory Stats for Windows
+[2014.12.09-16.08.51:990][  0]LogMemory: Process Physical Memory: 47.24 MB used, 47.24 MB peak
+[2014.12.09-16.08.51:990][  0]LogMemory: Process Virtual Memory: 23.11 MB used, 24.40 MB peak
+[2014.12.09-16.08.51:990][  0]LogMemory: Physical Memory: 2648.78 MB used, 6077.92 MB total
+[2014.12.09-16.08.51:990][  0]LogMemory: Virtual Memory: 269.23 MB used, 134217728.00 MB total
+[2014.12.09-16.08.52:038][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 680 (Feature Level 11_0)
+[2014.12.09-16.08.52:038][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2014.12.09-16.08.52:042][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.12.09-16.08.52:042][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.12.09-16.08.52:042][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.12.09-16.08.52:052][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.12.09-16.08.52:075][  0]LogD3D11RHI: Async texture creation enabled
+[2014.12.09-16.08.52:157][  0]LogTextLocalizationManager: The requested culture ('en_GB') has no localization data; parent culture's ('en') localization data will be used.
+[2014.12.09-16.08.52:414][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.12.09-16.09.03:731][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.09-16.09.04:581][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.09-16.09.04:680][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.12.09-16.09.04:846][  0]LogDerivedDataCache: Loaded boot cache 0.16s 39MB C:/Users/10021_000/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2014.12.09-16.09.04:846][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/10021_000/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2014.12.09-16.09.04:848][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.12.09-16.09.04:848][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.12.09-16.09.04:954][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.12.09-16.09.04:967][  0]LogDerivedDataCache: Using Local data cache path C:/Users/10021_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2014.12.09-16.09.05:241][  0]LogCollisionProfile:Warning: Profile (Trigger) - Custom Channel Name = 'Projectile' hasn't been found
+[2014.12.09-16.09.05:241][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2014.12.09-16.09.05:241][  0]LogCollisionProfile:Warning: Profile (Projectile) ObjectTypeName (Projectile) is invalid. 
+[2014.12.09-16.09.05:513][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.12.09-16.09.05:513][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.12.09-16.09.06:264][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.12.09-16.09.06:368][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2014.12.09-16.09.07:742][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.12.09-16.09.07:998][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Binaries/Win64. Error: 0
+[2014.12.09-16.09.08:282][  0]SourceControl: Info Source control is disabled
+[2014.12.09-16.09.08:282][  0]SourceControl: Info Source control is disabled
+[2014.12.09-16.09.08:295][  0]SourceControl: Info Source control is disabled
+[2014.12.09-16.09.08:503][  0]LogObj: 23754 objects as part of root set at end of initial load.
+[2014.12.09-16.09.08:503][  0]LogUObjectAllocator: 5168136 out of 0 bytes used by permanent object pool.
+[2014.12.09-16.09.08:589][  0]LogEngine: Initializing Engine...
+[2014.12.09-16.09.08:903][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.12.09-16.09.08:916][  0]LogInit: FAudioDevice initialized.
+[2014.12.09-16.09.08:951][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.12.09-16.09.09:013][  0]LogDerivedDataCache: Saved boot cache 0.06s 39MB C:/Users/10021_000/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2014.12.09-16.09.09:039][  0]LogInit: Texture streaming: Enabled
+[2014.12.09-16.09.09:087][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2014.12.09-16.09.09:087][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.0-2369412+++depot+UE4-Releases+4.6
+[2014.12.09-16.09.09:088][  0]LogAnalytics: SetUserId a29c071cf10a93fac0ff457d50595e17
+[2014.12.09-16.09.09:088][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2014.12.09-16.09.09:113][  0]LogInit: Transaction tracking system initialized
+[2014.12.09-16.09.09:274][  0]BlueprintLog: New page: Editor Load
+[2014.12.09-16.09.09:319][  0]LogAssetRegistry: FAssetRegistry took 0.0112 seconds to start up
+[2014.12.09-16.09.09:321][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2014.12.09-16.09.10:480][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.09-16.09.11:319][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.09-16.09.11:718][  0]LogConsoleResponse:Display: 
+[2014.12.09-16.09.11:810][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-16.09.12:226][  0]SourceControl: Info Source control is disabled
+[2014.12.09-16.09.12:226][  0]Cmd: MAP LOAD FILE="E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Maps/AsteroidMiner.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.09-16.09.12:231][  0]LightingResults: New page: Lighting Build
+[2014.12.09-16.09.12:247][  0]MapCheck: New page: Map Check
+[2014.12.09-16.09.12:248][  0]LightingResults: New page: Lighting Build
+[2014.12.09-16.09.12:263][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000300D95940
+[2014.12.09-16.09.12:497][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/M_SkyBox.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-16.09.12:499][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Textures/HighResSkyBox.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-16.09.13:340][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Meshes/DetailedSun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-16.09.13:343][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/M_Sun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-16.09.13:350][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Textures/T_Fire.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-16.09.14:043][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/Objects/B_Asteroid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-16.09.14:050][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Meshes/Rock.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-16.09.14:053][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/M_Asteroid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-16.09.14:131][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/Outliner/PP_Outliner_Inst.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-16.09.14:133][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/Outliner/PP_Outliner_M.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-16.09.14:146][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/Outliner/MF_ConvolveTexture.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-16.09.14:161][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/Outliner/MF_ExtractDepth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-16.09.14:166][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/Outliner/MF_SampleSceneTextureNeighbourUVs.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-16.09.14:258][  0]LogBlueprint:Warning: [compiler] Warning  Remove from Viewport  is deprecated; Use RemoveFromParent instead
+[2014.12.09-16.09.14:261][  0]LogBlueprint:Warning: [compiler] Warning [0025.48] Compile of GameOverWidget successful, but with 1 Warning(s) [in 9 ms]
+[2014.12.09-16.09.14:265][  0]LogBlueprint:Warning: [compiler] Warning  Remove from Viewport  is deprecated; Use RemoveFromParent instead
+[2014.12.09-16.09.14:267][  0]LogBlueprint:Warning: [compiler] Warning [0025.49] Compile of GameOverWidget successful, but with 1 Warning(s) [in 4 ms]
+[2014.12.09-16.09.14:267][  0]LogBlueprint:Warning: [compiler] Warning [0025.49] Compile of GameOverWidget successful, but with 2 Warning(s) [in 0 ms]
+[2014.12.09-16.09.14:316][  0]LogBlueprint:Warning: [compiler] Warning  Remove from Viewport  is deprecated; Use RemoveFromParent instead
+[2014.12.09-16.09.14:320][  0]LogBlueprint:Warning: [compiler] Warning [0025.54] Compile of PauseMenuWidget successful, but with 1 Warning(s) [in 11 ms]
+[2014.12.09-16.09.14:325][  0]LogBlueprint:Warning: [compiler] Warning  Remove from Viewport  is deprecated; Use RemoveFromParent instead
+[2014.12.09-16.09.14:327][  0]LogBlueprint:Warning: [compiler] Warning [0025.55] Compile of PauseMenuWidget successful, but with 1 Warning(s) [in 3 ms]
+[2014.12.09-16.09.14:327][  0]LogBlueprint:Warning: [compiler] Warning [0025.55] Compile of PauseMenuWidget successful, but with 2 Warning(s) [in 0 ms]
+[2014.12.09-16.09.16:365][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.09-16.09.16:365][  0]LogAIModule: Creating AISystem for world AsteroidMiner
+[2014.12.09-16.09.16:366][  0]Cmd: MAP CHECKDEP
+[2014.12.09-16.09.16:366][  0]MapCheck: New page: AsteroidMiner - 9 Dec 2014 16:09:16
+[2014.12.09-16.09.16:731][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 365.104ms to complete.
+[2014.12.09-16.09.16:732][  0]LogFileHelpers: Loading map 'AsteroidMiner' took 4.506
+[2014.12.09-16.09.16:857][  0]LogCollectionManager: Loaded 0 collections in 0.003322 seconds
+[2014.12.09-16.09.17:081][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.12.09-16.09.17:096][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2014.12.09-16.09.17:129][  0]LogLoad: Full Startup: 28.35 seconds (BP compile: 1.28 seconds)
+[2014.12.09-16.09.17:481][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/AI'
+[2014.12.09-16.09.18:884][  0]LogRenderer:Warning: Reallocating scene render targets to support 768x872.
+[2014.12.09-16.09.21:311][  6]LogAssetRegistry: Asset discovery search completed in 12.0042 seconds
+[2014.12.09-16.09.21:332][  6]LogAnalytics: Event Editor.Usage.AssetClasses has too many attributes (41). May be truncated at the collector.
+[2014.12.09-16.55.44:446][331]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/GameComponents'
+[2014.12.09-16.55.51:268][498]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.12.09-16.55.52:405][523]LogBlueprint:Error: [compiler] Error Message node  Invalid Message Node  has an invalid interface.
+[2014.12.09-16.55.52:408][523]LogBlueprint:Warning: [compiler] Warning Could not find a function named "Get player health" in 'BP_HUD_Example'.
+Make sure 'BP_HUD_Example' has been compiled for  Invalid Message Node 
+[2014.12.09-16.55.52:438][523]LogBlueprint:Warning: [compiler] Warning [2823.66] Compile of BP_HUD_Example failed. 1 Fatal Issue(s) 1 Warning(s) [in 68 ms]
+[2014.12.09-16.55.52:456][523]LogBlueprint:Warning: Node '/Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_Event_1117' missing NodeGuid.
+[2014.12.09-16.55.52:456][523]LogBlueprint:Warning: Node '/Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_Event_1148' missing NodeGuid.
+[2014.12.09-16.56.26:000][192]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/AsteroidMiner' took 0.115
+[2014.12.09-16.56.26:055][192]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/GameComponents/DebugHud] ([1] browsable assets)...
+[2014.12.09-16.56.26:056][192]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/GameComponents/DebugHud]
+[2014.12.09-16.56.35:071][192]LogSavePackage: Save=8058.850586ms
+[2014.12.09-16.56.35:071][192]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/DebugHud_Auto19966F31C4E850B7A1276A6AC3D7CB7D1.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/Autosaves/Game/Blueprints/GameComponents/DebugHud_Auto1.uasset'
+[2014.12.09-16.56.35:092][192]LogFileHelpers: Auto-saving content packages took 9.091
+[2014.12.09-17.06.55:868][729]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/AsteroidMiner' took 0.042
+[2014.12.09-17.06.55:923][729]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/GameComponents/DebugHud] ([1] browsable assets)...
+[2014.12.09-17.06.55:923][729]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/GameComponents/DebugHud]
+[2014.12.09-17.07.05:738][729]LogSavePackage: Save=8844.899414ms
+[2014.12.09-17.07.05:738][729]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/DebugHud_Auto2AD36C3544BE4F0FD2E5A4B820BC62F8A.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/Autosaves/Game/Blueprints/GameComponents/DebugHud_Auto2.uasset'
+[2014.12.09-17.07.05:757][729]LogFileHelpers: Auto-saving content packages took 9.890
+[2014.12.09-17.08.55:651][198]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameComponents/DebugHud" FILE="E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/GameComponents/DebugHud.uasset" SILENT=true
+[2014.12.09-17.09.04:774][198]LogSavePackage: Save=8169.101074ms
+[2014.12.09-17.09.04:774][198]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/DebugHud3E0820AD4F817F7FB69A388A8EF817E6.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/GameComponents/DebugHud.uasset'
+[2014.12.09-18.08.36:757][167]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-18.08.36:758][167]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-18.08.36:758][167]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-18.08.36:758][167]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-18.08.36:758][167]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-18.08.36:758][167]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-18.08.36:759][167]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-18.08.36:759][167]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-18.08.36:759][167]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-18.08.36:759][167]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-18.08.36:759][167]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-18.08.36:759][167]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-18.08.36:760][167]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-18.08.36:760][167]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-18.08.36:760][167]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-18.08.36:760][167]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-18.08.36:760][167]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-18.08.36:760][167]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-18.08.36:761][167]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-18.08.36:761][167]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-18.08.36:761][167]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-18.08.36:761][167]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-18.08.36:763][167]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-18.08.36:763][167]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-18.08.36:763][167]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-18.08.36:763][167]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-18.08.36:763][167]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-18.08.36:764][167]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SwitchName /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_SwitchName_216 or K2Node_SwitchName /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_SwitchName_216
+[2014.12.09-18.08.36:764][167]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_SwitchName_216.EdGraphPin_18460) from referencer (EdGraphPin /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_Event_3826.EdGraphPin_17177).  Import failed...
+[2014.12.09-18.08.36:764][167]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_SwitchName_216.EdGraphPin_18460"''
+[2014.12.09-18.08.36:765][167]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SwitchName /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_SwitchName_216 or K2Node_SwitchName /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_SwitchName_216
+[2014.12.09-18.08.36:765][167]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_SwitchName_216.EdGraphPin_18461) from referencer (EdGraphPin /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_Event_3826.EdGraphPin_17178).  Import failed...
+[2014.12.09-18.08.36:765][167]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_SwitchName_216.EdGraphPin_18461"''
+[2014.12.09-18.08.36:767][167]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_VariableSet_783 or K2Node_VariableSet /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_VariableSet_783
+[2014.12.09-18.08.36:767][167]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_VariableSet_783 or K2Node_VariableSet /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_VariableSet_783
+[2014.12.09-18.08.36:767][167]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_VariableSet_783.EdGraphPin_18381) from referencer (EdGraphPin /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_SwitchName_216.EdGraphPin_18463).  Import failed...
+[2014.12.09-18.08.36:767][167]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_783.EdGraphPin_18381"''
+[2014.12.09-18.08.36:767][167]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_VariableSet_823 or K2Node_VariableSet /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_VariableSet_823
+[2014.12.09-18.08.36:767][167]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_VariableSet_823 or K2Node_VariableSet /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_VariableSet_823
+[2014.12.09-18.08.36:767][167]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_VariableSet_823.EdGraphPin_18393) from referencer (EdGraphPin /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_SwitchName_216.EdGraphPin_18464).  Import failed...
+[2014.12.09-18.08.36:768][167]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_823.EdGraphPin_18393"''
+[2014.12.09-18.08.36:769][167]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_VariableSet_2595 or K2Node_VariableSet /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_VariableSet_2595
+[2014.12.09-18.08.36:769][167]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_VariableSet_2595.EdGraphPin_17965) from referencer (EdGraphPin /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_CallFunction_175745.EdGraphPin_17910).  Import failed...
+[2014.12.09-18.08.36:769][167]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_2595.EdGraphPin_17965"''
+[2014.12.09-18.08.36:772][167]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_VariableSet_2440 or K2Node_VariableSet /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_VariableSet_2440
+[2014.12.09-18.08.36:772][167]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_VariableSet_2440.EdGraphPin_17943) from referencer (EdGraphPin /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_CallFunction_176145.EdGraphPin_17931).  Import failed...
+[2014.12.09-18.08.36:772][167]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_2440.EdGraphPin_17943"''
+[2014.12.09-18.08.36:772][167]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_VariableSet_2595 or K2Node_VariableSet /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_VariableSet_2595
+[2014.12.09-18.08.36:772][167]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_VariableSet_2595.EdGraphPin_17967) from referencer (EdGraphPin /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_CallFunction_176145.EdGraphPin_17931).  Import failed...
+[2014.12.09-18.08.36:772][167]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_2595.EdGraphPin_17967"''
+[2014.12.09-18.08.36:773][167]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_VariableSet_2574 or K2Node_VariableSet /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_VariableSet_2574
+[2014.12.09-18.08.36:774][167]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_VariableSet_2574.EdGraphPin_17953) from referencer (EdGraphPin /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_VariableSet_2440.EdGraphPin_17940).  Import failed...
+[2014.12.09-18.08.36:774][167]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_2574.EdGraphPin_17953"''
+[2014.12.09-18.08.36:774][167]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_VariableSet_2595 or K2Node_VariableSet /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_VariableSet_2595
+[2014.12.09-18.08.36:775][167]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_VariableSet_2595.EdGraphPin_17964) from referencer (EdGraphPin /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_VariableSet_2440.EdGraphPin_17941).  Import failed...
+[2014.12.09-18.08.36:775][167]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_2595.EdGraphPin_17964"''
+[2014.12.09-18.08.36:776][167]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_IfThenElse_369 or K2Node_IfThenElse /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_IfThenElse_369
+[2014.12.09-18.08.36:776][167]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_IfThenElse_369.EdGraphPin_18515) from referencer (EdGraphPin /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_VariableSet_2574.EdGraphPin_17952).  Import failed...
+[2014.12.09-18.08.36:776][167]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_369.EdGraphPin_18515"''
+[2014.12.09-18.08.36:780][167]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_IfThenElse_367 or K2Node_IfThenElse /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_IfThenElse_367
+[2014.12.09-18.08.36:780][167]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_IfThenElse_367 or K2Node_IfThenElse /Game/Blueprints/AI/BehaviourTreeTasks/AdjustVelocityBTT.AdjustVelocityBTT:EventGraph.K2Node_IfThenElse_367
+[2014.12.09-18.08.36:780][167]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_IfThenElse_367.EdGraphPin_18545) from referencer (EdGraphPin /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_CallFunction_219649.EdGraphPin_17976).  Import failed...
+[2014.12.09-18.08.36:780][167]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_367.EdGraphPin_18545"''
+[2014.12.09-18.08.36:782][167]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SwitchName /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_SwitchName_188 or K2Node_SwitchName /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_SwitchName_188
+[2014.12.09-18.08.36:782][167]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_SwitchName_188.EdGraphPin_18301) from referencer (EdGraphPin /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_Event_1373.EdGraphPin_17195).  Import failed...
+[2014.12.09-18.08.36:782][167]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_SwitchName_188.EdGraphPin_18301"''
+[2014.12.09-18.08.36:782][167]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SwitchName /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_SwitchName_188 or K2Node_SwitchName /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_SwitchName_188
+[2014.12.09-18.08.36:782][167]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_SwitchName_188.EdGraphPin_18302) from referencer (EdGraphPin /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_Event_1373.EdGraphPin_17196).  Import failed...
+[2014.12.09-18.08.36:783][167]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_SwitchName_188.EdGraphPin_18302"''
+[2014.12.09-18.08.36:784][167]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SwitchName /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_SwitchName_105 or K2Node_SwitchName /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_SwitchName_105
+[2014.12.09-18.08.36:784][167]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_SwitchName_105.EdGraphPin_18319) from referencer (EdGraphPin /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_Event_1413.EdGraphPin_17186).  Import failed...
+[2014.12.09-18.08.36:784][167]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_SwitchName_105.EdGraphPin_18319"''
+[2014.12.09-18.08.36:785][167]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SwitchName /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_SwitchName_105 or K2Node_SwitchName /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_SwitchName_105
+[2014.12.09-18.08.36:785][167]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_SwitchName_105.EdGraphPin_18320) from referencer (EdGraphPin /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_Event_1413.EdGraphPin_17187).  Import failed...
+[2014.12.09-18.08.36:785][167]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_SwitchName_105.EdGraphPin_18320"''
+[2014.12.09-18.08.36:786][167]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_VariableSet_885 or K2Node_VariableSet /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_VariableSet_885
+[2014.12.09-18.08.36:786][167]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_VariableSet_885 or K2Node_VariableSet /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_VariableSet_885
+[2014.12.09-18.08.36:787][167]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_VariableSet_885.EdGraphPin_18405) from referencer (EdGraphPin /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_SwitchName_188.EdGraphPin_18304).  Import failed...
+[2014.12.09-18.08.36:787][167]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_885.EdGraphPin_18405"''
+[2014.12.09-18.08.36:787][167]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_VariableSet_887 or K2Node_VariableSet /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_VariableSet_887
+[2014.12.09-18.08.36:787][167]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_VariableSet_887 or K2Node_VariableSet /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_VariableSet_887
+[2014.12.09-18.08.36:787][167]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_VariableSet_887.EdGraphPin_18417) from referencer (EdGraphPin /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_SwitchName_188.EdGraphPin_18305).  Import failed...
+[2014.12.09-18.08.36:787][167]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_887.EdGraphPin_18417"''
+[2014.12.09-18.08.36:790][167]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_VariableSet_889 or K2Node_VariableSet /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_VariableSet_889
+[2014.12.09-18.08.36:790][167]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_VariableSet_889 or K2Node_VariableSet /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_VariableSet_889
+[2014.12.09-18.08.36:790][167]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_VariableSet_889.EdGraphPin_18429) from referencer (EdGraphPin /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_SwitchName_105.EdGraphPin_18322).  Import failed...
+[2014.12.09-18.08.36:790][167]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_889.EdGraphPin_18429"''
+[2014.12.09-18.08.36:790][167]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_VariableSet_891 or K2Node_VariableSet /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_VariableSet_891
+[2014.12.09-18.08.36:790][167]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_VariableSet_891 or K2Node_VariableSet /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_VariableSet_891
+[2014.12.09-18.08.36:790][167]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_VariableSet_891.EdGraphPin_18441) from referencer (EdGraphPin /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_SwitchName_105.EdGraphPin_18323).  Import failed...
+[2014.12.09-18.08.36:790][167]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_891.EdGraphPin_18441"''
+[2014.12.09-18.08.36:799][167]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SwitchName /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_SwitchName_106 or K2Node_SwitchName /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_SwitchName_106
+[2014.12.09-18.08.36:799][167]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_SwitchName_106.EdGraphPin_18478) from referencer (EdGraphPin /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_Event_2083.EdGraphPin_17222).  Import failed...
+[2014.12.09-18.08.36:799][167]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_SwitchName_106.EdGraphPin_18478"''
+[2014.12.09-18.08.36:800][167]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SwitchName /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_SwitchName_106 or K2Node_SwitchName /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_SwitchName_106
+[2014.12.09-18.08.36:800][167]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_SwitchName_106.EdGraphPin_18479) from referencer (EdGraphPin /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_Event_2083.EdGraphPin_17223).  Import failed...
+[2014.12.09-18.08.36:800][167]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_SwitchName_106.EdGraphPin_18479"''
+[2014.12.09-18.08.36:802][167]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_IfThenElse_369 or K2Node_IfThenElse /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_IfThenElse_369
+[2014.12.09-18.08.36:802][167]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_IfThenElse_369.EdGraphPin_18513) from referencer (EdGraphPin /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_SwitchName_106.EdGraphPin_18481).  Import failed...
+[2014.12.09-18.08.36:803][167]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_369.EdGraphPin_18513"''
+[2014.12.09-18.08.36:803][167]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_IfThenElse_367 or K2Node_IfThenElse /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_IfThenElse_367
+[2014.12.09-18.08.36:803][167]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_IfThenElse_367 or K2Node_IfThenElse /Game/Blueprints/AI/BehaviourTreeTasks/AdjustVelocityBTT.AdjustVelocityBTT:EventGraph.K2Node_IfThenElse_367
+[2014.12.09-18.08.36:803][167]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_IfThenElse_367.EdGraphPin_18543) from referencer (EdGraphPin /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_SwitchName_106.EdGraphPin_18482).  Import failed...
+[2014.12.09-18.08.36:803][167]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_367.EdGraphPin_18543"''
+[2014.12.09-18.08.36:803][167]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_CallFunction_85583 or K2Node_CallFunction /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_CallFunction_85583
+[2014.12.09-18.08.36:804][167]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_CallFunction_85583.EdGraphPin_18502) from referencer (EdGraphPin /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_VariableGet_1266.EdGraphPin_18495).  Import failed...
+[2014.12.09-18.08.36:804][167]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_85583.EdGraphPin_18502"''
+[2014.12.09-18.08.36:805][167]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_IfThenElse_369 or K2Node_IfThenElse /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_IfThenElse_369
+[2014.12.09-18.08.36:805][167]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_IfThenElse_369.EdGraphPin_18514) from referencer (EdGraphPin /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_CallFunction_85583.EdGraphPin_18504).  Import failed...
+[2014.12.09-18.08.36:805][167]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_369.EdGraphPin_18514"''
+[2014.12.09-18.08.36:808][167]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_CallFunction_85325 or K2Node_CallFunction /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_CallFunction_85325
+[2014.12.09-18.08.36:808][167]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_CallFunction_85325.EdGraphPin_18532) from referencer (EdGraphPin /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_VariableGet_1265.EdGraphPin_18525).  Import failed...
+[2014.12.09-18.08.36:808][167]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_85325.EdGraphPin_18532"''
+[2014.12.09-18.08.36:810][167]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_IfThenElse_367 or K2Node_IfThenElse /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_IfThenElse_367
+[2014.12.09-18.08.36:810][167]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_IfThenElse_367 or K2Node_IfThenElse /Game/Blueprints/AI/BehaviourTreeTasks/AdjustVelocityBTT.AdjustVelocityBTT:EventGraph.K2Node_IfThenElse_367
+[2014.12.09-18.08.36:811][167]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_IfThenElse_367.EdGraphPin_18544) from referencer (EdGraphPin /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_CallFunction_85325.EdGraphPin_18534).  Import failed...
+[2014.12.09-18.08.36:811][167]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_367.EdGraphPin_18544"''
+[2014.12.09-18.08.36:866][167]LogBlueprint:Warning: [DebugHud] CreatePinForVariable: 'Menu open' variable not found. Base class was probably changed.
+[2014.12.09-18.08.36:868][167]LogBlueprint:Warning: [DebugHud] CreatePinForVariable: 'Resume button state' variable not found. Base class was probably changed.
+[2014.12.09-18.08.36:868][167]LogBlueprint:Warning: [DebugHud] CreatePinForVariable: 'Quit button state' variable not found. Base class was probably changed.
+[2014.12.09-18.08.36:869][167]LogBlueprint:Warning: [DebugHud] CreatePinForVariable: 'Resume button state' variable not found. Base class was probably changed.
+[2014.12.09-18.08.36:869][167]LogBlueprint:Warning: [DebugHud] CreatePinForVariable: 'Quit button state' variable not found. Base class was probably changed.
+[2014.12.09-18.08.36:869][167]LogBlueprint:Warning: [DebugHud] CreatePinForVariable: 'Resume button state' variable not found. Base class was probably changed.
+[2014.12.09-18.08.36:869][167]LogBlueprint:Warning: [DebugHud] CreatePinForVariable: 'Quit button state' variable not found. Base class was probably changed.
+[2014.12.09-18.08.36:869][167]LogBlueprint:Warning: [DebugHud] CreatePinForVariable: 'Resume button state' variable not found. Base class was probably changed.
+[2014.12.09-18.08.36:870][167]LogBlueprint:Warning: [DebugHud] CreatePinForVariable: 'Quit button state' variable not found. Base class was probably changed.
+[2014.12.09-18.08.49:444][392]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/AsteroidMiner' took 0.071
+[2014.12.09-18.08.49:511][392]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/GameComponents/DebugHud] ([1] browsable assets)...
+[2014.12.09-18.08.49:511][392]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/GameComponents/DebugHud]
+[2014.12.09-18.08.59:292][392]LogSavePackage: Save=8710.277344ms
+[2014.12.09-18.08.59:293][392]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/DebugHud_Auto3C1F9C4B04F0B73E72A53AC9D62127B60.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/Autosaves/Game/Blueprints/GameComponents/DebugHud_Auto3.uasset'
+[2014.12.09-18.08.59:311][392]LogFileHelpers: Auto-saving content packages took 9.867
+[2014.12.09-18.11.23:445][684]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameComponents/DebugHud" FILE="E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/GameComponents/DebugHud.uasset" SILENT=true
+[2014.12.09-18.11.32:815][684]LogSavePackage: Save=8431.110352ms
+[2014.12.09-18.11.32:818][684]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/DebugHud5919621447CCC3197D6893A06DDBC063.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/GameComponents/DebugHud.uasset'
+[2014.12.09-18.11.35:126][724]BlueprintLog: New page: Compile DebugHud
+[2014.12.09-18.11.35:929][724]BlueprintEditorCompileResults: Info [7367.15] Compile of DebugHud successful! [in 562 ms]
+[2014.12.09-18.12.08:242][ 68]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/AI'
+[2014.12.09-18.12.35:566][495]LogBlueprint:Error: [BotShip] ImplementNewInterface: Blueprint '/Game/Blueprints/AI/BotShip.BotShip' has a function or graph which conflicts with the function GetFuel in the interface called 'Hud_Interface_C'
+[2014.12.09-18.13.08:760][911]LogBlueprint:Error: [BotShip] ImplementNewInterface: Blueprint '/Game/Blueprints/AI/BotShip.BotShip' has a function or graph which conflicts with the function GetFuel in the interface called 'Hud_Interface_C'
+[2014.12.09-18.13.50:902][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/BotShip" FILE="E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/AI/BotShip.uasset" SILENT=true
+[2014.12.09-18.13.52:972][993]LogSavePackage: Save=1115.471436ms
+[2014.12.09-18.13.52:972][993]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/BotShip0B72A6F64DCF1F58C712E1A5A9E83491.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/AI/BotShip.uasset'
+[2014.12.09-18.14.37:394][165]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-18.14.37:394][165]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-18.14.37:395][165]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-18.14.37:395][165]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-18.14.37:395][165]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-18.14.37:395][165]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-18.14.37:395][165]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-18.14.37:395][165]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-18.14.37:396][165]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-18.14.37:396][165]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-18.14.37:396][165]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-18.14.37:396][165]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-18.14.37:396][165]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-18.14.37:398][165]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_IfThenElse_24.EdGraphPin_17882) from referencer (EdGraphPin /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_CallFunction_295729.EdGraphPin_18102).  Import failed...
+[2014.12.09-18.14.37:398][165]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_24.EdGraphPin_17882"''
+[2014.12.09-18.14.37:398][165]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_CallFunction_260041 or K2Node_CallFunction /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_CallFunction_260041
+[2014.12.09-18.14.37:398][165]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_CallFunction_260041.EdGraphPin_18165) from referencer (EdGraphPin /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_CallFunction_295729.EdGraphPin_18103).  Import failed...
+[2014.12.09-18.14.37:400][165]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_260041.EdGraphPin_18165"''
+[2014.12.09-18.14.37:400][165]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_CallFunction_295745 or K2Node_CallFunction /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_CallFunction_295745
+[2014.12.09-18.14.37:400][165]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_CallFunction_295745.EdGraphPin_18201) from referencer (EdGraphPin /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_CallFunction_295729.EdGraphPin_18105).  Import failed...
+[2014.12.09-18.14.37:400][165]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_295745.EdGraphPin_18201"''
+[2014.12.09-18.14.37:401][165]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Select /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_Select_69 or K2Node_Select /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_Select_69
+[2014.12.09-18.14.37:401][165]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_Select_69.EdGraphPin_18559) from referencer (EdGraphPin /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_CallFunction_295729.EdGraphPin_18108).  Import failed...
+[2014.12.09-18.14.37:401][165]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_Select_69.EdGraphPin_18559"''
+[2014.12.09-18.14.37:402][165]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_CallFunction_264938 or K2Node_CallFunction /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_CallFunction_264938
+[2014.12.09-18.14.37:402][165]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_CallFunction_264938.EdGraphPin_18130) from referencer (EdGraphPin /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_VariableGet_4912.EdGraphPin_18123).  Import failed...
+[2014.12.09-18.14.37:402][165]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_264938.EdGraphPin_18130"''
+[2014.12.09-18.14.37:404][165]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_6871 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_6871
+[2014.12.09-18.14.37:404][165]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_6871.EdGraphPin_18142) from referencer (EdGraphPin /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_CallFunction_264938.EdGraphPin_18132).  Import failed...
+[2014.12.09-18.14.37:404][165]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CommutativeAssociativeBinaryOperator_6871.EdGraphPin_18142"''
+[2014.12.09-18.14.37:404][165]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_CallFunction_295745 or K2Node_CallFunction /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_CallFunction_295745
+[2014.12.09-18.14.37:405][165]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_CallFunction_295745.EdGraphPin_18199) from referencer (EdGraphPin /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_CallFunction_264938.EdGraphPin_18132).  Import failed...
+[2014.12.09-18.14.37:405][165]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_295745.EdGraphPin_18199"''
+[2014.12.09-18.14.37:406][165]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_CallFunction_295728 or K2Node_CallFunction /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_CallFunction_295728
+[2014.12.09-18.14.37:407][165]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_CallFunction_295728.EdGraphPin_18189) from referencer (EdGraphPin /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_6871.EdGraphPin_18143).  Import failed...
+[2014.12.09-18.14.37:407][165]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_295728.EdGraphPin_18189"''
+[2014.12.09-18.14.37:407][165]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_CallFunction_260041 or K2Node_CallFunction /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_CallFunction_260041
+[2014.12.09-18.14.37:407][165]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_CallFunction_260041.EdGraphPin_18168) from referencer (EdGraphPin /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_6871.EdGraphPin_18144).  Import failed...
+[2014.12.09-18.14.37:407][165]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_260041.EdGraphPin_18168"''
+[2014.12.09-18.14.37:409][165]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_CallFunction_295745 or K2Node_CallFunction /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_CallFunction_295745
+[2014.12.09-18.14.37:409][165]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_CallFunction_295745.EdGraphPin_18200) from referencer (EdGraphPin /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_CallFunction_295730.EdGraphPin_18156).  Import failed...
+[2014.12.09-18.14.37:409][165]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_295745.EdGraphPin_18200"''
+[2014.12.09-18.14.37:410][165]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_CallFunction_295729.EdGraphPin_18103) from referencer (EdGraphPin /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_CallFunction_260041.EdGraphPin_18165).  Import failed...
+[2014.12.09-18.14.37:410][165]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_295729.EdGraphPin_18103"''
+[2014.12.09-18.14.37:411][165]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Select /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_Select_68 or K2Node_Select /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_Select_68
+[2014.12.09-18.14.37:412][165]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_Select_68.EdGraphPin_18574) from referencer (EdGraphPin /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_CallFunction_260041.EdGraphPin_18171).  Import failed...
+[2014.12.09-18.14.37:412][165]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_Select_68.EdGraphPin_18574"''
+[2014.12.09-18.14.37:415][165]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_CallFunction_295729.EdGraphPin_18105) from referencer (EdGraphPin /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_CallFunction_295745.EdGraphPin_18201).  Import failed...
+[2014.12.09-18.14.37:415][165]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_295729.EdGraphPin_18105"''
+[2014.12.09-18.14.37:416][165]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Select /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_Select_69 or K2Node_Select /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_Select_69
+[2014.12.09-18.14.37:416][165]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_Select_69.EdGraphPin_18558) from referencer (EdGraphPin /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_VariableGet_995.EdGraphPin_18336).  Import failed...
+[2014.12.09-18.14.37:416][165]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_Select_69.EdGraphPin_18558"''
+[2014.12.09-18.14.37:418][165]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_CallFunction_295729.EdGraphPin_18108) from referencer (EdGraphPin /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_Select_69.EdGraphPin_18559).  Import failed...
+[2014.12.09-18.14.37:418][165]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_295729.EdGraphPin_18108"''
+[2014.12.09-18.14.37:420][165]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_VariableGet_1107 or K2Node_VariableGet /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_VariableGet_1107
+[2014.12.09-18.14.37:420][165]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_VariableGet_1107 or K2Node_VariableGet /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_VariableGet_1107
+[2014.12.09-18.14.37:420][165]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_VariableGet_1107.EdGraphPin_18453) from referencer (EdGraphPin /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_Select_68.EdGraphPin_18573).  Import failed...
+[2014.12.09-18.14.37:420][165]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_1107.EdGraphPin_18453"''
+[2014.12.09-18.14.37:420][165]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/BP_HUD_Example.BP_HUD_Example:EventGraph.K2Node_CallFunction_260041.EdGraphPin_18171) from referencer (EdGraphPin /Game/Blueprints/GameComponents/DebugHud.DebugHud:EventGraph.K2Node_Select_68.EdGraphPin_18574).  Import failed...
+[2014.12.09-18.14.37:421][165]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_260041.EdGraphPin_18171"''
+[2014.12.09-18.15.47:962][856]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-18.18.31:246][993]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000021E993920
+[2014.12.09-18.18.31:649][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/AsteroidMiner" FILE="E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Maps/AsteroidMiner.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.12.09-18.18.48:634][993]LogSavePackage: Save=15917.514648ms
+[2014.12.09-18.18.48:634][993]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/AsteroidMiner1188A3244147979D9587BAB5C909610D.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Maps/AsteroidMiner.umap'
+[2014.12.09-18.18.48:740][993]LogFileHelpers: Saving map 'AsteroidMiner' took 17.400
+[2014.12.09-18.18.48:755][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameComponents/DebugHud" FILE="E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/GameComponents/DebugHud.uasset" SILENT=true
+[2014.12.09-18.18.58:332][993]LogSavePackage: Save=8608.742188ms
+[2014.12.09-18.18.58:332][993]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/DebugHud8EDB364F4A315D3BF303DEA6D4F7C775.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/GameComponents/DebugHud.uasset'
+[2014.12.09-18.19.45:927][886]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameComponents/DebugHud" FILE="E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/GameComponents/DebugHud.uasset" SILENT=true
+[2014.12.09-18.19.55:531][886]LogSavePackage: Save=8664.076172ms
+[2014.12.09-18.19.55:531][886]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/DebugHudDC000F2C4DD066EDD742F5BCDCF8E88C.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/GameComponents/DebugHud.uasset'
+[2014.12.09-18.20.14:952][451]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.09-18.20.14:960][451]LogPlayLevel: [PIE] Compiling BotShip before PIE...
+[2014.12.09-18.20.15:045][451]LogOutputDevice:Warning: 
+
+Script Stack:
+AsteroidMiner_C.ExecuteUbergraph_AsteroidMiner
+AsteroidMiner_C.BndEvt__BotShip_6_K2Node_ActorBoundEvent_407_ActorDestroyedSignature__DelegateSignature
+
+[2014.12.09-18.20.15:046][451]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2014.12.09-18.20.15:046][451]LogCrashTracker: 
+
+
+[2014.12.09-18.20.15:735][451]LogCrashTracker: 
+
+
+[2014.12.09-18.20.15:735][451]LogWindows: === Critical error: ===
+Assertion failed: PC [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.6\Engine\Source\Runtime\Engine\Private\GameplayStatics.cpp] [Line: 131] 
+
+
+
+KERNELBASE.dll!UnknownFunction (0x00007ffd334a606c) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffd18a42f6d) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffd188d60e8) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffd188b9182) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffd130fdbb7) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffd12e36e61) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b3b9af4) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b47943f) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b4973bd) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b4ba46a) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b498a5e) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b47999a) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b4bbd74) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b498a5e) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b3b9af4) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b4981c6) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffd12ef0851) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffd12e56bf8) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffd12ea304c) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffd13204f97) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffd1320ff43) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffd11c7a12b) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffd11c736f8) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffd11c4b703) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffd11738a5a) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffd11751ee3) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffd11497e53) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffd11940686) + 0 bytes [UnknownFile:0]
+UE4Editor.exe!FEngineLoop::Tick() (0x00007ff674f4cd94) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\launchengineloop.cpp:2214]
+UE4Editor.exe!GuardedMain() (0x00007ff674f4089f) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\launch.cpp:131]
+UE4Editor.exe!GuardedMainWrapper() (0x00007ff674f4090a) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() (0x00007ff674f4e3d9) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\windows\launchwindows.cpp:202]
+UE4Editor.exe!__tmainCRTStartup() (0x00007ff674f4f319) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL!UnknownFunction (0x00007ffd356816ad) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffd35ed4409) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffd35ed4409) + 0 bytes [UnknownFile:0]
+
+
+[2014.12.09-18.20.16:067][451]LogExit: Executing StaticShutdownAfterError
+[2014.12.09-18.20.16:084][451]LogWindows: FPlatformMisc::RequestExit(1)
+[2014.12.09-18.20.16:085][451]Log file closed, 12/09/14 18:20:16

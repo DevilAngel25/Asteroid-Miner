@@ -1,0 +1,394 @@
+﻿Log file open, 12/10/14 17:14:33
+LogInit:Display: Running engine for game: AsteroidMiner
+LogInit: Version: 4.6.0-2369412+++depot+UE4-Releases+4.6
+LogInit: API Version: 2369412
+LogInit: Compiled (64-bit): Nov 24 2014 21:54:04
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.6
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.6/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.12.10-17.14.33:726][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2014.12.10-17.14.33:793][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.12.10-17.14.33:838][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.12.10-17.14.33:854][  0]LogInit: Object subsystem initialized
+[2014.12.10-17.14.33:857][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2014.12.10-17.14.33:857][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.10-17.14.33:858][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2014.12.10-17.14.33:858][  0]LogInit: Selected Device Profile: [Windows]
+[2014.12.10-17.14.33:858][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.12.10-17.14.33:895][  0]LogInit: Computer: LLOYDS_PC
+[2014.12.10-17.14.33:895][  0]LogInit: User: 10021000
+[2014.12.10-17.14.33:895][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.12.10-17.14.33:895][  0]LogInit: High frequency timer resolution =2.337877 MHz
+[2014.12.10-17.14.33:897][  0]LogMemory: Memory total: Physical=5.9GB (6GB approx) Virtual=131072.0GB
+[2014.12.10-17.14.33:897][  0]LogMemory: Platform Memory Stats for Windows
+[2014.12.10-17.14.33:897][  0]LogMemory: Process Physical Memory: 47.25 MB used, 47.25 MB peak
+[2014.12.10-17.14.33:897][  0]LogMemory: Process Virtual Memory: 23.07 MB used, 24.37 MB peak
+[2014.12.10-17.14.33:898][  0]LogMemory: Physical Memory: 2789.89 MB used, 6077.92 MB total
+[2014.12.10-17.14.33:898][  0]LogMemory: Virtual Memory: 272.18 MB used, 134217728.00 MB total
+[2014.12.10-17.14.33:944][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 680 (Feature Level 11_0)
+[2014.12.10-17.14.33:944][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2014.12.10-17.14.33:948][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.12.10-17.14.33:948][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.12.10-17.14.33:948][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.12.10-17.14.33:961][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.12.10-17.14.33:984][  0]LogD3D11RHI: Async texture creation enabled
+[2014.12.10-17.14.34:082][  0]LogTextLocalizationManager: The requested culture ('en_GB') has no localization data; parent culture's ('en') localization data will be used.
+[2014.12.10-17.14.34:390][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.12.10-17.14.45:890][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.10-17.14.47:194][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.10-17.14.47:332][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.12.10-17.14.47:601][  0]LogDerivedDataCache: Loaded boot cache 0.27s 39MB C:/Users/10021_000/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2014.12.10-17.14.47:601][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/10021_000/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2014.12.10-17.14.47:604][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.12.10-17.14.47:604][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.12.10-17.14.47:718][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.12.10-17.14.47:732][  0]LogDerivedDataCache: Using Local data cache path C:/Users/10021_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2014.12.10-17.14.48:054][  0]LogCollisionProfile:Warning: Profile (Trigger) - Custom Channel Name = 'Projectile' hasn't been found
+[2014.12.10-17.14.48:054][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2014.12.10-17.14.48:054][  0]LogCollisionProfile:Warning: Profile (Projectile) ObjectTypeName (Projectile) is invalid. 
+[2014.12.10-17.14.48:406][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.12.10-17.14.48:406][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.12.10-17.14.49:441][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.12.10-17.14.49:568][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2014.12.10-17.14.51:378][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.12.10-17.14.51:670][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Binaries/Win64. Error: 0
+[2014.12.10-17.14.52:034][  0]SourceControl: Info Source control is disabled
+[2014.12.10-17.14.52:034][  0]SourceControl: Info Source control is disabled
+[2014.12.10-17.14.52:050][  0]SourceControl: Info Source control is disabled
+[2014.12.10-17.14.52:338][  0]LogObj: 23754 objects as part of root set at end of initial load.
+[2014.12.10-17.14.52:338][  0]LogUObjectAllocator: 5168136 out of 0 bytes used by permanent object pool.
+[2014.12.10-17.14.52:456][  0]LogEngine: Initializing Engine...
+[2014.12.10-17.14.52:849][  0]LogInit: XAudio2 using '37'' TFT-TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2014.12.10-17.14.52:863][  0]LogInit: FAudioDevice initialized.
+[2014.12.10-17.14.52:904][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.12.10-17.14.53:012][  0]LogDerivedDataCache: Saved boot cache 0.11s 39MB C:/Users/10021_000/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2014.12.10-17.14.53:075][  0]LogInit: Texture streaming: Enabled
+[2014.12.10-17.14.53:144][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2014.12.10-17.14.53:145][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.0-2369412+++depot+UE4-Releases+4.6
+[2014.12.10-17.14.53:147][  0]LogAnalytics: SetUserId a29c071cf10a93fac0ff457d50595e17
+[2014.12.10-17.14.53:147][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2014.12.10-17.14.53:184][  0]LogInit: Transaction tracking system initialized
+[2014.12.10-17.14.53:408][  0]BlueprintLog: New page: Editor Load
+[2014.12.10-17.14.53:472][  0]LogAssetRegistry: FAssetRegistry took 0.0112 seconds to start up
+[2014.12.10-17.14.53:476][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2014.12.10-17.14.54:877][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.10-17.14.55:921][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.10-17.14.56:356][  0]LogConsoleResponse:Display: 
+[2014.12.10-17.14.56:479][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.10-17.14.56:919][  0]SourceControl: Info Source control is disabled
+[2014.12.10-17.14.56:920][  0]Cmd: MAP LOAD FILE="E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Maps/AsteroidMiner.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.10-17.14.56:927][  0]LightingResults: New page: Lighting Build
+[2014.12.10-17.14.56:946][  0]MapCheck: New page: Map Check
+[2014.12.10-17.14.56:946][  0]LightingResults: New page: Lighting Build
+[2014.12.10-17.14.56:971][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000044D27A9940
+[2014.12.10-17.14.57:225][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/M_SkyBox.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.10-17.14.57:228][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Textures/HighResSkyBox.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.10-17.14.58:298][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Meshes/DetailedSun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.10-17.14.58:301][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/M_Sun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.10-17.14.58:306][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Textures/T_Fire.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.10-17.14.58:551][  0]LogBlueprint:Warning: [AdjustVelocityBTT] CreatePinForVariable: 'VelocityChange?' variable not found. Base class was probably changed.
+[2014.12.10-17.14.58:593][  0]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "VelocityChange?" in 'BotShip_C'.
+Make sure 'BotShip_C' has been compiled for  Set VelocityChange? 
+[2014.12.10-17.14.58:598][  0]LogBlueprint:Error: [compiler] Error The property associated with  Velocity Change?  could not be found
+[2014.12.10-17.14.58:621][  0]LogBlueprint:Warning: [compiler] Warning [0029.12] Compile of AdjustVelocityBTT failed. 1 Fatal Issue(s) 1 Warning(s) [in 69 ms]
+[2014.12.10-17.14.58:866][  0]LoadErrors:Error: Error Failed import for BoolProperty
+[2014.12.10-17.14.59:413][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/Objects/B_Asteroid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.10-17.14.59:424][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Meshes/Rock.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.10-17.14.59:427][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/M_Asteroid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.10-17.14.59:453][  0]LoadErrors:Error: Error Failed import for BoolProperty
+[2014.12.10-17.14.59:577][  0]LogBlueprint:Warning: [compiler] Warning  Remove from Viewport  is deprecated; Use RemoveFromParent instead
+[2014.12.10-17.14.59:580][  0]LogBlueprint:Warning: [compiler] Warning [0030.08] Compile of GameOverWidget successful, but with 1 Warning(s) [in 10 ms]
+[2014.12.10-17.14.59:586][  0]LogBlueprint:Warning: [compiler] Warning  Remove from Viewport  is deprecated; Use RemoveFromParent instead
+[2014.12.10-17.14.59:588][  0]LogBlueprint:Warning: [compiler] Warning [0030.09] Compile of GameOverWidget successful, but with 1 Warning(s) [in 4 ms]
+[2014.12.10-17.14.59:588][  0]LogBlueprint:Warning: [compiler] Warning [0030.09] Compile of GameOverWidget successful, but with 2 Warning(s) [in 0 ms]
+[2014.12.10-17.14.59:654][  0]LogBlueprint:Warning: [compiler] Warning  Remove from Viewport  is deprecated; Use RemoveFromParent instead
+[2014.12.10-17.14.59:656][  0]LogBlueprint:Warning: [compiler] Warning [0030.16] Compile of PauseMenuWidget successful, but with 1 Warning(s) [in 16 ms]
+[2014.12.10-17.14.59:660][  0]LogBlueprint:Warning: [compiler] Warning  Remove from Viewport  is deprecated; Use RemoveFromParent instead
+[2014.12.10-17.14.59:663][  0]LogBlueprint:Warning: [compiler] Warning [0030.16] Compile of PauseMenuWidget successful, but with 1 Warning(s) [in 5 ms]
+[2014.12.10-17.14.59:664][  0]LogBlueprint:Warning: [compiler] Warning [0030.16] Compile of PauseMenuWidget successful, but with 2 Warning(s) [in 0 ms]
+[2014.12.10-17.15.01:815][  0]LogBlueprint:Warning: Node '/Game/Blueprints/AI/BehaviourTreeTasks/CheckStateBTT.CheckStateBTT:EventGraph.K2Node_Event_1291' missing NodeGuid.
+[2014.12.10-17.15.01:815][  0]LogBlueprint:Warning: Node '/Game/Blueprints/AI/BehaviourTreeTasks/CheckStateBTT.CheckStateBTT:EventGraph.K2Node_Event_1301' missing NodeGuid.
+[2014.12.10-17.15.02:071][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.10-17.15.02:071][  0]LogAIModule: Creating AISystem for world AsteroidMiner
+[2014.12.10-17.15.02:072][  0]Cmd: MAP CHECKDEP
+[2014.12.10-17.15.02:072][  0]MapCheck: New page: AsteroidMiner - 10 Dec 2014 17:15:02
+[2014.12.10-17.15.02:471][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 398.452ms to complete.
+[2014.12.10-17.15.02:471][  0]LogFileHelpers: Loading map 'AsteroidMiner' took 5.551
+[2014.12.10-17.15.02:621][  0]LogCollectionManager: Loaded 0 collections in 0.006206 seconds
+[2014.12.10-17.15.02:895][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.12.10-17.15.02:907][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2014.12.10-17.15.02:942][  0]LogLoad: Full Startup: 33.44 seconds (BP compile: 1.65 seconds)
+[2014.12.10-17.15.03:296][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/AI/BehaviourTreeTasks'
+[2014.12.10-17.15.03:752][  0]LogRenderer:Warning: Reallocating scene render targets to support 944x872.
+[2014.12.10-17.15.07:500][ 10]LogAssetRegistry: Asset discovery search completed in 14.0393 seconds
+[2014.12.10-17.15.07:553][ 10]LogAnalytics: Event Editor.Usage.AssetClasses has too many attributes (41). May be truncated at the collector.
+[2014.12.10-17.15.14:910][ 86]BlueprintLog: New page: Compile AdjustVelocityBTT
+[2014.12.10-17.15.15:474][ 86]BlueprintEditorCompileResults: Info [0045.97] Compile of AdjustVelocityBTT successful! [in 474 ms]
+[2014.12.10-17.15.22:056][121]LogSavePackage: Save=2980.161133ms
+[2014.12.10-17.15.22:056][121]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/AdjustVelocityBTTFF98E52A4DE5302A5CCEACB3E33C7460.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/AI/BehaviourTreeTasks/AdjustVelocityBTT.uasset'
+[2014.12.10-17.15.27:975][246]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.10-17.15.27:980][246]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2014.12.10-17.15.28:098][246]LogPlayLevel: [PIE] Compiling AsteroidMiner before PIE...
+[2014.12.10-17.15.28:995][246]LogPlayLevel: PIE:  Blueprint regeneration took 1020 ms (2 blueprints)
+[2014.12.10-17.15.28:996][246]PIE: New page: PIE session: AsteroidMiner (10 Dec 2014 17:15:28)
+[2014.12.10-17.15.29:050][246]LogPlayLevel: PIE: StaticDuplicateObject took: (0.053486s)
+[2014.12.10-17.15.29:053][246]LogPlayLevel: PIE: World Init took: (0.003197s)
+[2014.12.10-17.15.29:054][246]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/AsteroidMiner.AsteroidMiner to /Game/Maps/UEDPIE_0_AsteroidMiner.AsteroidMiner (0.057111s)
+[2014.12.10-17.15.29:128][246]LogWorld: Game class is 'AsteroidMinerGameMode_C'
+[2014.12.10-17.15.29:133][246]LogAIModule: Creating AISystem for world AsteroidMiner
+[2014.12.10-17.15.29:135][246]LogWorld: Bringing World /Game/Maps/UEDPIE_0_AsteroidMiner.AsteroidMiner up for play (max tick rate 0) at 2014.12.10-17.15.29
+[2014.12.10-17.15.29:138][246]LogWorld: Bringing up level for play took: 0.004151
+[2014.12.10-17.15.29:142][246]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_AsteroidMiner 2.148
+[2014.12.10-17.15.29:188][246]LogScript:Warning: Accessed None 'CallFunc_PlaySoundAttached_ReturnValue'
+	AsteroidMinerCamera_C /Game/Maps/UEDPIE_0_AsteroidMiner.AsteroidMiner:PersistentLevel.AsteroidMinerCamera_C_0
+	Function /Game/Blueprints/GameComponents/AsteroidMinerCamera.AsteroidMinerCamera_C:ExecuteUbergraph_AsteroidMinerCamera:0091
+[2014.12.10-17.15.29:188][246]PIE:Error: Error Accessed None 'CallFunc_PlaySoundAttached_ReturnValue' from node Construction Script in blueprint AsteroidMinerCamera
+[2014.12.10-17.15.47:377][808]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000044D6CEED40
+[2014.12.10-17.16.11:048][498]LogBlueprint:Warning: Unknown type of hyperlinked object
+[2014.12.10-17.16.33:064][227]BlueprintLog: New page: Compile AsteroidMinerCamera
+[2014.12.10-17.16.33:198][227]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a AudioComponent, therefore ' Target ' must have a connection
+[2014.12.10-17.16.33:573][227]LogBlueprint:Warning: [compiler] Warning [0124.07] Compile of AsteroidMinerCamera failed. 1 Fatal Issue(s) 0 Warning(s) [in 424 ms]
+[2014.12.10-17.16.33:573][227]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a AudioComponent, therefore ' Target ' must have a connection
+[2014.12.10-17.16.33:573][227]BlueprintEditorCompileResults:Warning: Warning [0124.07] Compile of AsteroidMinerCamera failed. 1 Fatal Issue(s) 0 Warning(s) [in 424 ms]
+[2014.12.10-17.17.04:471][866]LogSavePackage: Save=3278.805420ms
+[2014.12.10-17.17.04:471][866]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/AsteroidMinerCameraF257801648B4DCEDB5FD5FAE2DA38251.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/GameComponents/AsteroidMinerCamera.uasset'
+[2014.12.10-17.17.23:773][270]BlueprintLog: New page: Compile AsteroidMinerCamera
+[2014.12.10-17.17.24:191][270]BlueprintEditorCompileResults: Info [0174.69] Compile of AsteroidMinerCamera successful! [in 331 ms]
+[2014.12.10-17.17.33:160][514]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.10-17.17.33:180][514]LogPlayLevel: [PIE] Compiling AsteroidMiner before PIE...
+[2014.12.10-17.17.34:106][514]LogPlayLevel: PIE:  Blueprint regeneration took 946 ms (1 blueprints)
+[2014.12.10-17.17.34:107][514]PIE: New page: PIE session: AsteroidMiner (10 Dec 2014 17:17:34)
+[2014.12.10-17.17.34:163][514]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054952s)
+[2014.12.10-17.17.34:166][514]LogPlayLevel: PIE: World Init took: (0.002926s)
+[2014.12.10-17.17.34:166][514]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/AsteroidMiner.AsteroidMiner to /Game/Maps/UEDPIE_0_AsteroidMiner.AsteroidMiner (0.058283s)
+[2014.12.10-17.17.34:210][514]LogWorld: Game class is 'AsteroidMinerGameMode_C'
+[2014.12.10-17.17.34:214][514]LogAIModule: Creating AISystem for world AsteroidMiner
+[2014.12.10-17.17.34:217][514]LogWorld: Bringing World /Game/Maps/UEDPIE_0_AsteroidMiner.AsteroidMiner up for play (max tick rate 0) at 2014.12.10-17.17.34
+[2014.12.10-17.17.34:219][514]LogWorld: Bringing up level for play took: 0.003718
+[2014.12.10-17.17.34:221][514]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_AsteroidMiner 1.227
+[2014.12.10-17.17.34:256][514]LogScript:Warning: Accessed None 'CallFunc_PlaySoundAttached_ReturnValue'
+	AsteroidMinerCamera_C /Game/Maps/UEDPIE_0_AsteroidMiner.AsteroidMiner:PersistentLevel.AsteroidMinerCamera_C_0
+	Function /Game/Blueprints/GameComponents/AsteroidMinerCamera.AsteroidMinerCamera_C:ExecuteUbergraph_AsteroidMinerCamera:0091
+[2014.12.10-17.17.34:256][514]PIE:Error: Error Accessed None 'CallFunc_PlaySoundAttached_ReturnValue' from node Construction Script in blueprint AsteroidMinerCamera
+[2014.12.10-17.17.37:432][606]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000044D4ED5300
+[2014.12.10-17.17.45:319][805]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/MoonMinerGameMode.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.10-17.17.45:321][805]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/AsteroidMinerGameMode.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.10-17.22.20:143][906]BlueprintLog: New page: Compile CheckStateBTT
+[2014.12.10-17.22.20:404][906]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000044CBDFE200
+[2014.12.10-17.22.20:404][906]BlueprintEditorCompileResults: Info [0470.90] Compile of CheckStateBTT successful! [in 251 ms]
+[2014.12.10-17.22.24:356][943]LogSavePackage: Save=369.322266ms
+[2014.12.10-17.22.24:359][943]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/CheckStateBTT5C663D5848961C5B58D6AABED368FD0F.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/AI/BehaviourTreeTasks/CheckStateBTT.uasset'
+[2014.12.10-17.22.32:077][149]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/AI'
+[2014.12.10-17.22.55:227][860]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.10-17.23.02:591][138]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/ShipBT" FILE="E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/AI/ShipBT.uasset" SILENT=true
+[2014.12.10-17.23.03:820][138]LogSavePackage: Save=198.552795ms
+[2014.12.10-17.23.03:821][138]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/ShipBT73B1652943DA406D62FF579FCC300266.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/AI/ShipBT.uasset'
+[2014.12.10-17.23.03:855][138]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/ShipBB" FILE="E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/AI/ShipBB.uasset" SILENT=true
+[2014.12.10-17.23.04:885][138]LogSavePackage: Save=10.607915ms
+[2014.12.10-17.23.04:885][138]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/ShipBB028250824E095FA6A1743CBE71254D5C.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/AI/ShipBB.uasset'
+[2014.12.10-17.23.05:494][160]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.10-17.23.05:628][160]LogPlayLevel: [PIE] Compiling AsteroidMiner before PIE...
+[2014.12.10-17.23.06:328][160]LogPlayLevel: PIE:  Blueprint regeneration took 834 ms (1 blueprints)
+[2014.12.10-17.23.06:329][160]PIE: New page: PIE session: AsteroidMiner (10 Dec 2014 17:23:06)
+[2014.12.10-17.23.06:370][160]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040825s)
+[2014.12.10-17.23.06:371][160]LogPlayLevel: PIE: World Init took: (0.001175s)
+[2014.12.10-17.23.06:371][160]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/AsteroidMiner.AsteroidMiner to /Game/Maps/UEDPIE_0_AsteroidMiner.AsteroidMiner (0.042265s)
+[2014.12.10-17.23.06:404][160]LogWorld: Game class is 'AsteroidMinerGameMode_C'
+[2014.12.10-17.23.06:407][160]LogAIModule: Creating AISystem for world AsteroidMiner
+[2014.12.10-17.23.06:409][160]LogWorld: Bringing World /Game/Maps/UEDPIE_0_AsteroidMiner.AsteroidMiner up for play (max tick rate 0) at 2014.12.10-17.23.06
+[2014.12.10-17.23.06:410][160]LogWorld: Bringing up level for play took: 0.002238
+[2014.12.10-17.23.06:413][160]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_AsteroidMiner 1.418
+[2014.12.10-17.23.06:444][160]LogScript:Warning: Accessed None 'CallFunc_PlaySoundAttached_ReturnValue'
+	AsteroidMinerCamera_C /Game/Maps/UEDPIE_0_AsteroidMiner.AsteroidMiner:PersistentLevel.AsteroidMinerCamera_C_1
+	Function /Game/Blueprints/GameComponents/AsteroidMinerCamera.AsteroidMinerCamera_C:ExecuteUbergraph_AsteroidMinerCamera:0091
+[2014.12.10-17.23.06:445][160]PIE:Error: Error Accessed None 'CallFunc_PlaySoundAttached_ReturnValue' from node Construction Script in blueprint AsteroidMinerCamera
+[2014.12.10-17.23.17:639][562]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000044D2BE3D80
+[2014.12.10-17.23.37:538][382]BlueprintLog: New page: Compile CheckStateBTT
+[2014.12.10-17.23.37:691][382]BlueprintEditorCompileResults: Info [0548.19] Compile of CheckStateBTT successful! [in 144 ms]
+[2014.12.10-17.23.37:898][382]LogPropertyNode: Object is invalid AllowedTypes
+[2014.12.10-17.23.42:297][586]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.10-17.23.42:342][586]LogPlayLevel: [PIE] Compiling AsteroidMiner before PIE...
+[2014.12.10-17.23.43:112][586]LogPlayLevel: PIE:  Blueprint regeneration took 814 ms (1 blueprints)
+[2014.12.10-17.23.43:112][586]PIE: New page: PIE session: AsteroidMiner (10 Dec 2014 17:23:43)
+[2014.12.10-17.23.43:155][586]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042980s)
+[2014.12.10-17.23.43:157][586]LogPlayLevel: PIE: World Init took: (0.001424s)
+[2014.12.10-17.23.43:157][586]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/AsteroidMiner.AsteroidMiner to /Game/Maps/UEDPIE_0_AsteroidMiner.AsteroidMiner (0.044699s)
+[2014.12.10-17.23.43:214][586]LogWorld: Game class is 'AsteroidMinerGameMode_C'
+[2014.12.10-17.23.43:218][586]LogAIModule: Creating AISystem for world AsteroidMiner
+[2014.12.10-17.23.43:219][586]LogWorld: Bringing World /Game/Maps/UEDPIE_0_AsteroidMiner.AsteroidMiner up for play (max tick rate 0) at 2014.12.10-17.23.43
+[2014.12.10-17.23.43:221][586]LogWorld: Bringing up level for play took: 0.002856
+[2014.12.10-17.23.43:230][586]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_AsteroidMiner 0.236
+[2014.12.10-17.23.43:265][586]LogScript:Warning: Accessed None 'CallFunc_PlaySoundAttached_ReturnValue'
+	AsteroidMinerCamera_C /Game/Maps/UEDPIE_0_AsteroidMiner.AsteroidMiner:PersistentLevel.AsteroidMinerCamera_C_2
+	Function /Game/Blueprints/GameComponents/AsteroidMinerCamera.AsteroidMinerCamera_C:ExecuteUbergraph_AsteroidMinerCamera:0091
+[2014.12.10-17.23.43:266][586]PIE:Error: Error Accessed None 'CallFunc_PlaySoundAttached_ReturnValue' from node Construction Script in blueprint AsteroidMinerCamera
+[2014.12.10-17.23.43:498][586]LogRenderer:Warning: Reallocating scene render targets to support 1296x872.
+[2014.12.10-17.23.48:690][754]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000044D6825800
+[2014.12.10-17.24.20:445][109]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.12.10-17.24.21:644][158]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/GameComponents'
+[2014.12.10-17.24.56:073][ 40]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.10-17.24.56:073][ 40]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.10-17.24.56:073][ 40]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.10-17.24.56:074][ 40]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/BehaviourTreeTasks/CheckStateBTT.CheckStateBTT:EventGraph.K2Node_CallFunction_41370 or K2Node_CallFunction /Game/Maps/AsteroidMiner.AsteroidMiner:PersistentLevel.AsteroidMiner.EventGraph.K2Node_CallFunction_41370
+[2014.12.10-17.24.56:074][ 40]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Maps/AsteroidMiner.AsteroidMiner:PersistentLevel.AsteroidMiner.EventGraph.K2Node_CallFunction_41370.EdGraphPin_11183) from referencer (EdGraphPin /Game/Blueprints/AI/BehaviourTreeTasks/CheckStateBTT.CheckStateBTT:EventGraph.K2Node_CallFunction_67673.EdGraphPin_11174).  Import failed...
+[2014.12.10-17.24.56:076][ 40]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_41370.EdGraphPin_11183"''
+[2014.12.10-17.24.56:077][ 40]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/AI/BehaviourTreeTasks/CheckStateBTT.CheckStateBTT:EventGraph.K2Node_DynamicCast_62 or K2Node_DynamicCast /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_DynamicCast_62
+[2014.12.10-17.24.56:077][ 40]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/AI/BehaviourTreeTasks/CheckStateBTT.CheckStateBTT:EventGraph.K2Node_DynamicCast_62 or K2Node_DynamicCast /Game/Maps/AsteroidMiner.AsteroidMiner:PersistentLevel.AsteroidMiner.EventGraph.K2Node_DynamicCast_62
+[2014.12.10-17.24.56:077][ 40]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/AI/BehaviourTreeTasks/CheckStateBTT.CheckStateBTT:EventGraph.K2Node_DynamicCast_62 or K2Node_DynamicCast /Game/Blueprints/AI/BotShip.BotShip:EventGraph.K2Node_DynamicCast_62
+[2014.12.10-17.24.56:077][ 40]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Maps/AsteroidMiner.AsteroidMiner:PersistentLevel.AsteroidMiner.EventGraph.K2Node_DynamicCast_62.EdGraphPin_13577) from referencer (EdGraphPin /Game/Blueprints/AI/BehaviourTreeTasks/CheckStateBTT.CheckStateBTT:EventGraph.K2Node_CallFunction_41370.EdGraphPin_11184).  Import failed...
+[2014.12.10-17.24.56:077][ 40]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_DynamicCast_62.EdGraphPin_13577"''
+[2014.12.10-17.24.56:078][ 40]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Maps/AsteroidMiner.AsteroidMiner:PersistentLevel.AsteroidMiner.EventGraph.K2Node_VariableSet_2865.EdGraphPin_12756) from referencer (EdGraphPin /Game/Blueprints/AI/BehaviourTreeTasks/CheckStateBTT.CheckStateBTT:EventGraph.K2Node_DynamicCast_62.EdGraphPin_13574).  Import failed...
+[2014.12.10-17.24.56:078][ 40]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_2865.EdGraphPin_12756"''
+[2014.12.10-17.24.56:078][ 40]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Maps/AsteroidMiner.AsteroidMiner:PersistentLevel.AsteroidMiner.EventGraph.K2Node_VariableSet_2766.EdGraphPin_13589) from referencer (EdGraphPin /Game/Blueprints/AI/BehaviourTreeTasks/CheckStateBTT.CheckStateBTT:EventGraph.K2Node_DynamicCast_62.EdGraphPin_13575).  Import failed...
+[2014.12.10-17.24.56:078][ 40]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_2766.EdGraphPin_13589"''
+[2014.12.10-17.24.56:078][ 40]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Maps/AsteroidMiner.AsteroidMiner:PersistentLevel.AsteroidMiner.EventGraph.K2Node_VariableSet_2766.EdGraphPin_13592) from referencer (EdGraphPin /Game/Blueprints/AI/BehaviourTreeTasks/CheckStateBTT.CheckStateBTT:EventGraph.K2Node_DynamicCast_62.EdGraphPin_13578).  Import failed...
+[2014.12.10-17.24.56:078][ 40]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_2766.EdGraphPin_13592"''
+[2014.12.10-17.24.56:078][ 40]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Maps/AsteroidMiner.AsteroidMiner:PersistentLevel.AsteroidMiner.EventGraph.K2Node_VariableSet_2767.EdGraphPin_13604) from referencer (EdGraphPin /Game/Blueprints/AI/BehaviourTreeTasks/CheckStateBTT.CheckStateBTT:EventGraph.K2Node_DynamicCast_62.EdGraphPin_13578).  Import failed...
+[2014.12.10-17.24.56:079][ 40]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_2767.EdGraphPin_13604"''
+[2014.12.10-17.24.56:079][ 40]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Maps/AsteroidMiner.AsteroidMiner:PersistentLevel.AsteroidMiner.EventGraph.K2Node_VariableSet_2768.EdGraphPin_13616) from referencer (EdGraphPin /Game/Blueprints/AI/BehaviourTreeTasks/CheckStateBTT.CheckStateBTT:EventGraph.K2Node_DynamicCast_62.EdGraphPin_13578).  Import failed...
+[2014.12.10-17.24.56:079][ 40]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_2768.EdGraphPin_13616"''
+[2014.12.10-17.24.56:079][ 40]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Maps/AsteroidMiner.AsteroidMiner:PersistentLevel.AsteroidMiner.EventGraph.K2Node_VariableSet_2769.EdGraphPin_13628) from referencer (EdGraphPin /Game/Blueprints/AI/BehaviourTreeTasks/CheckStateBTT.CheckStateBTT:EventGraph.K2Node_DynamicCast_62.EdGraphPin_13578).  Import failed...
+[2014.12.10-17.24.56:079][ 40]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_2769.EdGraphPin_13628"''
+[2014.12.10-17.24.56:080][ 40]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Maps/AsteroidMiner.AsteroidMiner:PersistentLevel.AsteroidMiner.EventGraph.K2Node_VariableSet_2770.EdGraphPin_13640) from referencer (EdGraphPin /Game/Blueprints/AI/BehaviourTreeTasks/CheckStateBTT.CheckStateBTT:EventGraph.K2Node_DynamicCast_62.EdGraphPin_13578).  Import failed...
+[2014.12.10-17.24.56:080][ 40]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_2770.EdGraphPin_13640"''
+[2014.12.10-17.24.56:080][ 40]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Maps/AsteroidMiner.AsteroidMiner:PersistentLevel.AsteroidMiner.EventGraph.K2Node_VariableSet_2771.EdGraphPin_13652) from referencer (EdGraphPin /Game/Blueprints/AI/BehaviourTreeTasks/CheckStateBTT.CheckStateBTT:EventGraph.K2Node_DynamicCast_62.EdGraphPin_13578).  Import failed...
+[2014.12.10-17.24.56:080][ 40]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_2771.EdGraphPin_13652"''
+[2014.12.10-17.24.56:080][ 40]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Maps/AsteroidMiner.AsteroidMiner:PersistentLevel.AsteroidMiner.EventGraph.K2Node_VariableSet_2772.EdGraphPin_13664) from referencer (EdGraphPin /Game/Blueprints/AI/BehaviourTreeTasks/CheckStateBTT.CheckStateBTT:EventGraph.K2Node_DynamicCast_62.EdGraphPin_13578).  Import failed...
+[2014.12.10-17.24.56:080][ 40]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_2772.EdGraphPin_13664"''
+[2014.12.10-17.24.56:080][ 40]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Maps/AsteroidMiner.AsteroidMiner:PersistentLevel.AsteroidMiner.EventGraph.K2Node_VariableSet_2773.EdGraphPin_13676) from referencer (EdGraphPin /Game/Blueprints/AI/BehaviourTreeTasks/CheckStateBTT.CheckStateBTT:EventGraph.K2Node_DynamicCast_62.EdGraphPin_13578).  Import failed...
+[2014.12.10-17.24.56:080][ 40]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_2773.EdGraphPin_13676"''
+[2014.12.10-17.24.56:080][ 40]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Maps/AsteroidMiner.AsteroidMiner:PersistentLevel.AsteroidMiner.EventGraph.K2Node_VariableSet_2774.EdGraphPin_13688) from referencer (EdGraphPin /Game/Blueprints/AI/BehaviourTreeTasks/CheckStateBTT.CheckStateBTT:EventGraph.K2Node_DynamicCast_62.EdGraphPin_13578).  Import failed...
+[2014.12.10-17.24.56:081][ 40]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_2774.EdGraphPin_13688"''
+[2014.12.10-17.24.56:081][ 40]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Maps/AsteroidMiner.AsteroidMiner:PersistentLevel.AsteroidMiner.EventGraph.K2Node_VariableSet_2775.EdGraphPin_13700) from referencer (EdGraphPin /Game/Blueprints/AI/BehaviourTreeTasks/CheckStateBTT.CheckStateBTT:EventGraph.K2Node_DynamicCast_62.EdGraphPin_13578).  Import failed...
+[2014.12.10-17.24.56:081][ 40]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_2775.EdGraphPin_13700"''
+[2014.12.10-17.24.56:081][ 40]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Maps/AsteroidMiner.AsteroidMiner:PersistentLevel.AsteroidMiner.EventGraph.K2Node_VariableSet_2776.EdGraphPin_13712) from referencer (EdGraphPin /Game/Blueprints/AI/BehaviourTreeTasks/CheckStateBTT.CheckStateBTT:EventGraph.K2Node_DynamicCast_62.EdGraphPin_13578).  Import failed...
+[2014.12.10-17.24.56:081][ 40]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_2776.EdGraphPin_13712"''
+[2014.12.10-17.24.56:081][ 40]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Maps/AsteroidMiner.AsteroidMiner:PersistentLevel.AsteroidMiner.EventGraph.K2Node_VariableSet_2777.EdGraphPin_13724) from referencer (EdGraphPin /Game/Blueprints/AI/BehaviourTreeTasks/CheckStateBTT.CheckStateBTT:EventGraph.K2Node_DynamicCast_62.EdGraphPin_13578).  Import failed...
+[2014.12.10-17.24.56:081][ 40]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_2777.EdGraphPin_13724"''
+[2014.12.10-17.24.56:081][ 40]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Maps/AsteroidMiner.AsteroidMiner:PersistentLevel.AsteroidMiner.EventGraph.K2Node_VariableSet_2778.EdGraphPin_13736) from referencer (EdGraphPin /Game/Blueprints/AI/BehaviourTreeTasks/CheckStateBTT.CheckStateBTT:EventGraph.K2Node_DynamicCast_62.EdGraphPin_13578).  Import failed...
+[2014.12.10-17.24.56:081][ 40]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_2778.EdGraphPin_13736"''
+[2014.12.10-17.24.56:081][ 40]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Maps/AsteroidMiner.AsteroidMiner:PersistentLevel.AsteroidMiner.EventGraph.K2Node_VariableSet_2781.EdGraphPin_13748) from referencer (EdGraphPin /Game/Blueprints/AI/BehaviourTreeTasks/CheckStateBTT.CheckStateBTT:EventGraph.K2Node_DynamicCast_62.EdGraphPin_13578).  Import failed...
+[2014.12.10-17.24.56:081][ 40]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_2781.EdGraphPin_13748"''
+[2014.12.10-17.24.56:081][ 40]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Maps/AsteroidMiner.AsteroidMiner:PersistentLevel.AsteroidMiner.EventGraph.K2Node_VariableSet_2782.EdGraphPin_13760) from referencer (EdGraphPin /Game/Blueprints/AI/BehaviourTreeTasks/CheckStateBTT.CheckStateBTT:EventGraph.K2Node_DynamicCast_62.EdGraphPin_13578).  Import failed...
+[2014.12.10-17.24.56:082][ 40]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_2782.EdGraphPin_13760"''
+[2014.12.10-17.24.56:082][ 40]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Maps/AsteroidMiner.AsteroidMiner:PersistentLevel.AsteroidMiner.EventGraph.K2Node_VariableSet_2783.EdGraphPin_13772) from referencer (EdGraphPin /Game/Blueprints/AI/BehaviourTreeTasks/CheckStateBTT.CheckStateBTT:EventGraph.K2Node_DynamicCast_62.EdGraphPin_13578).  Import failed...
+[2014.12.10-17.24.56:082][ 40]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_2783.EdGraphPin_13772"''
+[2014.12.10-17.24.56:082][ 40]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Maps/AsteroidMiner.AsteroidMiner:PersistentLevel.AsteroidMiner.EventGraph.K2Node_VariableSet_2784.EdGraphPin_13784) from referencer (EdGraphPin /Game/Blueprints/AI/BehaviourTreeTasks/CheckStateBTT.CheckStateBTT:EventGraph.K2Node_DynamicCast_62.EdGraphPin_13578).  Import failed...
+[2014.12.10-17.24.56:082][ 40]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_2784.EdGraphPin_13784"''
+[2014.12.10-17.24.56:082][ 40]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Maps/AsteroidMiner.AsteroidMiner:PersistentLevel.AsteroidMiner.EventGraph.K2Node_VariableSet_12490.EdGraphPin_13796) from referencer (EdGraphPin /Game/Blueprints/AI/BehaviourTreeTasks/CheckStateBTT.CheckStateBTT:EventGraph.K2Node_DynamicCast_62.EdGraphPin_13578).  Import failed...
+[2014.12.10-17.24.56:082][ 40]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_12490.EdGraphPin_13796"''
+[2014.12.10-17.24.56:083][ 40]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Maps/AsteroidMiner.AsteroidMiner:PersistentLevel.AsteroidMiner.EventGraph.K2Node_VariableSet_12518.EdGraphPin_13808) from referencer (EdGraphPin /Game/Blueprints/AI/BehaviourTreeTasks/CheckStateBTT.CheckStateBTT:EventGraph.K2Node_DynamicCast_62.EdGraphPin_13578).  Import failed...
+[2014.12.10-17.24.56:083][ 40]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_12518.EdGraphPin_13808"''
+[2014.12.10-17.24.56:083][ 40]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Maps/AsteroidMiner.AsteroidMiner:PersistentLevel.AsteroidMiner.EventGraph.K2Node_VariableSet_14872.EdGraphPin_13820) from referencer (EdGraphPin /Game/Blueprints/AI/BehaviourTreeTasks/CheckStateBTT.CheckStateBTT:EventGraph.K2Node_DynamicCast_62.EdGraphPin_13578).  Import failed...
+[2014.12.10-17.24.56:083][ 40]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_14872.EdGraphPin_13820"''
+[2014.12.10-17.24.56:083][ 40]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Maps/AsteroidMiner.AsteroidMiner:PersistentLevel.AsteroidMiner.EventGraph.K2Node_VariableSet_1196.EdGraphPin_13883) from referencer (EdGraphPin /Game/Blueprints/AI/BehaviourTreeTasks/CheckStateBTT.CheckStateBTT:EventGraph.K2Node_DynamicCast_62.EdGraphPin_13578).  Import failed...
+[2014.12.10-17.24.56:083][ 40]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_1196.EdGraphPin_13883"''
+[2014.12.10-17.24.56:083][ 40]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Maps/AsteroidMiner.AsteroidMiner:PersistentLevel.AsteroidMiner.EventGraph.K2Node_VariableSet_1230.EdGraphPin_13895) from referencer (EdGraphPin /Game/Blueprints/AI/BehaviourTreeTasks/CheckStateBTT.CheckStateBTT:EventGraph.K2Node_DynamicCast_62.EdGraphPin_13578).  Import failed...
+[2014.12.10-17.24.56:083][ 40]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_1230.EdGraphPin_13895"''
+[2014.12.10-17.25.45:108][993]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.10-17.25.49:411][ 34]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/AsteroidMiner' took 0.111
+[2014.12.10-17.25.49:475][ 34]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/GameComponents/DebugHud] ([1] browsable assets)...
+[2014.12.10-17.25.49:475][ 34]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/GameComponents/DebugHud]
+[2014.12.10-17.25.58:948][ 34]LogSavePackage: Save=8397.696289ms
+[2014.12.10-17.25.58:948][ 34]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/DebugHud_Auto1E151884F40E0908FE5E20E88B86B5513.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/Autosaves/Game/Blueprints/GameComponents/DebugHud_Auto1.uasset'
+[2014.12.10-17.25.59:024][ 34]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AI/BehaviourTreeTasks/CheckStateBTT] ([1] browsable assets)...
+[2014.12.10-17.25.59:024][ 34]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AI/BehaviourTreeTasks/CheckStateBTT]
+[2014.12.10-17.26.00:422][ 34]LogSavePackage: Save=354.526764ms
+[2014.12.10-17.26.00:422][ 34]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/CheckStateBTT_Auto14B2F9AC341266E3CF714ADB96BACCB32.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/Autosaves/Game/Blueprints/AI/BehaviourTreeTasks/CheckStateBTT_Auto1.uasset'
+[2014.12.10-17.26.00:439][ 34]LogFileHelpers: Auto-saving content packages took 11.027
+[2014.12.10-17.26.02:208][ 68]LogEditorTransaction: Undo Delete current selection
+[2014.12.10-17.26.02:675][ 68]LogEditorTransaction: Undo Delete current selection
+[2014.12.10-17.26.20:282][373]BlueprintLog: New page: Compile DebugHud
+[2014.12.10-17.26.21:055][373]BlueprintEditorCompileResults: Info [0711.56] Compile of DebugHud successful! [in 559 ms]
+[2014.12.10-17.27.16:017][390]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameComponents/DebugHud" FILE="E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/GameComponents/DebugHud.uasset" SILENT=true
+[2014.12.10-17.27.25:331][390]LogSavePackage: Save=8287.098633ms
+[2014.12.10-17.27.25:331][390]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/DebugHudB363556143EE494BE471C0B1BD51654B.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/GameComponents/DebugHud.uasset'
+[2014.12.10-17.27.28:751][462]BlueprintLog: New page: Compile DebugHud
+[2014.12.10-17.27.29:450][462]BlueprintEditorCompileResults: Info [0779.95] Compile of DebugHud successful! [in 491 ms]
+[2014.12.10-17.27.36:495][588]BlueprintLog: New page: Compile DebugHud
+[2014.12.10-17.27.37:175][588]BlueprintEditorCompileResults: Info [0787.67] Compile of DebugHud successful! [in 464 ms]
+[2014.12.10-17.27.38:568][600]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameComponents/DebugHud" FILE="E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/GameComponents/DebugHud.uasset" SILENT=true
+[2014.12.10-17.27.50:636][600]LogSavePackage: Save=11045.243164ms
+[2014.12.10-17.27.50:637][600]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/DebugHud6763E47D429C5B007DE86AB88D6C7736.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/GameComponents/DebugHud.uasset'
+[2014.12.10-17.28.10:593][100]BlueprintLog: New page: Compile Hud_Interface
+[2014.12.10-17.28.11:532][100]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000044EBFC3740
+[2014.12.10-17.28.11:533][100]BlueprintEditorCompileResults: Info [0822.03] Compile of Hud_Interface successful! [in 937 ms]
+[2014.12.10-17.28.13:348][144]LogSavePackage: Save=16.285715ms
+[2014.12.10-17.28.13:348][144]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/Hud_Interface5CDC62D2422412841A8C1D88984BE12E.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/GameComponents/Hud_Interface.uasset'
+[2014.12.10-17.31.12:106][128]BlueprintLog: New page: Compile CheckStateBTT
+[2014.12.10-17.31.12:478][128]BlueprintEditorCompileResults: Info [1002.98] Compile of CheckStateBTT successful! [in 349 ms]
+[2014.12.10-17.31.16:394][177]LogSavePackage: Save=537.861084ms
+[2014.12.10-17.31.16:394][177]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/CheckStateBTT4EFB2C8644AAD1A08C314DB70677F4F0.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/AI/BehaviourTreeTasks/CheckStateBTT.uasset'
+[2014.12.10-17.31.22:437][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/AsteroidMiner" FILE="E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Maps/AsteroidMiner.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.12.10-17.31.41:699][237]LogSavePackage: Save=17820.302734ms
+[2014.12.10-17.31.41:699][237]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/AsteroidMiner3098A3444247538129E58DBA153E652D.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Maps/AsteroidMiner.umap'
+[2014.12.10-17.31.41:826][237]LogFileHelpers: Saving map 'AsteroidMiner' took 19.735
+[2014.12.10-17.31.41:842][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameComponents/DebugHud" FILE="E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/GameComponents/DebugHud.uasset" SILENT=true
+[2014.12.10-17.31.52:992][237]LogSavePackage: Save=9856.890625ms
+[2014.12.10-17.31.52:992][237]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/DebugHud79221FDD4C1B29703E5407B3A560866D.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/GameComponents/DebugHud.uasset'
+[2014.12.10-17.32.04:840][349]BlueprintLog: New page: Compile AsteroidMiner
+[2014.12.10-17.32.06:062][349]BlueprintEditorCompileResults: Info [1056.56] Compile of AsteroidMiner successful! [in 789 ms]
+[2014.12.10-17.32.09:028][379]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.10-17.32.09:039][379]LogPlayLevel: [PIE] Compiling BotShip before PIE...
+[2014.12.10-17.32.09:119][379]LogOutputDevice:Warning: 
+
+Script Stack:
+AsteroidMiner_C.ExecuteUbergraph_AsteroidMiner
+AsteroidMiner_C.BndEvt__BotShip_6_K2Node_ActorBoundEvent_407_ActorDestroyedSignature__DelegateSignature
+
+[2014.12.10-17.32.09:119][379]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2014.12.10-17.32.09:119][379]LogCrashTracker: 
+
+
+[2014.12.10-17.32.09:965][379]LogCrashTracker: 
+
+
+[2014.12.10-17.32.09:965][379]LogWindows: === Critical error: ===
+Assertion failed: PC [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.6\Engine\Source\Runtime\Engine\Private\GameplayStatics.cpp] [Line: 131] 
+
+
+
+KERNELBASE.dll!UnknownFunction (0x00007ffe3891606c) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffe191a2f6d) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffe190360e8) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffe19019182) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffe16acdbb7) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffe16806e61) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffe2ddb9af4) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffe2de7943f) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffe2de973bd) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffe2deba46a) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffe2de98a5e) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffe2de7999a) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffe2debbd74) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffe2de98a5e) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffe2ddb9af4) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffe2de981c6) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffe168c0851) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffe16826bf8) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffe1687304c) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffe16bd4f97) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffe16bdff43) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffe1583a12b) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffe158336f8) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffe1580b703) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffe152f8a5a) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffe15311ee3) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffe15057e53) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffe15500686) + 0 bytes [UnknownFile:0]
+UE4Editor.exe!FEngineLoop::Tick() (0x00007ff72a7bcd94) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\launchengineloop.cpp:2214]
+UE4Editor.exe!GuardedMain() (0x00007ff72a7b089f) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\launch.cpp:131]
+UE4Editor.exe!GuardedMainWrapper() (0x00007ff72a7b090a) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() (0x00007ff72a7be3d9) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\windows\launchwindows.cpp:202]
+UE4Editor.exe!__tmainCRTStartup() (0x00007ff72a7bf319) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL!UnknownFunction (0x00007ffe3b0516ad) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffe3b1f4409) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffe3b1f4409) + 0 bytes [UnknownFile:0]
+
+
+[2014.12.10-17.32.10:336][379]LogExit: Executing StaticShutdownAfterError
+[2014.12.10-17.32.10:349][379]LogWindows: FPlatformMisc::RequestExit(1)
+[2014.12.10-17.32.10:349][379]Log file closed, 12/10/14 17:32:10

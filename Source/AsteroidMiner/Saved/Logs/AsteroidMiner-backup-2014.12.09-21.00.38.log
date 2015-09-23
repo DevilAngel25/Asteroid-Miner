@@ -1,0 +1,475 @@
+﻿Log file open, 12/09/14 20:19:02
+LogInit:Display: Running engine for game: AsteroidMiner
+LogInit: Version: 4.6.0-2369412+++depot+UE4-Releases+4.6
+LogInit: API Version: 2369412
+LogInit: Compiled (64-bit): Nov 24 2014 21:54:04
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.6
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.6/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.12.09-20.19.03:041][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2014.12.09-20.19.03:103][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.12.09-20.19.03:139][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.12.09-20.19.03:153][  0]LogInit: Object subsystem initialized
+[2014.12.09-20.19.03:157][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2014.12.09-20.19.03:157][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.09-20.19.03:158][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2014.12.09-20.19.03:158][  0]LogInit: Selected Device Profile: [Windows]
+[2014.12.09-20.19.03:159][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.12.09-20.19.03:198][  0]LogInit: Computer: LLOYDS_PC
+[2014.12.09-20.19.03:198][  0]LogInit: User: 10021000
+[2014.12.09-20.19.03:198][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.12.09-20.19.03:198][  0]LogInit: High frequency timer resolution =2.337877 MHz
+[2014.12.09-20.19.03:199][  0]LogMemory: Memory total: Physical=5.9GB (6GB approx) Virtual=131072.0GB
+[2014.12.09-20.19.03:199][  0]LogMemory: Platform Memory Stats for Windows
+[2014.12.09-20.19.03:199][  0]LogMemory: Process Physical Memory: 47.20 MB used, 47.20 MB peak
+[2014.12.09-20.19.03:199][  0]LogMemory: Process Virtual Memory: 23.11 MB used, 24.40 MB peak
+[2014.12.09-20.19.03:199][  0]LogMemory: Physical Memory: 3176.82 MB used, 6077.92 MB total
+[2014.12.09-20.19.03:199][  0]LogMemory: Virtual Memory: 268.73 MB used, 134217728.00 MB total
+[2014.12.09-20.19.03:250][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 680 (Feature Level 11_0)
+[2014.12.09-20.19.03:250][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2014.12.09-20.19.03:253][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.12.09-20.19.03:253][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.12.09-20.19.03:253][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.12.09-20.19.03:260][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.12.09-20.19.03:281][  0]LogD3D11RHI: Async texture creation enabled
+[2014.12.09-20.19.03:365][  0]LogTextLocalizationManager: The requested culture ('en_GB') has no localization data; parent culture's ('en') localization data will be used.
+[2014.12.09-20.19.03:626][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.12.09-20.19.13:871][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.09-20.19.14:807][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.09-20.19.14:919][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.12.09-20.19.15:075][  0]LogDerivedDataCache: Loaded boot cache 0.16s 39MB C:/Users/10021_000/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2014.12.09-20.19.15:075][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/10021_000/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2014.12.09-20.19.15:077][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.12.09-20.19.15:077][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.12.09-20.19.15:179][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.12.09-20.19.15:195][  0]LogDerivedDataCache: Using Local data cache path C:/Users/10021_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2014.12.09-20.19.15:461][  0]LogCollisionProfile:Warning: Profile (Trigger) - Custom Channel Name = 'Projectile' hasn't been found
+[2014.12.09-20.19.15:461][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2014.12.09-20.19.15:461][  0]LogCollisionProfile:Warning: Profile (Projectile) ObjectTypeName (Projectile) is invalid. 
+[2014.12.09-20.19.15:761][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.12.09-20.19.15:761][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.12.09-20.19.16:606][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.12.09-20.19.16:715][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2014.12.09-20.19.18:278][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.12.09-20.19.18:538][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Binaries/Win64. Error: 0
+[2014.12.09-20.19.18:851][  0]SourceControl: Info Source control is disabled
+[2014.12.09-20.19.18:851][  0]SourceControl: Info Source control is disabled
+[2014.12.09-20.19.18:870][  0]SourceControl: Info Source control is disabled
+[2014.12.09-20.19.19:109][  0]LogObj: 23754 objects as part of root set at end of initial load.
+[2014.12.09-20.19.19:109][  0]LogUObjectAllocator: 5168128 out of 0 bytes used by permanent object pool.
+[2014.12.09-20.19.19:211][  0]LogEngine: Initializing Engine...
+[2014.12.09-20.19.19:563][  0]LogInit: XAudio2 using '37'' TFT-TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2014.12.09-20.19.19:574][  0]LogInit: FAudioDevice initialized.
+[2014.12.09-20.19.19:615][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.12.09-20.19.19:725][  0]LogDerivedDataCache: Saved boot cache 0.11s 39MB C:/Users/10021_000/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2014.12.09-20.19.19:764][  0]LogInit: Texture streaming: Enabled
+[2014.12.09-20.19.19:829][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2014.12.09-20.19.19:829][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.0-2369412+++depot+UE4-Releases+4.6
+[2014.12.09-20.19.19:832][  0]LogAnalytics: SetUserId a29c071cf10a93fac0ff457d50595e17
+[2014.12.09-20.19.19:832][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2014.12.09-20.19.19:860][  0]LogInit: Transaction tracking system initialized
+[2014.12.09-20.19.20:045][  0]BlueprintLog: New page: Editor Load
+[2014.12.09-20.19.20:094][  0]LogAssetRegistry: FAssetRegistry took 0.0110 seconds to start up
+[2014.12.09-20.19.20:097][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2014.12.09-20.19.21:352][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.09-20.19.22:224][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.09-20.19.22:587][  0]LogConsoleResponse:Display: 
+[2014.12.09-20.19.22:695][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-20.19.23:100][  0]SourceControl: Info Source control is disabled
+[2014.12.09-20.19.23:101][  0]Cmd: MAP LOAD FILE="E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Maps/AsteroidMiner.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.09-20.19.23:107][  0]LightingResults: New page: Lighting Build
+[2014.12.09-20.19.23:130][  0]MapCheck: New page: Map Check
+[2014.12.09-20.19.23:130][  0]LightingResults: New page: Lighting Build
+[2014.12.09-20.19.23:150][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003F92795940
+[2014.12.09-20.19.23:413][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/M_SkyBox.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-20.19.23:416][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Textures/HighResSkyBox.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-20.19.24:380][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Meshes/DetailedSun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-20.19.24:382][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/M_Sun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-20.19.24:390][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Textures/T_Fire.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-20.19.25:216][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/Objects/B_Asteroid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-20.19.25:221][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Meshes/Rock.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-20.19.25:223][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/M_Asteroid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-20.19.25:290][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/Outliner/PP_Outliner_Inst.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-20.19.25:292][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/Outliner/PP_Outliner_M.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-20.19.25:301][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/Outliner/MF_ConvolveTexture.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-20.19.25:313][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/Outliner/MF_ExtractDepth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-20.19.25:318][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/Outliner/MF_SampleSceneTextureNeighbourUVs.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-20.19.25:415][  0]LogBlueprint:Warning: [compiler] Warning  Remove from Viewport  is deprecated; Use RemoveFromParent instead
+[2014.12.09-20.19.25:418][  0]LogBlueprint:Warning: [compiler] Warning [0025.73] Compile of GameOverWidget successful, but with 1 Warning(s) [in 9 ms]
+[2014.12.09-20.19.25:422][  0]LogBlueprint:Warning: [compiler] Warning  Remove from Viewport  is deprecated; Use RemoveFromParent instead
+[2014.12.09-20.19.25:424][  0]LogBlueprint:Warning: [compiler] Warning [0025.74] Compile of GameOverWidget successful, but with 1 Warning(s) [in 4 ms]
+[2014.12.09-20.19.25:424][  0]LogBlueprint:Warning: [compiler] Warning [0025.74] Compile of GameOverWidget successful, but with 2 Warning(s) [in 0 ms]
+[2014.12.09-20.19.25:480][  0]LogBlueprint:Warning: [compiler] Warning  Remove from Viewport  is deprecated; Use RemoveFromParent instead
+[2014.12.09-20.19.25:482][  0]LogBlueprint:Warning: [compiler] Warning [0025.79] Compile of PauseMenuWidget successful, but with 1 Warning(s) [in 9 ms]
+[2014.12.09-20.19.25:486][  0]LogBlueprint:Warning: [compiler] Warning  Remove from Viewport  is deprecated; Use RemoveFromParent instead
+[2014.12.09-20.19.25:488][  0]LogBlueprint:Warning: [compiler] Warning [0025.80] Compile of PauseMenuWidget successful, but with 1 Warning(s) [in 3 ms]
+[2014.12.09-20.19.25:488][  0]LogBlueprint:Warning: [compiler] Warning [0025.80] Compile of PauseMenuWidget successful, but with 2 Warning(s) [in 0 ms]
+[2014.12.09-20.19.27:548][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.09-20.19.27:548][  0]LogAIModule: Creating AISystem for world AsteroidMiner
+[2014.12.09-20.19.27:549][  0]Cmd: MAP CHECKDEP
+[2014.12.09-20.19.27:549][  0]MapCheck: New page: AsteroidMiner - 9 Dec 2014 20:19:27
+[2014.12.09-20.19.27:862][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 312.63ms to complete.
+[2014.12.09-20.19.27:862][  0]LogFileHelpers: Loading map 'AsteroidMiner' took 4.762
+[2014.12.09-20.19.28:033][  0]LogCollectionManager: Loaded 0 collections in 0.004241 seconds
+[2014.12.09-20.19.28:275][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.12.09-20.19.28:289][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2014.12.09-20.19.28:348][  0]LogLoad: Full Startup: 28.66 seconds (BP compile: 1.48 seconds)
+[2014.12.09-20.19.28:697][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/AI'
+[2014.12.09-20.19.29:043][  0]LogRenderer:Warning: Reallocating scene render targets to support 768x872.
+[2014.12.09-20.19.30:429][  4]LogAssetRegistry: Asset discovery search completed in 10.3458 seconds
+[2014.12.09-20.19.30:457][  4]LogAnalytics: Event Editor.Usage.AssetClasses has too many attributes (41). May be truncated at the collector.
+[2014.12.09-20.21.34:550][378]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.12.09-20.21.37:247][464]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Objects'
+[2014.12.09-20.21.39:474][532]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/AI'
+[2014.12.09-20.21.41:620][591]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/GameComponents'
+[2014.12.09-20.25.41:009][949]BlueprintLog: New page: Compile Hud_Interface
+[2014.12.09-20.25.41:787][949]BlueprintEditorCompileResults: Info [0402.10] Compile of Hud_Interface successful! [in 773 ms]
+[2014.12.09-20.25.43:555][973]LogSavePackage: Save=126.860825ms
+[2014.12.09-20.25.43:556][973]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/Hud_Interface163059A24D70585BD98B97B0F140BA6E.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/GameComponents/Hud_Interface.uasset'
+[2014.12.09-20.27.13:052][964]LogSavePackage: Save=115.358078ms
+[2014.12.09-20.27.13:052][964]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/Hud_InterfaceB821DDC04AC2445336C8409299B51CAC.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/GameComponents/Hud_Interface.uasset'
+[2014.12.09-20.27.13:650][ 25]BlueprintLog: New page: Compile Hud_Interface
+[2014.12.09-20.27.14:618][ 25]BlueprintEditorCompileResults: Info [0494.93] Compile of Hud_Interface successful! [in 963 ms]
+[2014.12.09-20.28.16:054][107]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-20.28.32:565][456]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-20.29.01:252][ 25]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameComponents/DebugHud" FILE="E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/GameComponents/DebugHud.uasset" SILENT=true
+[2014.12.09-20.29.13:216][ 25]LogSavePackage: Save=10700.079102ms
+[2014.12.09-20.29.13:216][ 25]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/DebugHud4560DE8446FC3E6E5170CFA68429BEC8.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/GameComponents/DebugHud.uasset'
+[2014.12.09-20.29.46:525][ 72]LogSavePackage: Save=16302.125977ms
+[2014.12.09-20.29.46:525][ 72]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/AsteroidMiner_Auto17031F54449E7EF52F68A3E96B03479DC.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/Autosaves/Game/Maps/AsteroidMiner_Auto1.umap'
+[2014.12.09-20.29.46:563][ 72]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/AsteroidMiner' took 17.561
+[2014.12.09-20.29.46:563][ 72]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 17.561
+[2014.12.09-20.34.57:550][ 42]BlueprintLog: New page: Compile DebugHud
+[2014.12.09-20.34.57:899][ 42]LogBlueprint:Error: [compiler] Error Message node  Quit Button
+Using Interface Hud_Interface_C  must have a self pin connection.
+[2014.12.09-20.34.57:900][ 42]LogBlueprint:Error: [compiler] Error Message node  Resume Button
+Using Interface Hud_Interface_C  must have a self pin connection.
+[2014.12.09-20.34.57:900][ 42]LogBlueprint:Error: [compiler] Error Message node  Resume Button
+Using Interface Hud_Interface_C  must have a self pin connection.
+[2014.12.09-20.34.57:901][ 42]LogBlueprint:Error: [compiler] Error Message node  Quit Button
+Using Interface Hud_Interface_C  must have a self pin connection.
+[2014.12.09-20.34.57:927][ 42]LogBlueprint:Error: [compiler] Error Found more than one function with the same name ShowDebugHud; second occurance at  (none) 
+[2014.12.09-20.34.58:433][ 42]LogBlueprint:Warning: [compiler] Warning [0958.74] Compile of DebugHud failed. 5 Fatal Issue(s) 0 Warning(s) [in 638 ms]
+[2014.12.09-20.34.58:433][ 42]BlueprintEditorCompileResults:Error: Error Message node  Quit Button
+Using Interface Hud_Interface_C  must have a self pin connection.
+[2014.12.09-20.34.58:433][ 42]BlueprintEditorCompileResults:Error: Error Message node  Resume Button
+Using Interface Hud_Interface_C  must have a self pin connection.
+[2014.12.09-20.34.58:434][ 42]BlueprintEditorCompileResults:Error: Error Message node  Resume Button
+Using Interface Hud_Interface_C  must have a self pin connection.
+[2014.12.09-20.34.58:434][ 42]BlueprintEditorCompileResults:Error: Error Message node  Quit Button
+Using Interface Hud_Interface_C  must have a self pin connection.
+[2014.12.09-20.34.58:434][ 42]BlueprintEditorCompileResults:Error: Error Found more than one function with the same name ShowDebugHud; second occurance at  (none) 
+[2014.12.09-20.34.58:434][ 42]BlueprintEditorCompileResults:Warning: Warning [0958.74] Compile of DebugHud failed. 5 Fatal Issue(s) 0 Warning(s) [in 638 ms]
+[2014.12.09-20.35.10:857][225]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-20.36.03:325][  5]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-20.36.44:844][600]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-20.36.46:656][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameComponents/DebugHud" FILE="E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/GameComponents/DebugHud.uasset" SILENT=true
+[2014.12.09-20.36.56:476][617]LogSavePackage: Save=8758.286133ms
+[2014.12.09-20.36.56:476][617]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/DebugHudA4FC295C4BE15FC9C25CB7B76B2225D8.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/GameComponents/DebugHud.uasset'
+[2014.12.09-20.37.00:195][688]BlueprintLog: New page: Compile DebugHud
+[2014.12.09-20.37.00:570][688]LogBlueprint:Error: [compiler] Error Found more than one function with the same name ShowDebugHud; second occurance at  (none) 
+[2014.12.09-20.37.01:008][688]LogBlueprint:Warning: [compiler] Warning [1081.32] Compile of DebugHud failed. 1 Fatal Issue(s) 0 Warning(s) [in 555 ms]
+[2014.12.09-20.37.01:008][688]BlueprintEditorCompileResults:Error: Error Found more than one function with the same name ShowDebugHud; second occurance at  (none) 
+[2014.12.09-20.37.01:009][688]BlueprintEditorCompileResults:Warning: Warning [1081.32] Compile of DebugHud failed. 1 Fatal Issue(s) 0 Warning(s) [in 555 ms]
+[2014.12.09-20.38.13:732][964]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-20.38.39:457][445]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameComponents/DebugHud" FILE="E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/GameComponents/DebugHud.uasset" SILENT=true
+[2014.12.09-20.38.49:237][445]LogSavePackage: Save=8711.639648ms
+[2014.12.09-20.38.49:237][445]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/DebugHud4EBDE5614E70D3F6B2F969B22E69FC0D.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/GameComponents/DebugHud.uasset'
+[2014.12.09-20.38.51:607][492]BlueprintLog: New page: Compile DebugHud
+[2014.12.09-20.38.51:954][492]LogBlueprint:Error: [compiler] Error Found more than one function with the same name ShowDebugHud; second occurance at  (none) 
+[2014.12.09-20.38.52:376][492]LogBlueprint:Warning: [compiler] Warning [1192.69] Compile of DebugHud failed. 1 Fatal Issue(s) 0 Warning(s) [in 536 ms]
+[2014.12.09-20.38.52:376][492]BlueprintEditorCompileResults:Error: Error Found more than one function with the same name ShowDebugHud; second occurance at  (none) 
+[2014.12.09-20.38.52:376][492]BlueprintEditorCompileResults:Warning: Warning [1192.69] Compile of DebugHud failed. 1 Fatal Issue(s) 0 Warning(s) [in 536 ms]
+[2014.12.09-20.40.04:260][512]LogSavePackage: Save=15679.056641ms
+[2014.12.09-20.40.04:260][512]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/AsteroidMiner_Auto2ABF4951E4A94A40D77D97D834D64BEDD.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/Autosaves/Game/Maps/AsteroidMiner_Auto2.umap'
+[2014.12.09-20.40.04:295][512]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/AsteroidMiner' took 16.941
+[2014.12.09-20.40.04:295][512]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 16.941
+[2014.12.09-20.40.04:321][512]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/GameComponents/DebugHud] ([1] browsable assets)...
+[2014.12.09-20.40.04:321][512]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/GameComponents/DebugHud]
+[2014.12.09-20.40.13:909][512]LogSavePackage: Save=8590.001953ms
+[2014.12.09-20.40.13:909][512]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/DebugHud_Auto2DF2CD2964AA077A876246FA6C83C1B50.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/Autosaves/Game/Blueprints/GameComponents/DebugHud_Auto2.uasset'
+[2014.12.09-20.40.13:932][512]LogFileHelpers: Auto-saving content packages took 9.638
+[2014.12.09-20.42.18:494][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameComponents/DebugHud" FILE="E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/GameComponents/DebugHud.uasset" SILENT=true
+[2014.12.09-20.42.27:772][213]LogSavePackage: Save=8269.784180ms
+[2014.12.09-20.42.27:772][213]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/DebugHudA372B4A44281B6C169DEB6A059C73AD5.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/GameComponents/DebugHud.uasset'
+[2014.12.09-20.42.28:585][231]BlueprintLog: New page: Compile DebugHud
+[2014.12.09-20.42.28:912][231]LogBlueprint:Error: [compiler] Error Found more than one function with the same name ShowDebugHud; second occurance at  (none) 
+[2014.12.09-20.42.29:338][231]LogBlueprint:Warning: [compiler] Warning [1409.65] Compile of DebugHud failed. 1 Fatal Issue(s) 0 Warning(s) [in 535 ms]
+[2014.12.09-20.42.29:338][231]BlueprintEditorCompileResults:Error: Error Found more than one function with the same name ShowDebugHud; second occurance at  (none) 
+[2014.12.09-20.42.29:338][231]BlueprintEditorCompileResults:Warning: Warning [1409.65] Compile of DebugHud failed. 1 Fatal Issue(s) 0 Warning(s) [in 535 ms]
+[2014.12.09-20.43.15:445][143]BlueprintLog: New page: Compile DebugHud
+[2014.12.09-20.43.15:783][143]LogBlueprint:Error: [compiler] Error Found more than one function with the same name ShowDebugHud; second occurance at  ShowDebugHud 
+[2014.12.09-20.43.16:187][143]LogBlueprint:Warning: [compiler] Warning [1456.50] Compile of DebugHud failed. 1 Fatal Issue(s) 0 Warning(s) [in 512 ms]
+[2014.12.09-20.43.16:187][143]BlueprintEditorCompileResults:Error: Error Found more than one function with the same name ShowDebugHud; second occurance at  ShowDebugHud 
+[2014.12.09-20.43.16:187][143]BlueprintEditorCompileResults:Warning: Warning [1456.50] Compile of DebugHud failed. 1 Fatal Issue(s) 0 Warning(s) [in 512 ms]
+[2014.12.09-20.43.30:573][400]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameComponents/DebugHud" FILE="E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/GameComponents/DebugHud.uasset" SILENT=true
+[2014.12.09-20.43.39:815][400]LogSavePackage: Save=8259.961914ms
+[2014.12.09-20.43.39:815][400]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/DebugHud415D86CB471604DB7E8F89A357181DCD.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/GameComponents/DebugHud.uasset'
+[2014.12.09-20.43.47:227][435]BlueprintLog: New page: Compile DebugHud
+[2014.12.09-20.43.47:565][435]LogBlueprint:Error: [compiler] Error Found more than one function with the same name ShowDebugHud; second occurance at  (none) 
+[2014.12.09-20.43.48:009][435]LogBlueprint:Warning: [compiler] Warning [1488.32] Compile of DebugHud failed. 1 Fatal Issue(s) 0 Warning(s) [in 557 ms]
+[2014.12.09-20.43.48:009][435]BlueprintEditorCompileResults:Error: Error Found more than one function with the same name ShowDebugHud; second occurance at  (none) 
+[2014.12.09-20.43.48:009][435]BlueprintEditorCompileResults:Warning: Warning [1488.32] Compile of DebugHud failed. 1 Fatal Issue(s) 0 Warning(s) [in 557 ms]
+[2014.12.09-20.44.29:957][293]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/MoonMinerGameMode.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-20.44.29:963][293]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/AsteroidMinerGameMode.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-20.45.59:102][903]BlueprintLog: New page: Compile DebugHud
+[2014.12.09-20.45.59:977][903]BlueprintEditorCompileResults: Info [1620.29] Compile of DebugHud successful! [in 636 ms]
+[2014.12.09-20.46.02:222][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameComponents/DebugHud" FILE="E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/GameComponents/DebugHud.uasset" SILENT=true
+[2014.12.09-20.46.11:630][926]LogSavePackage: Save=8398.870117ms
+[2014.12.09-20.46.11:630][926]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/DebugHud4EBAAC654B9B11C549949CA63F3BC91C.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/GameComponents/DebugHud.uasset'
+[2014.12.09-20.46.17:340][ 47]Cmd: TRANSACTION UNDO
+[2014.12.09-20.46.17:340][ 47]LogEditorTransaction: Undo Move Node
+[2014.12.09-20.46.17:698][ 47]LogEditorTransaction: Undo Create Pin Link
+[2014.12.09-20.46.18:703][ 48]LogEditorTransaction: Undo Create Pin Link
+[2014.12.09-20.46.19:718][ 49]LogEditorTransaction: Undo Create Pin Link
+[2014.12.09-20.46.21:480][ 67]LogEditorTransaction: Undo Move Node
+[2014.12.09-20.46.22:959][ 79]LogEditorTransaction: Undo Add Node
+[2014.12.09-20.46.24:556][ 93]LogEditorTransaction: Undo Delete current selection
+[2014.12.09-20.46.26:262][108]LogEditorTransaction: Undo Delete current selection
+[2014.12.09-20.46.28:126][128]LogEditorTransaction: Undo Rename Node
+[2014.12.09-20.46.30:169][152]LogEditorTransaction: Redo Rename Node
+[2014.12.09-20.46.30:790][152]LogEditorTransaction: Redo Delete current selection
+[2014.12.09-20.46.31:261][152]LogEditorTransaction: Redo Delete current selection
+[2014.12.09-20.46.31:736][152]LogEditorTransaction: Redo Add Node
+[2014.12.09-20.46.32:228][152]LogEditorTransaction: Redo Move Node
+[2014.12.09-20.46.32:664][152]LogEditorTransaction: Redo Create Pin Link
+[2014.12.09-20.46.59:712][721]Cmd: TRANSACTION REDO
+[2014.12.09-20.46.59:712][721]LogEditorTransaction: Redo Create Pin Link
+[2014.12.09-20.47.00:958][722]LogEditorTransaction: Redo Create Pin Link
+[2014.12.09-20.47.01:501][722]LogEditorTransaction: Redo Move Node
+[2014.12.09-20.47.25:874][ 66]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-20.47.35:382][209]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-20.48.14:185][864]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-20.48.20:819][977]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameComponents/DebugHud" FILE="E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/GameComponents/DebugHud.uasset" SILENT=true
+[2014.12.09-20.48.30:440][977]LogSavePackage: Save=8586.335938ms
+[2014.12.09-20.48.30:440][977]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/DebugHud34B53CAB44EF80FF168F239FABCDAB19.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/GameComponents/DebugHud.uasset'
+[2014.12.09-20.48.42:709][233]BlueprintLog: New page: Compile DebugHud
+[2014.12.09-20.48.43:897][233]BlueprintEditorCompileResults: Info [1784.21] Compile of DebugHud successful! [in 969 ms]
+[2014.12.09-20.48.54:251][663]LogSavePackage: Save=99.509941ms
+[2014.12.09-20.48.54:251][663]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/Hud_InterfaceBA6B2C0A4853184565196EA4871684C2.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/GameComponents/Hud_Interface.uasset'
+[2014.12.09-20.48.54:707][714]BlueprintLog: New page: Compile Hud_Interface
+[2014.12.09-20.48.54:835][714]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003F9DE1D080
+[2014.12.09-20.48.55:601][714]BlueprintEditorCompileResults: Info [1795.91] Compile of Hud_Interface successful! [in 891 ms]
+[2014.12.09-20.49.27:391][243]LogSavePackage: Save=73.909790ms
+[2014.12.09-20.49.27:391][243]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/Hud_InterfaceE85CF69C4BAB2BA332A07A80955E8009.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/GameComponents/Hud_Interface.uasset'
+[2014.12.09-20.49.27:872][296]BlueprintLog: New page: Compile Hud_Interface
+[2014.12.09-20.49.28:738][296]BlueprintEditorCompileResults: Info [1829.05] Compile of Hud_Interface successful! [in 863 ms]
+[2014.12.09-20.49.34:093][501]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameComponents/DebugHud" FILE="E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/GameComponents/DebugHud.uasset" SILENT=true
+[2014.12.09-20.49.43:359][501]LogSavePackage: Save=8291.813477ms
+[2014.12.09-20.49.43:359][501]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/DebugHudAE8A38334907B231BB8617A56638667D.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/GameComponents/DebugHud.uasset'
+[2014.12.09-20.49.44:255][520]BlueprintLog: New page: Compile DebugHud
+[2014.12.09-20.49.44:574][520]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "None" in 'DebugHud_C'.
+Make sure 'DebugHud_C' has been compiled for  (none) 
+[2014.12.09-20.49.44:574][520]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "None" in 'DebugHud_C'.
+Make sure 'DebugHud_C' has been compiled for  (none) 
+[2014.12.09-20.49.44:588][520]LogBlueprint:Error: [compiler] Error Found more than one function with the same name QuitButton; second occurance at  (none) 
+[2014.12.09-20.49.44:588][520]LogBlueprint:Error: [compiler] Error Found more than one function with the same name ResumeButton; second occurance at  (none) 
+[2014.12.09-20.49.45:191][520]LogBlueprint:Warning: [compiler] Warning [1845.50] Compile of DebugHud failed. 2 Fatal Issue(s) 2 Warning(s) [in 719 ms]
+[2014.12.09-20.49.45:191][520]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "None" in 'DebugHud_C'.
+Make sure 'DebugHud_C' has been compiled for  (none) 
+[2014.12.09-20.49.45:191][520]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "None" in 'DebugHud_C'.
+Make sure 'DebugHud_C' has been compiled for  (none) 
+[2014.12.09-20.49.45:192][520]BlueprintEditorCompileResults:Error: Error Found more than one function with the same name QuitButton; second occurance at  (none) 
+[2014.12.09-20.49.45:192][520]BlueprintEditorCompileResults:Error: Error Found more than one function with the same name ResumeButton; second occurance at  (none) 
+[2014.12.09-20.49.45:192][520]BlueprintEditorCompileResults:Warning: Warning [1845.50] Compile of DebugHud failed. 2 Fatal Issue(s) 2 Warning(s) [in 719 ms]
+[2014.12.09-20.50.11:949][135]LogSavePackage: Save=77.081047ms
+[2014.12.09-20.50.11:950][135]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/Hud_InterfaceEB189CF2419D30BC8E138AAA4E4B8D60.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/GameComponents/Hud_Interface.uasset'
+[2014.12.09-20.50.12:771][203]BlueprintLog: New page: Compile Hud_Interface
+[2014.12.09-20.50.13:706][203]BlueprintEditorCompileResults: Info [1874.02] Compile of Hud_Interface successful! [in 932 ms]
+[2014.12.09-20.50.15:527][261]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: TabBeingDraggedPtr.IsValid() [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.6\Engine\Source\Runtime\Slate\Private\Framework\Docking\SDockingTabWell.cpp] [Line: 369]
+
+Stack: 
+UE4Editor-Core.dll!UnknownFunction (0x00007ffd18a44766) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffd188c2e88) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffd1839aa09) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffd18348626) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffd183062cd) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffd183ab4c5) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffd1839c226) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffd189ae9d9) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffd1899a1eb) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffd189afbab) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffd18996ce2) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ffd34e02434) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ffd34e02297) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffd189b0066) + 0 bytes [UnknownFile:0]
+UE4Editor.exe!FEngineLoop::Tick() (0x00007ff674f4cbda) + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\launchengineloop.cpp:2193]
+UE4Editor.exe!GuardedMain() (0x00007ff674f4089f) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\launch.cpp:131]
+UE4Editor.exe!GuardedMainWrapper() (0x00007ff674f4090a) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() (0x00007ff674f4e3d9) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\windows\launchwindows.cpp:202]
+UE4Editor.exe!__tmainCRTStartup() (0x00007ff674f4f319) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL!UnknownFunction (0x00007ffd356816ad) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffd35ed4409) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffd35ed4409) + 0 bytes [UnknownFile:0]
+
+[2014.12.09-20.50.33:236][262]LogSavePackage: Save=15490.682617ms
+[2014.12.09-20.50.33:237][262]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/AsteroidMiner_Auto3D9C1899E4A1EDF92A978CAB142082FE1.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/Autosaves/Game/Maps/AsteroidMiner_Auto3.umap'
+[2014.12.09-20.50.33:268][262]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/AsteroidMiner' took 16.771
+[2014.12.09-20.50.33:268][262]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 16.771
+[2014.12.09-20.50.33:295][262]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/GameComponents/DebugHud] ([1] browsable assets)...
+[2014.12.09-20.50.33:295][262]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/GameComponents/DebugHud]
+[2014.12.09-20.50.42:644][262]LogSavePackage: Save=8363.101563ms
+[2014.12.09-20.50.42:644][262]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/DebugHud_Auto321180F224BE00070A12CF7ADE6E6F62C.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/Autosaves/Game/Blueprints/GameComponents/DebugHud_Auto3.uasset'
+[2014.12.09-20.50.42:666][262]LogFileHelpers: Auto-saving content packages took 9.397
+[2014.12.09-20.50.45:240][300]BlueprintLog: New page: Compile DebugHud
+[2014.12.09-20.50.45:580][300]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "None" in 'DebugHud_C'.
+Make sure 'DebugHud_C' has been compiled for  (none) 
+[2014.12.09-20.50.45:581][300]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "None" in 'DebugHud_C'.
+Make sure 'DebugHud_C' has been compiled for  (none) 
+[2014.12.09-20.50.45:595][300]LogBlueprint:Error: [compiler] Error Found more than one function with the same name QuitButton; second occurance at  (none) 
+[2014.12.09-20.50.45:595][300]LogBlueprint:Error: [compiler] Error Found more than one function with the same name ResumeButton; second occurance at  (none) 
+[2014.12.09-20.50.46:107][300]LogBlueprint:Warning: [compiler] Warning [1906.42] Compile of DebugHud failed. 2 Fatal Issue(s) 2 Warning(s) [in 630 ms]
+[2014.12.09-20.50.46:107][300]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "None" in 'DebugHud_C'.
+Make sure 'DebugHud_C' has been compiled for  (none) 
+[2014.12.09-20.50.46:107][300]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "None" in 'DebugHud_C'.
+Make sure 'DebugHud_C' has been compiled for  (none) 
+[2014.12.09-20.50.46:108][300]BlueprintEditorCompileResults:Error: Error Found more than one function with the same name QuitButton; second occurance at  (none) 
+[2014.12.09-20.50.46:108][300]BlueprintEditorCompileResults:Error: Error Found more than one function with the same name ResumeButton; second occurance at  (none) 
+[2014.12.09-20.50.46:108][300]BlueprintEditorCompileResults:Warning: Warning [1906.42] Compile of DebugHud failed. 2 Fatal Issue(s) 2 Warning(s) [in 630 ms]
+[2014.12.09-20.51.07:743][699]BlueprintLog: New page: Compile DebugHud
+[2014.12.09-20.51.08:056][699]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "None" in 'DebugHud_C'.
+Make sure 'DebugHud_C' has been compiled for  (none) 
+[2014.12.09-20.51.08:057][699]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "None" in 'DebugHud_C'.
+Make sure 'DebugHud_C' has been compiled for  (none) 
+[2014.12.09-20.51.08:070][699]LogBlueprint:Error: [compiler] Error Found more than one function with the same name QuitButton; second occurance at  (none) 
+[2014.12.09-20.51.08:070][699]LogBlueprint:Error: [compiler] Error Found more than one function with the same name ResumeButton; second occurance at  (none) 
+[2014.12.09-20.51.08:551][699]LogBlueprint:Warning: [compiler] Warning [1928.86] Compile of DebugHud failed. 2 Fatal Issue(s) 2 Warning(s) [in 586 ms]
+[2014.12.09-20.51.08:551][699]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "None" in 'DebugHud_C'.
+Make sure 'DebugHud_C' has been compiled for  (none) 
+[2014.12.09-20.51.08:552][699]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "None" in 'DebugHud_C'.
+Make sure 'DebugHud_C' has been compiled for  (none) 
+[2014.12.09-20.51.08:552][699]BlueprintEditorCompileResults:Error: Error Found more than one function with the same name QuitButton; second occurance at  (none) 
+[2014.12.09-20.51.08:552][699]BlueprintEditorCompileResults:Error: Error Found more than one function with the same name ResumeButton; second occurance at  (none) 
+[2014.12.09-20.51.08:552][699]BlueprintEditorCompileResults:Warning: Warning [1928.86] Compile of DebugHud failed. 2 Fatal Issue(s) 2 Warning(s) [in 586 ms]
+[2014.12.09-20.51.42:259][188]BlueprintLog: New page: Compile DebugHud
+[2014.12.09-20.51.42:573][188]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "None" in 'DebugHud_C'.
+Make sure 'DebugHud_C' has been compiled for  Set K2Node_Event_Quit_ 
+[2014.12.09-20.51.42:574][188]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "None" in 'DebugHud_C'.
+Make sure 'DebugHud_C' has been compiled for  Set K2Node_Event_Resume_ 
+[2014.12.09-20.51.42:587][188]LogBlueprint:Error: [compiler] Error The property associated with  K2Node Event Quit   could not be found
+[2014.12.09-20.51.42:588][188]LogBlueprint:Error: [compiler] Error The property associated with  K2Node Event Resume   could not be found
+[2014.12.09-20.51.43:061][188]LogBlueprint:Warning: [compiler] Warning [1963.37] Compile of DebugHud failed. 2 Fatal Issue(s) 2 Warning(s) [in 581 ms]
+[2014.12.09-20.51.43:061][188]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "None" in 'DebugHud_C'.
+Make sure 'DebugHud_C' has been compiled for  Set K2Node_Event_Quit_ 
+[2014.12.09-20.51.43:062][188]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "None" in 'DebugHud_C'.
+Make sure 'DebugHud_C' has been compiled for  Set K2Node_Event_Resume_ 
+[2014.12.09-20.51.43:062][188]BlueprintEditorCompileResults:Error: Error The property associated with  K2Node Event Quit   could not be found
+[2014.12.09-20.51.43:062][188]BlueprintEditorCompileResults:Error: Error The property associated with  K2Node Event Resume   could not be found
+[2014.12.09-20.51.43:062][188]BlueprintEditorCompileResults:Warning: Warning [1963.37] Compile of DebugHud failed. 2 Fatal Issue(s) 2 Warning(s) [in 581 ms]
+[2014.12.09-20.51.57:163][466]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.12.09-20.51.57:163][466]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/GameComponents'
+[2014.12.09-20.52.19:517][754]BlueprintLog: New page: Compile DebugHud
+[2014.12.09-20.52.20:285][754]BlueprintEditorCompileResults: Info [2000.60] Compile of DebugHud successful! [in 541 ms]
+[2014.12.09-20.52.48:199][247]BlueprintLog: New page: Compile DebugHud
+[2014.12.09-20.52.48:904][247]BlueprintEditorCompileResults: Info [2029.22] Compile of DebugHud successful! [in 492 ms]
+[2014.12.09-20.53.23:099][823]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-20.53.32:192][973]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-20.53.45:204][172]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-20.53.57:071][399]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameComponents/DebugHud" FILE="E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/GameComponents/DebugHud.uasset" SILENT=true
+[2014.12.09-20.54.06:459][399]LogSavePackage: Save=8360.072266ms
+[2014.12.09-20.54.06:459][399]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/DebugHud059383B0441862ADAD9B1EAA6BF375AF.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/GameComponents/DebugHud.uasset'
+[2014.12.09-20.54.08:021][428]BlueprintLog: New page: Compile DebugHud
+[2014.12.09-20.54.08:812][428]BlueprintEditorCompileResults: Info [2109.12] Compile of DebugHud successful! [in 550 ms]
+[2014.12.09-20.54.54:226][560]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.12.09-20.54.57:199][712]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/AI'
+[2014.12.09-20.54.57:832][738]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/AI/BehaviourTreeTasks'
+[2014.12.09-20.55.12:677][876]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/AI/BehaviourTreeTasks'
+[2014.12.09-20.56.06:303][809]BlueprintLog: New page: Compile CheckStateBTT
+[2014.12.09-20.56.06:453][809]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003FB9BB8FE0
+[2014.12.09-20.56.06:495][809]BlueprintEditorCompileResults: Info [2226.81] Compile of CheckStateBTT successful! [in 189 ms]
+[2014.12.09-20.56.07:579][832]LogSavePackage: Save=104.370331ms
+[2014.12.09-20.56.07:579][832]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/CheckStateBTTD6ED55A84A525D70181FA89C24A34737.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/AI/BehaviourTreeTasks/CheckStateBTT.uasset'
+[2014.12.09-20.58.59:245][ 39]LogEditorTransaction: Undo Delete current selection
+[2014.12.09-20.59.07:705][286]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-20.59.07:706][286]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-20.59.07:706][286]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-20.59.07:707][286]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/BehaviourTreeTasks/CheckStateBTT.CheckStateBTT:EventGraph.K2Node_CallFunction_29650 or K2Node_CallFunction /Engine/Transient.EdGraph_1192:K2Node_CallFunction_29650
+[2014.12.09-20.59.07:707][286]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Engine/Transient.EdGraph_1192:K2Node_CallFunction_29650.EdGraphPin_80617) from referencer (EdGraphPin /Game/Blueprints/AI/BehaviourTreeTasks/CheckStateBTT.CheckStateBTT:EventGraph.K2Node_VariableGet_10955.EdGraphPin_80417).  Import failed...
+[2014.12.09-20.59.07:707][286]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_29650.EdGraphPin_80617"''
+[2014.12.09-20.59.07:708][286]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/BehaviourTreeTasks/CheckStateBTT.CheckStateBTT:EventGraph.K2Node_IfThenElse_840 or K2Node_IfThenElse /Engine/Transient.EdGraph_1192:K2Node_IfThenElse_840
+[2014.12.09-20.59.07:708][286]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Engine/Transient.EdGraph_1192:K2Node_IfThenElse_840.EdGraphPin_80621) from referencer (EdGraphPin /Game/Blueprints/AI/BehaviourTreeTasks/CheckStateBTT.CheckStateBTT:EventGraph.K2Node_CallFunction_29650.EdGraphPin_80613).  Import failed...
+[2014.12.09-20.59.07:708][286]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_840.EdGraphPin_80621"''
+[2014.12.09-20.59.22:714][689]LogSavePackage: Save=289.192719ms
+[2014.12.09-20.59.22:714][689]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/CheckStateBTT319013DF45A745501BC2C6B2836C9C0E.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/AI/BehaviourTreeTasks/CheckStateBTT.uasset'
+[2014.12.09-20.59.23:609][716]BlueprintLog: New page: Compile CheckStateBTT
+[2014.12.09-20.59.23:828][716]BlueprintEditorCompileResults: Info [2424.14] Compile of CheckStateBTT successful! [in 211 ms]
+[2014.12.09-20.59.42:859][291]LogSavePackage: Save=318.859802ms
+[2014.12.09-20.59.42:860][291]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/CheckStateBTT70362293462421B35895DA8B09BC37DC.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/AI/BehaviourTreeTasks/CheckStateBTT.uasset'
+[2014.12.09-20.59.45:758][399]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/AI'
+[2014.12.09-21.00.10:418][370]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-21.00.10:418][370]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-21.00.10:418][370]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"BehaviorTreeGraphNode_Task_27.EdGraphPin_80901"''
+[2014.12.09-21.00.10:419][370]LogProperty:Warning: ObjectProperty /Script/AIModule.BTCompositeNode:BTCompositeChild.ChildTask: unresolved reference to 'CheckStateBTT_C'"BehaviorTreeGraphNode_Task_27.CheckStateBTT_C_1"')'
+[2014.12.09-21.00.10:419][370]LogProperty:Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_2.BTComposite_Sequence_1"''
+[2014.12.09-21.00.22:266][343]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/ShipBT" FILE="E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/AI/ShipBT.uasset" SILENT=true
+[2014.12.09-21.00.23:546][343]LogSavePackage: Save=246.970215ms
+[2014.12.09-21.00.23:546][343]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/ShipBTA60935404A79919B18A8EFB131F44EFD.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/AI/ShipBT.uasset'
+[2014.12.09-21.00.23:595][343]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/ShipBB" FILE="E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/AI/ShipBB.uasset" SILENT=true
+[2014.12.09-21.00.24:603][343]LogSavePackage: Save=13.555461ms
+[2014.12.09-21.00.24:603][343]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/ShipBB28D7A60D46899FD10218CC8FB2DC8646.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/AI/ShipBB.uasset'
+[2014.12.09-21.00.27:579][531]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.09-21.00.27:586][531]LogPlayLevel: [PIE] Compiling BotShip before PIE...
+[2014.12.09-21.00.27:648][531]LogOutputDevice:Warning: 
+
+Script Stack:
+AsteroidMiner_C.ExecuteUbergraph_AsteroidMiner
+AsteroidMiner_C.BndEvt__BotShip_6_K2Node_ActorBoundEvent_407_ActorDestroyedSignature__DelegateSignature
+
+[2014.12.09-21.00.27:648][531]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2014.12.09-21.00.27:648][531]LogCrashTracker: 
+
+
+[2014.12.09-21.00.28:148][531]LogCrashTracker: 
+
+
+[2014.12.09-21.00.28:148][531]LogWindows: === Critical error: ===
+Assertion failed: PC [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.6\Engine\Source\Runtime\Engine\Private\GameplayStatics.cpp] [Line: 131] 
+
+
+
+KERNELBASE.dll!UnknownFunction (0x00007ffd334a606c) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffd18a42f6d) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffd188d60e8) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffd188b9182) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffd130fdbb7) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffd12e36e61) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b3b9af4) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b47943f) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b4973bd) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b4ba46a) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b498a5e) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b47999a) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b4bbd74) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b498a5e) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b3b9af4) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b4981c6) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffd12ef0851) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffd12e56bf8) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffd12ea304c) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffd13204f97) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffd1320ff43) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffd11c7a12b) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffd11c736f8) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffd11c4b703) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffd11738a5a) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffd11751ee3) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffd11497e53) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffd11940686) + 0 bytes [UnknownFile:0]
+UE4Editor.exe!FEngineLoop::Tick() (0x00007ff674f4cd94) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\launchengineloop.cpp:2214]
+UE4Editor.exe!GuardedMain() (0x00007ff674f4089f) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\launch.cpp:131]
+UE4Editor.exe!GuardedMainWrapper() (0x00007ff674f4090a) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() (0x00007ff674f4e3d9) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\windows\launchwindows.cpp:202]
+UE4Editor.exe!__tmainCRTStartup() (0x00007ff674f4f319) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL!UnknownFunction (0x00007ffd356816ad) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffd35ed4409) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffd35ed4409) + 0 bytes [UnknownFile:0]
+
+
+[2014.12.09-21.00.28:449][531]LogExit: Executing StaticShutdownAfterError
+[2014.12.09-21.00.28:458][531]LogWindows: FPlatformMisc::RequestExit(1)
+[2014.12.09-21.00.28:458][531]Log file closed, 12/09/14 21:00:28

@@ -1,0 +1,2104 @@
+﻿Log file open, 12/09/14 13:52:06
+LogInit:Display: Running engine for game: AsteroidMiner
+LogInit: Version: 4.6.0-2369412+++depot+UE4-Releases+4.6
+LogInit: API Version: 2369412
+LogInit: Compiled (64-bit): Nov 24 2014 21:54:04
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.6
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.6/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.12.09-13.52.06:741][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2014.12.09-13.52.06:800][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.12.09-13.52.06:832][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.12.09-13.52.06:846][  0]LogInit: Object subsystem initialized
+[2014.12.09-13.52.06:849][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2014.12.09-13.52.06:849][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.09-13.52.06:849][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2014.12.09-13.52.06:849][  0]LogInit: Selected Device Profile: [Windows]
+[2014.12.09-13.52.06:849][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.12.09-13.52.06:879][  0]LogInit: Computer: LLOYDS_PC
+[2014.12.09-13.52.06:879][  0]LogInit: User: 10021000
+[2014.12.09-13.52.06:879][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.12.09-13.52.06:879][  0]LogInit: High frequency timer resolution =2.337877 MHz
+[2014.12.09-13.52.06:880][  0]LogMemory: Memory total: Physical=5.9GB (6GB approx) Virtual=131072.0GB
+[2014.12.09-13.52.06:880][  0]LogMemory: Platform Memory Stats for Windows
+[2014.12.09-13.52.06:880][  0]LogMemory: Process Physical Memory: 47.24 MB used, 47.24 MB peak
+[2014.12.09-13.52.06:880][  0]LogMemory: Process Virtual Memory: 23.13 MB used, 24.41 MB peak
+[2014.12.09-13.52.06:880][  0]LogMemory: Physical Memory: 2538.18 MB used, 6077.92 MB total
+[2014.12.09-13.52.06:880][  0]LogMemory: Virtual Memory: 269.23 MB used, 134217728.00 MB total
+[2014.12.09-13.52.06:923][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 680 (Feature Level 11_0)
+[2014.12.09-13.52.06:924][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2014.12.09-13.52.06:926][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.12.09-13.52.06:926][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.12.09-13.52.06:926][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.12.09-13.52.06:934][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.12.09-13.52.06:953][  0]LogD3D11RHI: Async texture creation enabled
+[2014.12.09-13.52.07:031][  0]LogTextLocalizationManager: The requested culture ('en_GB') has no localization data; parent culture's ('en') localization data will be used.
+[2014.12.09-13.52.07:261][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.12.09-13.52.16:854][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.09-13.52.17:703][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.09-13.52.17:801][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.12.09-13.52.17:923][  0]LogDerivedDataCache: Loaded boot cache 0.12s 39MB C:/Users/10021_000/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2014.12.09-13.52.17:923][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/10021_000/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2014.12.09-13.52.17:926][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.12.09-13.52.17:926][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.12.09-13.52.18:024][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.12.09-13.52.18:037][  0]LogDerivedDataCache: Using Local data cache path C:/Users/10021_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2014.12.09-13.52.18:270][  0]LogCollisionProfile:Warning: Profile (Trigger) - Custom Channel Name = 'Projectile' hasn't been found
+[2014.12.09-13.52.18:270][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2014.12.09-13.52.18:270][  0]LogCollisionProfile:Warning: Profile (Projectile) ObjectTypeName (Projectile) is invalid. 
+[2014.12.09-13.52.18:534][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.12.09-13.52.18:534][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.12.09-13.52.19:283][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.12.09-13.52.19:386][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2014.12.09-13.52.20:880][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.12.09-13.52.21:152][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Binaries/Win64. Error: 0
+[2014.12.09-13.52.21:489][  0]SourceControl: Info Source control is disabled
+[2014.12.09-13.52.21:489][  0]SourceControl: Info Source control is disabled
+[2014.12.09-13.52.21:502][  0]SourceControl: Info Source control is disabled
+[2014.12.09-13.52.21:734][  0]LogObj: 23754 objects as part of root set at end of initial load.
+[2014.12.09-13.52.21:734][  0]LogUObjectAllocator: 5168136 out of 0 bytes used by permanent object pool.
+[2014.12.09-13.52.21:832][  0]LogEngine: Initializing Engine...
+[2014.12.09-13.52.22:179][  0]LogInit: XAudio2 using '37'' TFT-TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2014.12.09-13.52.22:195][  0]LogInit: FAudioDevice initialized.
+[2014.12.09-13.52.22:234][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.12.09-13.52.22:308][  0]LogDerivedDataCache: Saved boot cache 0.07s 39MB C:/Users/10021_000/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2014.12.09-13.52.22:341][  0]LogInit: Texture streaming: Enabled
+[2014.12.09-13.52.22:398][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2014.12.09-13.52.22:398][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.0-2369412+++depot+UE4-Releases+4.6
+[2014.12.09-13.52.22:400][  0]LogAnalytics: SetUserId a29c071cf10a93fac0ff457d50595e17
+[2014.12.09-13.52.22:400][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2014.12.09-13.52.22:427][  0]LogInit: Transaction tracking system initialized
+[2014.12.09-13.52.22:791][  0]BlueprintLog: New page: Editor Load
+[2014.12.09-13.52.22:927][  0]LogAssetRegistry: FAssetRegistry took 0.0183 seconds to start up
+[2014.12.09-13.52.22:930][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2014.12.09-13.52.24:096][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.09-13.52.24:829][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.09-13.52.25:281][  0]LogConsoleResponse:Display: 
+[2014.12.09-13.52.25:390][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-13.52.25:922][  0]SourceControl: Info Source control is disabled
+[2014.12.09-13.52.33:839][  0]Cmd: MAP LOAD FILE="E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Maps/AsteroidMiner.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.09-13.52.33:845][  0]LightingResults: New page: Lighting Build
+[2014.12.09-13.52.33:869][  0]MapCheck: New page: Map Check
+[2014.12.09-13.52.33:869][  0]LightingResults: New page: Lighting Build
+[2014.12.09-13.52.33:894][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000002E5C79940
+[2014.12.09-13.52.34:122][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/M_SkyBox.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-13.52.34:125][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Textures/HighResSkyBox.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-13.52.34:164][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/AI/BotShip.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-13.52.34:167][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/AI/ShipAIController.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-13.52.34:777][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Meshes/DetailedSun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-13.52.34:780][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/M_Sun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-13.52.34:785][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Textures/T_Fire.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-13.52.35:528][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/Objects/B_Asteroid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-13.52.35:533][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Meshes/Rock.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-13.52.35:535][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/M_Asteroid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-13.52.35:593][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/Outliner/PP_Outliner_Inst.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-13.52.35:596][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/Outliner/PP_Outliner_M.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-13.52.35:603][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/Outliner/MF_ConvolveTexture.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-13.52.35:614][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/Outliner/MF_ExtractDepth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-13.52.35:620][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/Outliner/MF_SampleSceneTextureNeighbourUVs.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-13.52.35:699][  0]LogBlueprint:Warning: [compiler] Warning  Remove from Viewport  is deprecated; Use RemoveFromParent instead
+[2014.12.09-13.52.35:700][  0]LogBlueprint:Warning: [compiler] Warning [0031.88] Compile of GameOverWidget successful, but with 1 Warning(s) [in 8 ms]
+[2014.12.09-13.52.35:704][  0]LogBlueprint:Warning: [compiler] Warning  Remove from Viewport  is deprecated; Use RemoveFromParent instead
+[2014.12.09-13.52.35:705][  0]LogBlueprint:Warning: [compiler] Warning [0031.89] Compile of GameOverWidget successful, but with 1 Warning(s) [in 3 ms]
+[2014.12.09-13.52.35:706][  0]LogBlueprint:Warning: [compiler] Warning [0031.89] Compile of GameOverWidget successful, but with 2 Warning(s) [in 0 ms]
+[2014.12.09-13.52.35:748][  0]LogBlueprint:Warning: [compiler] Warning  Remove from Viewport  is deprecated; Use RemoveFromParent instead
+[2014.12.09-13.52.35:750][  0]LogBlueprint:Warning: [compiler] Warning [0031.93] Compile of PauseMenuWidget successful, but with 1 Warning(s) [in 8 ms]
+[2014.12.09-13.52.35:755][  0]LogBlueprint:Warning: [compiler] Warning  Remove from Viewport  is deprecated; Use RemoveFromParent instead
+[2014.12.09-13.52.35:756][  0]LogBlueprint:Warning: [compiler] Warning [0031.94] Compile of PauseMenuWidget successful, but with 1 Warning(s) [in 4 ms]
+[2014.12.09-13.52.35:756][  0]LogBlueprint:Warning: [compiler] Warning [0031.94] Compile of PauseMenuWidget successful, but with 2 Warning(s) [in 0 ms]
+[2014.12.09-13.52.37:456][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.09-13.52.37:456][  0]LogAIModule: Creating AISystem for world AsteroidMiner
+[2014.12.09-13.52.37:457][  0]Cmd: MAP CHECKDEP
+[2014.12.09-13.52.37:458][  0]MapCheck: New page: AsteroidMiner - 9 Dec 2014 13:52:37
+[2014.12.09-13.52.37:708][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 250.547ms to complete.
+[2014.12.09-13.52.37:708][  0]LogFileHelpers: Loading map 'AsteroidMiner' took 3.870
+[2014.12.09-13.52.37:780][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_ff4_0///////STATCAT_Advanced//// old //STATGROUP_Threads//SplashScreenThread///Thread_d70_0///////STATCAT_Advanced////
+[2014.12.09-13.52.37:780][  0]LogCollectionManager: Loaded 0 collections in 0.002894 seconds
+[2014.12.09-13.52.37:945][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.12.09-13.52.37:955][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2014.12.09-13.52.37:984][  0]LogLoad: Full Startup: 34.17 seconds (BP compile: 1.07 seconds)
+[2014.12.09-13.52.37:999][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/AI'
+[2014.12.09-13.52.38:288][  0]LogRenderer:Warning: Reallocating scene render targets to support 768x872.
+[2014.12.09-13.52.38:932][  4]LogAssetRegistry: Asset discovery search completed in 16.0234 seconds
+[2014.12.09-13.52.38:952][  4]LogAnalytics: Event Editor.Usage.AssetClasses has too many attributes (41). May be truncated at the collector.
+[2014.12.09-13.52.41:746][102]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/MoonMinerGameMode.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-13.52.41:749][102]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/AsteroidMinerGameMode.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-13.52.57:901][360]BlueprintLog: New page: Compile AsteroidMiner
+[2014.12.09-13.52.58:931][360]BlueprintEditorCompileResults: Info [0055.12] Compile of AsteroidMiner successful! [in 610 ms]
+[2014.12.09-13.53.01:552][383]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/AsteroidMiner" FILE="E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Maps/AsteroidMiner.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.12.09-13.53.20:358][383]LogSavePackage: Save=17860.003906ms
+[2014.12.09-13.53.20:358][383]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/AsteroidMiner27BEA48A4F4BE6CFD3C2DD923232016C.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Maps/AsteroidMiner.umap'
+[2014.12.09-13.53.20:461][383]LogFileHelpers: Saving map 'AsteroidMiner' took 19.156
+[2014.12.09-13.53.29:785][440]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.09-13.53.29:791][440]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2014.12.09-13.53.30:094][440]LogPlayLevel: [PIE] Compiling AsteroidMiner before PIE...
+[2014.12.09-13.53.31:118][440]LogPlayLevel: PIE:  Blueprint regeneration took 1333 ms (2 blueprints)
+[2014.12.09-13.53.31:119][440]PIE: New page: PIE session: AsteroidMiner (9 Dec 2014 13:53:31)
+[2014.12.09-13.53.31:184][440]LogPlayLevel: PIE: StaticDuplicateObject took: (0.064567s)
+[2014.12.09-13.53.31:186][440]LogPlayLevel: PIE: World Init took: (0.002000s)
+[2014.12.09-13.53.31:186][440]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/AsteroidMiner.AsteroidMiner to /Game/Maps/UEDPIE_0_AsteroidMiner.AsteroidMiner (0.066940s)
+[2014.12.09-13.53.31:256][440]LogWorld: Game class is 'AsteroidMinerGameMode_C'
+[2014.12.09-13.53.31:262][440]LogAIModule: Creating AISystem for world AsteroidMiner
+[2014.12.09-13.53.31:264][440]LogWorld: Bringing World /Game/Maps/UEDPIE_0_AsteroidMiner.AsteroidMiner up for play (max tick rate 0) at 2014.12.09-13.53.31
+[2014.12.09-13.53.31:266][440]LogWorld: Bringing up level for play took: 0.004190
+[2014.12.09-13.53.31:271][440]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_AsteroidMiner 2.105
+[2014.12.09-13.53.31:310][440]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.31:310][440]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.31:396][441]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.31:429][442]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.31:456][443]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.31:500][444]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.31:530][445]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.31:565][446]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.31:606][447]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.31:635][448]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.31:663][449]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.31:708][450]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.31:742][451]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.31:773][452]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.31:802][453]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.31:840][454]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.31:870][455]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.31:924][456]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.31:955][457]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.31:987][458]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.32:019][459]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.32:055][460]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.32:087][461]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.32:121][462]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.32:156][463]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.32:185][464]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.32:217][465]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.32:247][466]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.32:288][467]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.32:322][468]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.32:355][469]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.32:384][470]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.32:418][471]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.32:450][472]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.32:481][473]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.32:517][474]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.32:547][475]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.32:575][476]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.32:607][477]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.32:638][478]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.32:664][479]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.32:691][480]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.32:725][481]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.32:754][482]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.32:785][483]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.32:815][484]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.32:848][485]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.32:877][486]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.32:906][487]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.32:935][488]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.32:967][489]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.32:998][490]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.33:030][491]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.33:059][492]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.33:086][493]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.33:118][494]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.33:149][495]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.33:180][496]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.33:211][497]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.33:241][498]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.33:273][499]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.33:304][500]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.33:339][501]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.33:370][502]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.33:404][503]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.33:436][504]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.33:466][505]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.33:513][506]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.33:548][507]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.33:577][508]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.33:616][509]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.33:649][510]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.33:685][511]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.33:729][512]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.33:761][513]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.33:791][514]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.33:849][516]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.53.34:100][517]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000002F4AE18A0
+[2014.12.09-13.53.44:164][650]BlueprintLog: New page: Compile AsteroidMiner
+[2014.12.09-13.53.45:241][650]BlueprintEditorCompileResults: Info [0101.42] Compile of AsteroidMiner successful! [in 614 ms]
+[2014.12.09-13.53.48:035][673]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/AsteroidMiner" FILE="E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Maps/AsteroidMiner.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.12.09-13.54.06:790][673]LogSavePackage: Save=17787.832031ms
+[2014.12.09-13.54.06:790][673]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/AsteroidMinerDF54F3894F5F33E7EE0F9DA5E4D08400.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Maps/AsteroidMiner.umap'
+[2014.12.09-13.54.06:884][673]LogFileHelpers: Saving map 'AsteroidMiner' took 19.123
+[2014.12.09-13.54.30:823][ 97]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/AI/BehaviourTreeTasks'
+[2014.12.09-13.55.04:291][542]LogSavePackage: Save=1215.459961ms
+[2014.12.09-13.55.04:291][542]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/AdjustVelocityBTT15FEBB64443EAA0CE1C4A0871AE17FF9.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/AI/BehaviourTreeTasks/AdjustVelocityBTT.uasset'
+[2014.12.09-13.55.04:727][561]BlueprintLog: New page: Compile AdjustVelocityBTT
+[2014.12.09-13.55.05:018][561]BlueprintEditorCompileResults: Info [0181.20] Compile of AdjustVelocityBTT successful! [in 260 ms]
+[2014.12.09-13.55.09:510][744]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.09-13.55.09:664][744]LogPlayLevel: [PIE] Compiling AsteroidMiner before PIE...
+[2014.12.09-13.55.10:570][744]LogPlayLevel: PIE:  Blueprint regeneration took 1060 ms (1 blueprints)
+[2014.12.09-13.55.10:571][744]PIE: New page: PIE session: AsteroidMiner (9 Dec 2014 13:55:10)
+[2014.12.09-13.55.10:624][744]LogPlayLevel: PIE: StaticDuplicateObject took: (0.053023s)
+[2014.12.09-13.55.10:626][744]LogPlayLevel: PIE: World Init took: (0.001781s)
+[2014.12.09-13.55.10:626][744]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/AsteroidMiner.AsteroidMiner to /Game/Maps/UEDPIE_0_AsteroidMiner.AsteroidMiner (0.055147s)
+[2014.12.09-13.55.10:667][744]LogWorld: Game class is 'AsteroidMinerGameMode_C'
+[2014.12.09-13.55.10:670][744]LogAIModule: Creating AISystem for world AsteroidMiner
+[2014.12.09-13.55.10:673][744]LogWorld: Bringing World /Game/Maps/UEDPIE_0_AsteroidMiner.AsteroidMiner up for play (max tick rate 0) at 2014.12.09-13.55.10
+[2014.12.09-13.55.10:674][744]LogWorld: Bringing up level for play took: 0.003565
+[2014.12.09-13.55.10:678][744]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_AsteroidMiner 1.511
+[2014.12.09-13.55.10:720][744]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.10:720][744]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.10:788][745]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.10:819][746]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.10:849][747]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.10:876][748]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.10:904][749]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.10:931][750]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.10:956][751]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.10:979][752]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.11:006][753]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.11:030][754]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.11:054][755]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.11:079][756]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.11:101][757]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.11:123][758]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.11:149][759]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.11:174][760]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.11:200][761]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.11:226][762]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.11:252][763]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.11:279][764]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.11:306][765]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.11:333][766]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.11:358][767]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.11:384][768]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.11:409][769]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.11:433][770]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.11:457][771]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.11:498][772]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.11:524][773]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.11:548][774]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.11:576][775]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.11:603][776]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.11:631][777]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.11:656][778]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.11:683][779]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.11:707][780]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.11:734][781]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.11:761][782]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.11:787][783]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.11:813][784]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.11:840][785]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.11:866][786]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.11:892][787]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.11:917][788]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.11:944][789]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.11:970][790]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.11:994][791]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.12:018][792]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.12:045][793]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.12:074][794]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.12:099][795]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.12:125][796]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.12:150][797]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.12:173][798]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.12:199][799]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.12:224][800]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.12:250][801]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.12:276][802]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.12:299][803]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.12:322][804]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.12:345][805]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.12:370][806]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.12:395][807]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.12:419][808]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.12:445][809]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.12:467][810]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.12:491][811]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.12:516][812]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.12:539][813]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.12:563][814]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.12:589][815]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.12:613][816]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.12:637][817]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.12:660][818]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.12:684][819]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.12:710][820]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.12:734][821]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.12:757][822]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.12:780][823]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.12:805][824]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.12:828][825]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.12:850][826]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.12:876][827]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.12:899][828]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.12:923][829]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.12:948][830]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.12:972][831]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.12:995][832]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.13:019][833]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.13:042][834]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.13:067][835]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.13:090][836]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.13:113][837]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.13:136][838]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.13:158][839]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.13:183][840]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.13:206][841]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.13:229][842]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.13:252][843]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.13:277][844]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.13:300][845]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.13:324][846]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.13:348][847]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.13:374][848]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.13:399][849]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.13:423][850]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.13:446][851]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.13:468][852]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.13:491][853]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.13:515][854]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.13:535][855]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.13:555][856]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.13:578][857]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.13:603][858]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.13:625][859]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.13:649][860]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.13:673][861]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.13:697][862]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.13:720][863]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.13:744][864]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.13:769][865]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.13:794][866]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.13:821][867]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.13:846][868]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.13:873][869]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.13:899][870]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.13:925][871]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.13:951][872]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.13:978][873]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.14:005][874]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.14:030][875]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.14:055][876]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.14:081][877]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.14:104][878]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.14:131][879]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.14:155][880]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.14:179][881]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.14:203][882]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.14:228][883]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.14:251][884]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.14:275][885]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.14:301][886]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.14:327][887]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.14:352][888]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.14:378][889]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.14:402][890]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.14:428][891]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.14:452][892]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.14:474][893]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.14:500][894]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.14:524][895]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.14:545][896]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.14:570][897]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.14:594][898]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.14:620][899]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.14:643][900]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.14:669][901]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.14:692][902]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.14:716][903]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.14:739][904]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.14:766][905]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.14:790][906]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.14:815][907]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.14:840][908]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.14:863][909]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.14:889][910]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.14:914][911]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.14:940][912]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.14:966][913]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.14:991][914]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.15:015][915]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.15:039][916]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.15:065][917]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.15:093][918]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.15:119][919]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.15:144][920]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.15:168][921]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.15:192][922]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.15:215][923]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.15:236][924]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.15:259][925]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.15:282][926]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.15:303][927]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.15:324][928]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.15:346][929]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.15:368][930]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.15:389][931]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.15:410][932]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.15:430][933]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.15:450][934]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.15:471][935]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.15:493][936]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.15:515][937]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.15:537][938]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.15:559][939]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.15:579][940]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.15:604][941]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.15:626][942]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.15:649][943]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.15:671][944]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.15:694][945]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.15:717][946]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.15:740][947]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.15:765][948]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.15:787][949]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.15:810][950]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.15:835][951]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.15:857][952]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.15:880][953]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.15:903][954]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.15:927][955]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.15:950][956]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.15:972][957]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.15:996][958]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.16:019][959]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.16:041][960]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.16:065][961]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.16:088][962]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.16:111][963]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.16:132][964]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.16:156][965]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.16:178][966]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.16:200][967]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.16:222][968]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.16:246][969]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.16:271][970]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.16:294][971]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.16:318][972]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.16:340][973]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.16:361][974]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.16:452][979]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.55.16:629][980]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000002F5B20900
+[2014.12.09-13.56.22:158][911]LogSavePackage: Save=1059.944946ms
+[2014.12.09-13.56.22:158][911]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/AdjustVelocityBTTC1741EBF4516B34D27AE8C92DAB420F4.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/AI/BehaviourTreeTasks/AdjustVelocityBTT.uasset'
+[2014.12.09-13.56.22:624][934]BlueprintLog: New page: Compile AdjustVelocityBTT
+[2014.12.09-13.56.22:827][934]BlueprintEditorCompileResults: Info [0259.01] Compile of AdjustVelocityBTT successful! [in 177 ms]
+[2014.12.09-13.56.26:990][ 30]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.09-13.56.27:159][ 30]LogPlayLevel: [PIE] Compiling AsteroidMiner before PIE...
+[2014.12.09-13.56.28:075][ 30]LogPlayLevel: PIE:  Blueprint regeneration took 1085 ms (1 blueprints)
+[2014.12.09-13.56.28:075][ 30]PIE: New page: PIE session: AsteroidMiner (9 Dec 2014 13:56:28)
+[2014.12.09-13.56.28:128][ 30]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052661s)
+[2014.12.09-13.56.28:130][ 30]LogPlayLevel: PIE: World Init took: (0.001418s)
+[2014.12.09-13.56.28:130][ 30]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/AsteroidMiner.AsteroidMiner to /Game/Maps/UEDPIE_0_AsteroidMiner.AsteroidMiner (0.054373s)
+[2014.12.09-13.56.28:167][ 30]LogWorld: Game class is 'AsteroidMinerGameMode_C'
+[2014.12.09-13.56.28:173][ 30]LogAIModule: Creating AISystem for world AsteroidMiner
+[2014.12.09-13.56.28:174][ 30]LogWorld: Bringing World /Game/Maps/UEDPIE_0_AsteroidMiner.AsteroidMiner up for play (max tick rate 0) at 2014.12.09-13.56.28
+[2014.12.09-13.56.28:177][ 30]LogWorld: Bringing up level for play took: 0.003560
+[2014.12.09-13.56.28:179][ 30]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_AsteroidMiner 1.013
+[2014.12.09-13.56.28:222][ 30]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.28:222][ 30]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.28:284][ 31]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.28:316][ 32]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.28:342][ 33]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.28:365][ 34]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.28:390][ 35]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.28:413][ 36]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.28:436][ 37]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.28:459][ 38]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.28:481][ 39]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.28:502][ 40]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.28:524][ 41]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.28:547][ 42]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.28:571][ 43]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.28:596][ 44]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.28:620][ 45]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.28:644][ 46]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.28:668][ 47]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.28:690][ 48]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.28:713][ 49]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.28:738][ 50]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.28:761][ 51]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.28:799][ 52]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.28:825][ 53]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.28:852][ 54]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.28:878][ 55]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.28:903][ 56]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.28:928][ 57]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.28:953][ 58]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.28:980][ 59]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.29:006][ 60]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.29:032][ 61]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.29:058][ 62]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.29:084][ 63]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.29:109][ 64]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.29:136][ 65]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.29:165][ 66]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.29:192][ 67]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.29:217][ 68]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.29:243][ 69]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.29:269][ 70]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.29:296][ 71]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.29:322][ 72]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.29:346][ 73]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.29:371][ 74]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.29:396][ 75]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.29:418][ 76]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.29:442][ 77]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.29:466][ 78]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.29:488][ 79]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.29:508][ 80]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.29:531][ 81]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.29:555][ 82]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.29:581][ 83]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.29:605][ 84]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.29:630][ 85]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.29:653][ 86]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.29:678][ 87]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.29:700][ 88]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.29:725][ 89]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.29:748][ 90]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.29:774][ 91]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.29:798][ 92]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.29:821][ 93]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.29:844][ 94]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.29:868][ 95]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.29:894][ 96]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.29:918][ 97]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.29:942][ 98]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.29:966][ 99]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.29:991][100]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.30:021][101]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.30:047][102]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.30:070][103]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.30:093][104]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.30:118][105]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.30:142][106]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.30:165][107]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.30:190][108]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.30:214][109]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.30:236][110]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.30:258][111]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.30:281][112]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.30:303][113]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.30:324][114]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.30:345][115]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.30:368][116]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.30:388][117]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.30:409][118]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.30:431][119]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.30:452][120]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.30:472][121]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.30:493][122]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.30:514][123]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.30:535][124]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.30:555][125]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.30:578][126]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.30:599][127]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.30:620][128]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.30:641][129]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.30:662][130]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.30:684][131]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.30:706][132]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.30:728][133]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.30:751][134]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.30:774][135]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.30:796][136]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.30:818][137]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.30:840][138]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.30:861][139]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.30:882][140]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.30:903][141]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.30:923][142]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.30:944][143]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.30:964][144]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.30:985][145]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.31:007][146]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.31:028][147]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.31:049][148]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.31:070][149]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.31:090][150]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.31:112][151]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.31:133][152]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.31:152][153]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.31:172][154]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.31:195][155]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.31:216][156]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.31:235][157]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.31:255][158]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.31:276][159]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.31:298][160]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.31:318][161]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.31:340][162]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.31:359][163]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.31:381][164]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.31:402][165]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.31:423][166]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.31:443][167]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.31:463][168]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.31:484][169]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.31:505][170]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.31:526][171]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.31:549][172]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.31:569][173]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.31:590][174]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.31:610][175]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.31:633][176]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.31:653][177]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.31:673][178]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.31:693][179]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.31:716][180]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.31:736][181]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.31:757][182]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.31:777][183]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.31:798][184]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.31:819][185]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.31:841][186]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.31:863][187]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.31:883][188]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.31:905][189]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.31:925][190]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.31:948][191]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.31:967][192]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.31:987][193]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.32:007][194]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.32:029][195]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.32:049][196]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.32:068][197]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.32:089][198]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.32:109][199]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.32:130][200]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.32:150][201]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.32:172][202]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.32:193][203]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.32:215][204]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.32:234][205]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.32:256][206]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.32:276][207]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.32:298][208]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.32:319][209]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.32:339][210]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.32:359][211]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.32:381][212]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.32:403][213]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.32:425][214]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.32:445][215]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.32:467][216]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.32:487][217]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.32:508][218]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.32:529][219]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.32:549][220]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.32:571][221]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.32:591][222]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.32:612][223]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.32:633][224]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.32:654][225]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.32:674][226]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.32:695][227]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.32:716][228]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.32:736][229]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.32:759][230]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.32:779][231]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.32:802][232]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.32:821][233]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.32:841][234]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.32:862][235]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.32:884][236]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.32:905][237]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.32:926][238]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.32:946][239]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.32:966][240]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.32:987][241]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.33:008][242]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.33:030][243]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.33:052][244]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.33:072][245]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.33:092][246]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.33:113][247]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.33:134][248]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.33:154][249]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.33:175][250]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.33:197][251]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.33:220][252]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.33:240][253]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.33:260][254]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.33:282][255]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.33:303][256]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.33:324][257]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.33:344][258]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.33:366][259]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.33:390][260]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.33:412][261]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.33:435][262]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.33:456][263]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.33:477][264]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.33:499][265]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.33:520][266]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.33:541][267]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.33:561][268]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.33:582][269]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.33:605][270]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.33:626][271]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.33:646][272]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.33:667][273]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.33:687][274]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.33:708][275]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.33:729][276]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.33:750][277]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.33:772][278]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.33:792][279]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.33:813][280]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.33:834][281]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.33:855][282]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.33:876][283]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.33:896][284]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.33:918][285]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.33:940][286]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.33:960][287]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.33:980][288]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.34:003][289]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.34:023][290]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.34:043][291]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.34:064][292]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.34:085][293]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.34:105][294]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.34:126][295]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.34:147][296]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.34:169][297]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.34:190][298]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.34:211][299]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.34:232][300]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.34:254][301]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.34:275][302]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.34:296][303]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.34:318][304]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.34:339][305]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.34:361][306]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.34:382][307]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.34:403][308]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.34:424][309]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.34:445][310]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.34:465][311]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.34:487][312]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.34:507][313]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.34:527][314]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.34:547][315]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.34:568][316]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.34:590][317]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.34:610][318]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.34:631][319]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.34:651][320]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.34:672][321]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.34:693][322]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.34:713][323]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.34:734][324]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.34:756][325]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.34:776][326]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.34:799][327]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.34:822][328]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.34:842][329]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.34:869][330]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.34:894][331]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.34:915][332]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.34:941][333]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.34:965][334]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.34:988][335]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.35:013][336]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.35:037][337]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.35:064][338]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.35:090][339]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.35:112][340]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.35:135][341]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.35:158][342]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.35:181][343]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.35:205][344]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.35:229][345]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.35:251][346]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.35:275][347]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.35:296][348]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.35:317][349]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.35:339][350]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.35:360][351]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.35:382][352]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.35:402][353]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.35:423][354]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.35:444][355]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.35:465][356]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.35:486][357]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.35:507][358]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.35:530][359]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.35:553][360]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.35:576][361]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.35:599][362]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.35:620][363]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.35:643][364]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.35:665][365]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.35:688][366]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.35:712][367]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.35:736][368]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.35:759][369]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.35:781][370]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.35:804][371]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.35:826][372]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.35:848][373]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.35:870][374]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.35:896][375]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.35:923][376]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.35:947][377]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.35:998][378]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.36:065][379]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.36:092][380]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.36:118][381]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.36:143][382]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.36:165][383]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.36:187][384]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.36:208][385]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.36:231][386]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.36:253][387]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.36:278][388]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.36:301][389]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.36:324][390]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.36:345][391]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.36:368][392]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.36:389][393]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.36:410][394]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.36:432][395]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.36:455][396]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.36:476][397]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.36:498][398]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.36:521][399]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.36:544][400]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.36:565][401]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.36:586][402]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.36:608][403]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.36:629][404]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.36:650][405]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.36:671][406]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.36:692][407]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.36:714][408]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.36:734][409]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.36:756][410]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.36:777][411]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.36:797][412]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.36:817][413]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.36:839][414]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.36:860][415]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.36:882][416]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.36:903][417]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.36:926][418]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.36:945][419]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.36:966][420]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.36:988][421]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.37:011][422]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.37:031][423]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.37:052][424]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.37:073][425]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.37:096][426]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.37:116][427]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.37:137][428]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.37:159][429]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.37:179][430]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.37:201][431]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.37:221][432]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.37:243][433]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.37:297][436]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.56.37:473][437]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000002E9566520
+[2014.12.09-13.57.26:767][782]LogSavePackage: Save=1077.234131ms
+[2014.12.09-13.57.26:767][782]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/AdjustVelocityBTTC71FCA6345A4479B69E8968036B68EFB.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/AI/BehaviourTreeTasks/AdjustVelocityBTT.uasset'
+[2014.12.09-13.57.27:225][802]BlueprintLog: New page: Compile AdjustVelocityBTT
+[2014.12.09-13.57.27:470][802]BlueprintEditorCompileResults: Info [0323.65] Compile of AdjustVelocityBTT successful! [in 219 ms]
+[2014.12.09-13.57.31:787][981]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.09-13.57.31:838][981]LogPlayLevel: [PIE] Compiling AsteroidMiner before PIE...
+[2014.12.09-13.57.32:699][981]LogPlayLevel: PIE:  Blueprint regeneration took 912 ms (1 blueprints)
+[2014.12.09-13.57.32:699][981]PIE: New page: PIE session: AsteroidMiner (9 Dec 2014 13:57:32)
+[2014.12.09-13.57.32:751][981]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050901s)
+[2014.12.09-13.57.32:753][981]LogPlayLevel: PIE: World Init took: (0.002098s)
+[2014.12.09-13.57.32:753][981]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/AsteroidMiner.AsteroidMiner to /Game/Maps/UEDPIE_0_AsteroidMiner.AsteroidMiner (0.053370s)
+[2014.12.09-13.57.32:787][981]LogWorld: Game class is 'AsteroidMinerGameMode_C'
+[2014.12.09-13.57.32:790][981]LogAIModule: Creating AISystem for world AsteroidMiner
+[2014.12.09-13.57.32:792][981]LogWorld: Bringing World /Game/Maps/UEDPIE_0_AsteroidMiner.AsteroidMiner up for play (max tick rate 0) at 2014.12.09-13.57.32
+[2014.12.09-13.57.32:793][981]LogWorld: Bringing up level for play took: 0.002415
+[2014.12.09-13.57.32:796][981]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_AsteroidMiner 1.63
+[2014.12.09-13.57.32:825][981]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.32:825][981]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.32:880][982]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.32:905][983]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.32:927][984]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.32:950][985]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.32:973][986]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.32:995][987]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.33:016][988]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.33:036][989]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.33:057][990]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.33:079][991]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.33:100][992]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.33:120][993]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.33:141][994]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.33:162][995]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.33:184][996]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.33:206][997]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.33:227][998]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.33:249][999]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.33:270][  0]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.33:292][  1]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.33:312][  2]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.33:332][  3]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.33:352][  4]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.33:387][  5]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.33:410][  6]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.33:433][  7]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.33:454][  8]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.33:477][  9]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.33:504][ 10]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.33:527][ 11]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.33:552][ 12]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.33:574][ 13]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.33:597][ 14]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.33:621][ 15]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.33:645][ 16]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.33:669][ 17]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.33:691][ 18]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.33:713][ 19]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.33:736][ 20]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.33:758][ 21]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.33:780][ 22]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.33:802][ 23]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.33:826][ 24]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.33:847][ 25]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.33:869][ 26]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.33:891][ 27]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.33:912][ 28]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.33:933][ 29]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.33:955][ 30]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.33:976][ 31]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.33:996][ 32]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.34:017][ 33]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.34:038][ 34]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.34:060][ 35]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.34:082][ 36]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.34:103][ 37]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.34:123][ 38]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.34:144][ 39]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.34:166][ 40]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.34:188][ 41]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.34:210][ 42]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.34:231][ 43]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.34:253][ 44]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.34:274][ 45]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.34:296][ 46]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.34:318][ 47]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.34:340][ 48]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.34:361][ 49]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.34:382][ 50]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.34:403][ 51]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.34:425][ 52]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.34:447][ 53]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.34:468][ 54]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.34:490][ 55]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.34:512][ 56]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.34:533][ 57]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.34:554][ 58]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.34:576][ 59]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.34:597][ 60]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.34:618][ 61]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.34:639][ 62]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.34:661][ 63]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.34:682][ 64]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.34:703][ 65]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.34:725][ 66]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.34:746][ 67]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.34:768][ 68]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.34:789][ 69]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.34:811][ 70]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.34:833][ 71]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.34:855][ 72]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.34:887][ 73]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.34:911][ 74]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.34:935][ 75]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.34:961][ 76]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.34:984][ 77]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.35:009][ 78]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.35:030][ 79]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.35:058][ 80]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.35:082][ 81]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.35:105][ 82]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.35:130][ 83]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.35:156][ 84]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.35:186][ 85]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.35:210][ 86]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.35:236][ 87]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.35:259][ 88]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.35:283][ 89]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.35:305][ 90]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.35:327][ 91]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.35:349][ 92]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.35:371][ 93]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.35:394][ 94]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.35:416][ 95]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.35:436][ 96]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.35:456][ 97]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.35:478][ 98]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.35:501][ 99]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.35:521][100]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.35:542][101]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.35:564][102]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.35:586][103]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.35:608][104]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.35:629][105]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.35:650][106]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.35:672][107]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.35:693][108]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.35:714][109]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.35:734][110]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.35:758][111]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.35:778][112]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.35:799][113]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.35:822][114]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.35:842][115]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.35:864][116]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.35:885][117]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.35:907][118]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.35:929][119]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.35:950][120]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.35:972][121]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.35:993][122]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.36:015][123]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.36:037][124]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.36:058][125]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.36:081][126]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.36:105][127]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.36:128][128]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.36:150][129]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.36:173][130]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.36:196][131]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.36:220][132]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.36:244][133]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.36:265][134]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.36:285][135]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.36:308][136]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.36:329][137]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.36:350][138]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.36:372][139]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.36:393][140]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.36:414][141]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.36:436][142]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.36:457][143]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.36:477][144]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.36:499][145]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.36:520][146]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.36:541][147]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.36:563][148]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.36:584][149]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.36:605][150]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.36:626][151]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.36:648][152]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.36:669][153]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.36:691][154]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.36:712][155]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.36:733][156]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.36:756][157]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.36:778][158]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.36:799][159]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.36:821][160]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.36:841][161]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.36:863][162]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.36:886][163]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.36:908][164]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.36:929][165]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.36:951][166]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.36:972][167]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.36:993][168]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.37:014][169]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.37:035][170]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.37:056][171]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.37:077][172]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.37:097][173]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.37:118][174]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.37:139][175]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.37:160][176]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.37:182][177]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.37:204][178]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.37:225][179]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.37:247][180]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.37:268][181]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.37:290][182]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.37:311][183]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.37:332][184]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.37:352][185]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.37:375][186]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.37:396][187]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.37:417][188]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.37:438][189]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.37:460][190]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.37:481][191]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.37:504][192]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.37:524][193]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.37:546][194]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.37:566][195]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.37:588][196]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.37:610][197]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.37:631][198]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.37:652][199]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.37:672][200]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.37:692][201]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.37:713][202]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.37:733][203]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.37:754][204]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.37:774][205]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.37:798][206]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.37:818][207]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.37:839][208]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.37:861][209]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.37:884][210]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.37:905][211]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.37:928][212]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.37:949][213]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.37:970][214]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.37:994][215]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.38:017][216]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.38:038][217]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.38:060][218]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.38:081][219]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.38:102][220]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.38:124][221]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.38:145][222]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.38:169][223]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.38:191][224]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.38:212][225]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.38:233][226]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.38:254][227]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.38:275][228]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.38:296][229]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.38:317][230]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.38:339][231]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.38:360][232]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.38:380][233]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.38:402][234]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.38:424][235]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.38:445][236]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.38:467][237]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.38:487][238]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.38:510][239]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.38:531][240]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.38:554][241]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.38:575][242]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.38:596][243]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.38:618][244]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.38:639][245]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.38:660][246]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.38:680][247]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.38:702][248]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.38:724][249]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.38:745][250]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.38:766][251]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.38:788][252]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.38:809][253]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.38:830][254]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.38:851][255]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.38:872][256]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.38:893][257]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.38:914][258]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.38:936][259]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.38:957][260]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.38:978][261]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.39:000][262]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.39:023][263]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.39:045][264]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.39:067][265]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.39:089][266]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.39:109][267]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.39:130][268]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.39:151][269]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.39:172][270]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.39:194][271]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.39:215][272]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.39:236][273]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.39:260][274]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.39:282][275]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.39:303][276]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.39:324][277]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.39:345][278]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.39:365][279]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.39:387][280]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.39:407][281]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.39:429][282]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.39:450][283]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.39:472][284]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.39:493][285]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.39:515][286]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.39:548][287]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.39:569][288]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.39:592][289]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.39:613][290]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.39:634][291]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.39:654][292]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.39:675][293]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.39:697][294]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.39:718][295]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.39:739][296]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.39:761][297]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.39:782][298]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.39:804][299]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.39:824][300]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.39:843][301]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.39:869][302]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.39:896][303]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.39:922][304]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.39:947][305]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.39:971][306]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.39:998][307]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.40:023][308]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.40:046][309]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.40:071][310]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.40:095][311]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.40:119][312]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.40:142][313]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.40:166][314]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.40:191][315]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.40:216][316]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.40:240][317]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.40:264][318]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.40:286][319]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.40:310][320]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.40:334][321]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.40:357][322]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.40:381][323]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.40:403][324]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.40:430][325]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.40:452][326]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.40:476][327]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.40:497][328]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.40:518][329]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.40:540][330]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.40:564][331]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.40:587][332]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.40:611][333]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.40:636][334]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.40:662][335]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.40:686][336]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.40:711][337]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.40:736][338]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.40:759][339]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.40:782][340]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.40:805][341]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.40:829][342]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.40:853][343]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.40:877][344]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.40:901][345]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.40:926][346]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.40:950][347]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.40:973][348]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.40:996][349]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.41:021][350]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.41:048][351]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.41:072][352]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.41:097][353]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.41:120][354]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.41:145][355]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.41:169][356]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.41:193][357]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.41:218][358]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.41:240][359]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.41:265][360]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.41:289][361]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.41:314][362]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.41:339][363]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.41:363][364]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.41:387][365]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.41:411][366]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.41:435][367]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.41:457][368]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.41:477][369]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.41:498][370]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.41:520][371]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.41:541][372]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.41:564][373]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.41:587][374]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.41:610][375]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.41:632][376]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.41:657][377]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.41:681][378]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.41:706][379]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.41:732][380]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.41:755][381]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.41:780][382]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.41:804][383]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.41:829][384]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.41:856][385]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.41:880][386]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.41:904][387]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.41:926][388]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.41:949][389]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.41:972][390]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.41:997][391]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.42:021][392]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.42:045][393]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.42:068][394]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.42:091][395]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.42:116][396]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.42:140][397]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.42:166][398]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.42:190][399]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.42:215][400]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.42:239][401]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.42:262][402]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.42:285][403]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.42:312][404]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.42:335][405]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.42:358][406]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.42:382][407]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.42:406][408]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.42:428][409]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.42:454][410]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.42:474][411]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.42:494][412]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.42:516][413]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.42:537][414]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.42:559][415]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.42:583][416]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.42:607][417]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.42:630][418]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.42:654][419]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.42:677][420]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.42:701][421]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.42:725][422]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.42:749][423]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.42:772][424]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.42:796][425]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.42:821][426]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.42:845][427]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.42:869][428]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.42:891][429]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.42:914][430]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.42:939][431]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.42:962][432]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.42:987][433]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.43:010][434]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.43:034][435]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.43:056][436]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.43:080][437]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.43:104][438]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.43:129][439]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.43:153][440]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.43:177][441]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.43:199][442]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.43:224][443]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.43:248][444]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.43:271][445]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.43:294][446]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.43:318][447]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.43:342][448]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.43:366][449]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.43:390][450]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.43:414][451]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.43:436][452]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.43:457][453]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.43:478][454]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.43:498][455]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.43:519][456]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.43:539][457]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.43:563][458]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.43:587][459]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.43:611][460]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.43:635][461]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.43:657][462]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.43:680][463]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.43:704][464]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.43:727][465]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.43:753][466]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.43:776][467]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.43:800][468]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.43:823][469]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.43:847][470]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.43:873][471]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.43:895][472]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.43:921][473]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.43:944][474]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.43:971][475]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.43:993][476]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.44:016][477]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.44:039][478]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.44:063][479]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.44:089][480]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.44:112][481]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.44:136][482]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.44:158][483]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.44:183][484]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.44:206][485]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.44:230][486]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.44:253][487]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.44:275][488]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.44:300][489]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.44:324][490]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.44:348][491]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.44:371][492]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.44:397][493]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.44:421][494]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.44:444][495]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.44:465][496]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.44:487][497]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.44:507][498]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.44:527][499]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.44:546][500]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.44:568][501]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.44:592][502]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.44:616][503]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.44:640][504]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.44:663][505]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.44:688][506]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.44:713][507]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.44:736][508]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.44:758][509]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.44:780][510]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.44:804][511]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.44:829][512]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.44:854][513]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.44:877][514]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.44:899][515]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.44:927][516]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.44:951][517]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.44:975][518]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.44:999][519]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.45:023][520]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.45:048][521]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.45:072][522]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.45:097][523]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.45:123][524]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.45:146][525]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.45:169][526]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.45:194][527]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.45:217][528]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.45:242][529]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.45:267][530]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.45:288][531]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.45:312][532]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.45:336][533]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.45:356][534]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.45:377][535]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.45:397][536]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.45:419][537]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.45:440][538]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.45:460][539]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.45:481][540]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.45:502][541]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.45:524][542]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.45:544][543]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.45:565][544]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.45:586][545]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.45:607][546]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.45:629][547]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.45:650][548]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.45:671][549]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.45:692][550]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.45:713][551]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.45:734][552]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.45:756][553]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.45:777][554]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.45:797][555]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.45:818][556]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.45:840][557]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.45:861][558]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.45:881][559]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.45:902][560]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.45:923][561]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.45:943][562]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.45:964][563]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.45:985][564]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.46:006][565]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.46:028][566]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.46:049][567]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.46:070][568]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.46:092][569]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.46:112][570]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.46:132][571]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.46:153][572]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.46:176][573]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.46:197][574]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.46:217][575]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.46:238][576]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.46:259][577]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.46:279][578]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.46:299][579]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.46:320][580]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.46:340][581]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.46:361][582]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.46:382][583]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.46:401][584]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.46:421][585]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.46:442][586]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.46:462][587]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.46:482][588]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.46:503][589]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.46:522][590]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.46:544][591]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.46:565][592]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.46:585][593]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.46:607][594]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.46:626][595]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.46:647][596]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.46:667][597]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.46:688][598]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.46:709][599]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.46:729][600]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.46:752][601]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.46:773][602]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.46:794][603]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.46:815][604]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.46:837][605]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.46:857][606]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.46:878][607]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.46:899][608]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.46:919][609]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.46:938][610]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.46:959][611]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.46:980][612]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.47:001][613]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.47:022][614]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.47:043][615]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.47:064][616]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.47:084][617]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.47:105][618]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.47:126][619]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.47:147][620]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.47:169][621]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.47:189][622]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.47:211][623]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.47:232][624]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.47:254][625]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.47:274][626]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.47:295][627]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.47:316][628]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.47:337][629]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.47:358][630]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.47:378][631]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.47:398][632]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.47:419][633]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.47:440][634]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.47:460][635]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.47:480][636]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.47:502][637]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.47:522][638]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.47:543][639]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.47:564][640]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.47:619][641]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.47:677][642]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.47:699][643]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.47:718][644]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.47:737][645]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.47:757][646]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.47:777][647]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.47:799][648]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.47:818][649]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.47:837][650]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.47:856][651]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.47:876][652]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.47:895][653]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.47:914][654]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.47:934][655]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.47:952][656]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.47:972][657]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.47:990][658]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:010][659]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:029][660]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:047][661]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:066][662]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:085][663]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:103][664]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:123][665]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:142][666]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:162][667]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:180][668]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:199][669]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:220][670]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:238][671]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:258][672]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:277][673]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:296][674]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:316][675]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:336][676]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:357][677]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:378][678]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:398][679]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:419][680]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:440][681]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:461][682]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:480][683]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:499][684]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:521][685]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:540][686]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:562][687]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:582][688]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:602][689]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:623][690]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:644][691]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:664][692]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:683][693]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:702][694]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:721][695]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:741][696]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:764][697]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:785][698]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:806][699]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:827][700]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:848][701]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:869][702]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:887][703]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:905][704]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:925][705]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:945][706]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:964][707]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.48:981][708]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.49:000][709]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.49:022][710]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.49:046][711]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.49:066][712]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.49:086][713]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.49:107][714]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.49:128][715]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.49:149][716]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.49:170][717]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.49:191][718]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.49:211][719]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.49:233][720]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.49:254][721]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.49:273][722]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.49:294][723]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.49:315][724]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.49:336][725]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.49:356][726]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.49:377][727]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.49:398][728]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.49:419][729]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.49:439][730]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.49:459][731]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.49:479][732]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.49:500][733]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.49:521][734]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.49:543][735]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.49:563][736]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.49:583][737]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.49:605][738]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.49:625][739]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.49:645][740]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.49:665][741]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.49:687][742]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.49:707][743]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.49:727][744]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.49:747][745]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.49:768][746]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.49:789][747]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.49:809][748]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.49:830][749]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.49:852][750]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.49:876][751]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.49:901][752]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.49:924][753]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.49:949][754]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.49:971][755]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.49:996][756]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.50:021][757]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.50:042][758]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.50:065][759]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.50:089][760]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.50:115][761]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.50:138][762]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.50:159][763]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.50:186][764]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.50:207][765]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.50:232][766]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.50:257][767]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.50:278][768]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.50:303][769]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.50:324][770]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.50:346][771]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.50:366][772]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.50:387][773]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.50:408][774]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.50:429][775]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.50:450][776]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.50:471][777]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.50:491][778]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.50:512][779]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.50:532][780]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.50:552][781]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.50:573][782]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.50:594][783]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.50:615][784]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.50:636][785]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.50:657][786]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.50:678][787]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.50:699][788]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.50:722][789]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.50:743][790]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.50:765][791]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.50:785][792]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.50:806][793]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.50:827][794]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.50:848][795]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.50:869][796]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.50:888][797]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.50:910][798]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.50:931][799]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.50:952][800]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.50:973][801]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.50:995][802]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.51:016][803]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.51:037][804]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.51:058][805]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.51:079][806]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.51:101][807]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.51:121][808]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.51:142][809]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.51:163][810]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.51:184][811]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.51:203][812]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.51:225][813]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.51:245][814]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.51:266][815]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.51:288][816]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.51:311][817]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.51:333][818]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.51:355][819]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.51:377][820]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.51:397][821]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.51:419][822]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.51:440][823]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.51:460][824]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.51:481][825]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.51:503][826]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.51:525][827]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.51:546][828]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.51:567][829]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.51:588][830]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.51:610][831]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.51:631][832]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.51:652][833]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.51:674][834]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.51:694][835]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.51:713][836]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.51:735][837]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.51:758][838]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.51:778][839]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.51:798][840]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.51:819][841]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.51:841][842]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.51:861][843]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.51:881][844]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.51:904][845]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.51:926][846]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.51:947][847]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.51:968][848]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.51:989][849]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.52:009][850]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.52:030][851]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.52:051][852]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.52:072][853]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.52:093][854]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.52:114][855]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.52:135][856]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.52:155][857]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.52:176][858]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.52:196][859]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.52:217][860]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.52:238][861]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.52:258][862]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.52:279][863]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.52:299][864]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.52:321][865]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.52:341][866]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.52:362][867]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.52:383][868]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.52:404][869]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.52:426][870]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.52:447][871]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.52:466][872]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.52:488][873]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.52:507][874]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.52:528][875]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.52:549][876]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.52:571][877]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.52:591][878]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.52:611][879]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.52:633][880]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.52:653][881]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.52:675][882]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.52:695][883]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.52:716][884]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.52:736][885]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.52:758][886]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.52:778][887]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.52:800][888]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.52:822][889]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.52:843][890]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.52:867][891]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.52:891][892]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.52:914][893]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.52:935][894]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.52:957][895]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.52:978][896]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.52:999][897]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.53:021][898]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.53:043][899]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.53:065][900]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.53:085][901]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.53:107][902]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.53:127][903]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.53:148][904]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.53:168][905]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.53:189][906]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.53:209][907]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.53:230][908]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.53:251][909]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.53:274][910]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.53:294][911]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.53:315][912]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.53:338][913]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.53:358][914]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.53:380][915]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.53:401][916]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.53:422][917]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.53:444][918]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.53:464][919]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.53:485][920]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.53:505][921]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.53:525][922]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.53:546][923]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.53:567][924]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.53:588][925]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.53:608][926]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.53:628][927]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.53:649][928]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.53:670][929]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.53:691][930]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.53:712][931]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.53:732][932]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.53:753][933]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.53:774][934]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.53:794][935]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.53:814][936]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.53:835][937]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.53:857][938]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.53:878][939]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.53:898][940]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.53:920][941]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.53:941][942]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.53:961][943]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.53:980][944]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.54:001][945]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.54:023][946]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.54:043][947]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.54:062][948]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.54:082][949]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.54:104][950]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.54:124][951]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.54:145][952]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.54:166][953]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.54:186][954]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.54:206][955]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.54:226][956]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.54:247][957]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.54:268][958]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.54:288][959]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.54:309][960]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.54:328][961]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.54:350][962]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.54:371][963]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.54:392][964]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.54:414][965]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.54:434][966]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.54:454][967]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.54:475][968]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.54:496][969]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.54:517][970]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.54:538][971]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.54:559][972]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.54:579][973]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.54:599][974]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.54:620][975]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.54:641][976]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.54:662][977]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.54:682][978]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.54:703][979]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.54:725][980]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.54:745][981]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.54:768][982]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.54:788][983]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.54:809][984]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.54:830][985]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.54:850][986]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.54:873][987]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.54:899][988]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.54:927][989]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.54:951][990]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.54:977][991]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.55:004][992]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.55:026][993]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.55:052][994]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.55:073][995]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.55:098][996]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.55:122][997]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.55:145][998]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.55:170][999]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.55:195][  0]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.55:219][  1]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.55:244][  2]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.55:267][  3]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.55:291][  4]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.55:316][  5]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.55:336][  6]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.55:357][  7]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.55:378][  8]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.55:399][  9]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.55:419][ 10]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.55:441][ 11]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.55:462][ 12]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.55:482][ 13]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.55:502][ 14]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.55:524][ 15]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.55:546][ 16]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.55:566][ 17]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.55:587][ 18]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.55:609][ 19]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.55:631][ 20]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.55:651][ 21]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.55:673][ 22]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.55:693][ 23]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.55:714][ 24]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.55:734][ 25]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.55:755][ 26]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.55:776][ 27]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.55:797][ 28]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.55:817][ 29]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.55:838][ 30]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.55:858][ 31]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.55:878][ 32]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.55:898][ 33]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.55:919][ 34]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.55:939][ 35]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.55:960][ 36]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.55:981][ 37]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.56:003][ 38]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.56:024][ 39]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.57.56:055][ 40]Cmd: EnableGDT
+[2014.12.09-13.57.56:287][ 48]Cmd: EnableGDT
+[2014.12.09-13.58.00:844][244]Cmd: EnableGDT
+[2014.12.09-13.58.00:963][249]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.58.00:983][250]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.58.01:003][251]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.58.01:024][252]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.58.01:043][253]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.58.01:064][254]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.58.01:085][255]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.58.01:106][256]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.58.01:128][257]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.58.01:149][258]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.58.01:170][259]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.58.01:193][260]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.58.01:213][261]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.58.01:234][262]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.58.01:255][263]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.58.01:275][264]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.58.01:295][265]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.58.01:315][266]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.58.01:337][267]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.58.01:358][268]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.58.01:378][269]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.58.01:399][270]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.58.01:421][271]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.58.01:442][272]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.58.01:461][273]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.58.01:482][274]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.58.01:503][275]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.58.01:524][276]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.58.01:545][277]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.58.01:565][278]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.58.01:586][279]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.58.01:606][280]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.58.01:628][281]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.58.01:648][282]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-13.58.01:665][283]Cmd: EnableGDT
+[2014.12.09-13.58.11:989][750]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000002DDBCF4C0
+[2014.12.09-13.58.14:109][852]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.12.09-13.58.18:222][ 58]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/AI'
+[2014.12.09-13.58.25:654][293]LogRenderer:Warning: Reallocating scene render targets to support 1080x872.
+[2014.12.09-13.58.29:263][596]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.12.09-13.58.33:901][978]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/BotShip" FILE="E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/AI/BotShip.uasset" SILENT=true
+[2014.12.09-13.58.35:892][978]LogSavePackage: Save=1139.055664ms
+[2014.12.09-13.58.35:892][978]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/BotShip006BC7B645E1E346A519B9A29E180129.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/AI/BotShip.uasset'
+[2014.12.09-13.58.36:880][ 60]BlueprintLog: New page: Compile BotShip
+[2014.12.09-13.58.37:075][ 60]LogOutputDevice:Warning: 
+
+Script Stack:
+AsteroidMiner_C.ExecuteUbergraph_AsteroidMiner
+AsteroidMiner_C.BndEvt__BotShip_6_K2Node_ActorBoundEvent_407_ActorDestroyedSignature__DelegateSignature
+
+[2014.12.09-13.58.37:075][ 60]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2014.12.09-13.58.37:075][ 60]LogCrashTracker: 
+
+
+[2014.12.09-13.58.37:601][ 60]LogCrashTracker: 
+
+
+[2014.12.09-13.58.37:601][ 60]LogWindows: === Critical error: ===
+Assertion failed: PC [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.6\Engine\Source\Runtime\Engine\Private\GameplayStatics.cpp] [Line: 131] 
+
+
+
+KERNELBASE.dll!UnknownFunction (0x00007ffd334a606c) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffd18a42f6d) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffd188d60e8) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffd188b9182) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffd130fdbb7) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffd12e36e61) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b3b9af4) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b47943f) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b4973bd) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b4ba46a) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b498a5e) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b47999a) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b4bbd74) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b498a5e) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b3b9af4) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b4981c6) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffd12ef0851) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffd12e56bf8) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffd12ea304c) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffd13204f97) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffd1320ff43) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffd11c7a12b) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffd11c736f8) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffd11c4b703) + 0 bytes [UnknownFile:0]
+UE4Editor-Kismet.dll!UnknownFunction (0x00007ffd10c71877) + 0 bytes [UnknownFile:0]
+UE4Editor-Kismet.dll!UnknownFunction (0x00007ffd10cb2651) + 0 bytes [UnknownFile:0]
+UE4Editor-Kismet.dll!UnknownFunction (0x00007ffd10cb6136) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffd1836fbe6) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffd18456c9d) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffd183dba47) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffd183dd2f9) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffd1843e7b9) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffd184e4b9a) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffd18510a73) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffd183497bc) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffd18307347) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffd183ab2e0) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffd1839c226) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffd189ae9d9) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffd1899a1eb) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffd189afbab) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffd18996ce2) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ffd34e02434) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ffd34e02297) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffd189b0066) + 0 bytes [UnknownFile:0]
+UE4Editor.exe!FEngineLoop::Tick() (0x00007ff674f4cbda) + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\launchengineloop.cpp:2193]
+UE4Editor.exe!GuardedMain() (0x00007ff674f4089f) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\launch.cpp:131]
+UE4Editor.exe!GuardedMainWrapper() (0x00007ff674f4090a) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() (0x00007ff674f4e3d9) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\windows\launchwindows.cpp:202]
+UE4Editor.exe!__tmainCRTStartup() (0x00007ff674f4f319) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL!UnknownFunction (0x00007ffd356816ad) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffd35ed4409) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffd35ed4409) + 0 bytes [UnknownFile:0]
+
+
+[2014.12.09-13.58.37:905][ 60]LogExit: Executing StaticShutdownAfterError
+[2014.12.09-13.58.37:913][ 60]LogWindows: FPlatformMisc::RequestExit(1)
+[2014.12.09-13.58.37:914][ 60]Log file closed, 12/09/14 13:58:37

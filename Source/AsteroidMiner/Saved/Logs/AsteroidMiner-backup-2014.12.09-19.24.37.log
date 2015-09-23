@@ -1,0 +1,1025 @@
+﻿Log file open, 12/09/14 19:20:17
+LogInit:Display: Running engine for game: AsteroidMiner
+LogInit: Version: 4.6.0-2369412+++depot+UE4-Releases+4.6
+LogInit: API Version: 2369412
+LogInit: Compiled (64-bit): Nov 24 2014 21:54:04
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.6
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.6/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.12.09-19.20.17:069][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2014.12.09-19.20.17:129][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.12.09-19.20.17:162][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.12.09-19.20.17:177][  0]LogInit: Object subsystem initialized
+[2014.12.09-19.20.17:179][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2014.12.09-19.20.17:179][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.09-19.20.17:180][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2014.12.09-19.20.17:180][  0]LogInit: Selected Device Profile: [Windows]
+[2014.12.09-19.20.17:180][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.12.09-19.20.17:210][  0]LogInit: Computer: LLOYDS_PC
+[2014.12.09-19.20.17:210][  0]LogInit: User: 10021000
+[2014.12.09-19.20.17:210][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.12.09-19.20.17:210][  0]LogInit: High frequency timer resolution =2.337877 MHz
+[2014.12.09-19.20.17:210][  0]LogMemory: Memory total: Physical=5.9GB (6GB approx) Virtual=131072.0GB
+[2014.12.09-19.20.17:211][  0]LogMemory: Platform Memory Stats for Windows
+[2014.12.09-19.20.17:211][  0]LogMemory: Process Physical Memory: 47.18 MB used, 47.18 MB peak
+[2014.12.09-19.20.17:211][  0]LogMemory: Process Virtual Memory: 23.11 MB used, 24.41 MB peak
+[2014.12.09-19.20.17:211][  0]LogMemory: Physical Memory: 2251.71 MB used, 6077.92 MB total
+[2014.12.09-19.20.17:211][  0]LogMemory: Virtual Memory: 268.73 MB used, 134217728.00 MB total
+[2014.12.09-19.20.17:252][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 680 (Feature Level 11_0)
+[2014.12.09-19.20.17:252][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2014.12.09-19.20.17:255][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.12.09-19.20.17:255][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.12.09-19.20.17:255][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.12.09-19.20.17:262][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.12.09-19.20.17:281][  0]LogD3D11RHI: Async texture creation enabled
+[2014.12.09-19.20.17:362][  0]LogTextLocalizationManager: The requested culture ('en_GB') has no localization data; parent culture's ('en') localization data will be used.
+[2014.12.09-19.20.17:589][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.12.09-19.20.26:815][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.09-19.20.27:527][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.09-19.20.27:617][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.12.09-19.20.27:740][  0]LogDerivedDataCache: Loaded boot cache 0.12s 39MB C:/Users/10021_000/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2014.12.09-19.20.27:740][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/10021_000/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2014.12.09-19.20.27:742][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.12.09-19.20.27:742][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.12.09-19.20.27:841][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.12.09-19.20.27:854][  0]LogDerivedDataCache: Using Local data cache path C:/Users/10021_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2014.12.09-19.20.28:089][  0]LogCollisionProfile:Warning: Profile (Trigger) - Custom Channel Name = 'Projectile' hasn't been found
+[2014.12.09-19.20.28:089][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2014.12.09-19.20.28:089][  0]LogCollisionProfile:Warning: Profile (Projectile) ObjectTypeName (Projectile) is invalid. 
+[2014.12.09-19.20.28:354][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.12.09-19.20.28:354][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.12.09-19.20.29:054][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.12.09-19.20.29:150][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2014.12.09-19.20.30:444][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.12.09-19.20.30:678][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Binaries/Win64. Error: 0
+[2014.12.09-19.20.30:939][  0]SourceControl: Info Source control is disabled
+[2014.12.09-19.20.30:939][  0]SourceControl: Info Source control is disabled
+[2014.12.09-19.20.30:951][  0]SourceControl: Info Source control is disabled
+[2014.12.09-19.20.31:155][  0]LogObj: 23754 objects as part of root set at end of initial load.
+[2014.12.09-19.20.31:155][  0]LogUObjectAllocator: 5168128 out of 0 bytes used by permanent object pool.
+[2014.12.09-19.20.31:244][  0]LogEngine: Initializing Engine...
+[2014.12.09-19.20.31:504][  0]LogInit: XAudio2 using '37'' TFT-TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2014.12.09-19.20.31:513][  0]LogInit: FAudioDevice initialized.
+[2014.12.09-19.20.31:546][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.12.09-19.20.31:600][  0]LogDerivedDataCache: Saved boot cache 0.05s 39MB C:/Users/10021_000/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2014.12.09-19.20.31:624][  0]LogInit: Texture streaming: Enabled
+[2014.12.09-19.20.31:668][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2014.12.09-19.20.31:668][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.0-2369412+++depot+UE4-Releases+4.6
+[2014.12.09-19.20.31:670][  0]LogAnalytics: SetUserId a29c071cf10a93fac0ff457d50595e17
+[2014.12.09-19.20.31:670][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2014.12.09-19.20.31:694][  0]LogInit: Transaction tracking system initialized
+[2014.12.09-19.20.31:846][  0]BlueprintLog: New page: Editor Load
+[2014.12.09-19.20.31:888][  0]LogAssetRegistry: FAssetRegistry took 0.0107 seconds to start up
+[2014.12.09-19.20.31:889][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2014.12.09-19.20.32:684][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.09-19.20.33:278][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.09-19.20.33:601][  0]LogConsoleResponse:Display: 
+[2014.12.09-19.20.33:682][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-19.20.34:003][  0]SourceControl: Info Source control is disabled
+[2014.12.09-19.20.34:003][  0]Cmd: MAP LOAD FILE="E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Maps/AsteroidMiner.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.09-19.20.34:007][  0]LightingResults: New page: Lighting Build
+[2014.12.09-19.20.34:023][  0]MapCheck: New page: Map Check
+[2014.12.09-19.20.34:023][  0]LightingResults: New page: Lighting Build
+[2014.12.09-19.20.34:038][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000090F0A31940
+[2014.12.09-19.20.34:240][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/M_SkyBox.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-19.20.34:242][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Textures/HighResSkyBox.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-19.20.35:005][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Meshes/DetailedSun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-19.20.35:007][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/M_Sun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-19.20.35:012][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Textures/T_Fire.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-19.20.35:614][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/Objects/B_Asteroid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-19.20.35:620][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Meshes/Rock.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-19.20.35:622][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/M_Asteroid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-19.20.35:679][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/Outliner/PP_Outliner_Inst.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-19.20.35:681][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/Outliner/PP_Outliner_M.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-19.20.35:690][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/Outliner/MF_ConvolveTexture.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-19.20.35:700][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/Outliner/MF_ExtractDepth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-19.20.35:706][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/Outliner/MF_SampleSceneTextureNeighbourUVs.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-19.20.35:790][  0]LogBlueprint:Warning: [compiler] Warning  Remove from Viewport  is deprecated; Use RemoveFromParent instead
+[2014.12.09-19.20.35:793][  0]LogBlueprint:Warning: [compiler] Warning [0021.66] Compile of GameOverWidget successful, but with 1 Warning(s) [in 9 ms]
+[2014.12.09-19.20.35:797][  0]LogBlueprint:Warning: [compiler] Warning  Remove from Viewport  is deprecated; Use RemoveFromParent instead
+[2014.12.09-19.20.35:799][  0]LogBlueprint:Warning: [compiler] Warning [0021.67] Compile of GameOverWidget successful, but with 1 Warning(s) [in 4 ms]
+[2014.12.09-19.20.35:799][  0]LogBlueprint:Warning: [compiler] Warning [0021.67] Compile of GameOverWidget successful, but with 2 Warning(s) [in 0 ms]
+[2014.12.09-19.20.35:844][  0]LogBlueprint:Warning: [compiler] Warning  Remove from Viewport  is deprecated; Use RemoveFromParent instead
+[2014.12.09-19.20.35:846][  0]LogBlueprint:Warning: [compiler] Warning [0021.72] Compile of PauseMenuWidget successful, but with 1 Warning(s) [in 8 ms]
+[2014.12.09-19.20.35:850][  0]LogBlueprint:Warning: [compiler] Warning  Remove from Viewport  is deprecated; Use RemoveFromParent instead
+[2014.12.09-19.20.35:851][  0]LogBlueprint:Warning: [compiler] Warning [0021.72] Compile of PauseMenuWidget successful, but with 1 Warning(s) [in 4 ms]
+[2014.12.09-19.20.35:852][  0]LogBlueprint:Warning: [compiler] Warning [0021.72] Compile of PauseMenuWidget successful, but with 2 Warning(s) [in 0 ms]
+[2014.12.09-19.20.37:493][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.09-19.20.37:493][  0]LogAIModule: Creating AISystem for world AsteroidMiner
+[2014.12.09-19.20.37:494][  0]Cmd: MAP CHECKDEP
+[2014.12.09-19.20.37:494][  0]MapCheck: New page: AsteroidMiner - 9 Dec 2014 19:20:37
+[2014.12.09-19.20.37:744][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 249.949ms to complete.
+[2014.12.09-19.20.37:744][  0]LogFileHelpers: Loading map 'AsteroidMiner' took 3.742
+[2014.12.09-19.20.37:864][  0]LogCollectionManager: Loaded 0 collections in 0.003176 seconds
+[2014.12.09-19.20.38:051][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.12.09-19.20.38:066][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2014.12.09-19.20.38:098][  0]LogLoad: Full Startup: 23.97 seconds (BP compile: 1.09 seconds)
+[2014.12.09-19.20.38:445][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/AI'
+[2014.12.09-19.20.38:748][  0]LogRenderer:Warning: Reallocating scene render targets to support 768x872.
+[2014.12.09-19.20.40:010][  4]LogAssetRegistry: Asset discovery search completed in 8.1321 seconds
+[2014.12.09-19.20.40:058][  4]LogAnalytics: Event Editor.Usage.AssetClasses has too many attributes (41). May be truncated at the collector.
+[2014.12.09-19.21.14:362][107]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.09-19.21.14:362][107]LogPlayLevel: [PIE] Compiling AsteroidMiner before PIE...
+[2014.12.09-19.21.15:152][107]LogPlayLevel: PIE:  Blueprint regeneration took 790 ms (1 blueprints)
+[2014.12.09-19.21.15:153][107]PIE: New page: PIE session: AsteroidMiner (9 Dec 2014 19:21:15)
+[2014.12.09-19.21.15:197][107]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043699s)
+[2014.12.09-19.21.15:198][107]LogPlayLevel: PIE: World Init took: (0.001195s)
+[2014.12.09-19.21.15:198][107]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/AsteroidMiner.AsteroidMiner to /Game/Maps/UEDPIE_0_AsteroidMiner.AsteroidMiner (0.045169s)
+[2014.12.09-19.21.15:255][107]LogWorld: Game class is 'AsteroidMinerGameMode_C'
+[2014.12.09-19.21.15:259][107]LogAIModule: Creating AISystem for world AsteroidMiner
+[2014.12.09-19.21.15:260][107]LogWorld: Bringing World /Game/Maps/UEDPIE_0_AsteroidMiner.AsteroidMiner up for play (max tick rate 0) at 2014.12.09-19.21.15
+[2014.12.09-19.21.15:262][107]LogWorld: Bringing up level for play took: 0.002573
+[2014.12.09-19.21.15:265][107]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_AsteroidMiner 0.098
+[2014.12.09-19.21.19:089][288]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.19:089][288]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.19:126][290]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.19:126][290]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.19:164][292]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.19:164][292]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.19:203][294]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.19:203][294]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.19:243][296]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.19:243][296]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.19:284][298]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.19:285][298]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.19:324][300]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.19:324][300]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.19:363][302]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.19:363][302]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.19:405][304]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.19:405][304]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.19:444][306]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.19:444][306]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.19:484][308]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.19:484][308]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.19:523][310]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.19:523][310]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.19:562][312]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.19:563][312]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.19:601][314]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.19:601][314]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.19:641][316]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.19:641][316]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.19:680][318]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.19:680][318]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.19:717][320]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.19:718][320]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.19:758][322]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.19:758][322]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.19:794][324]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.19:794][324]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.19:833][326]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.19:833][326]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.19:874][328]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.19:874][328]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.19:915][330]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.19:915][330]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.19:954][332]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.19:954][332]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.19:994][334]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.19:994][334]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:033][336]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:033][336]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:070][338]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:070][338]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:109][340]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:109][340]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:147][342]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:147][342]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:184][344]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:184][344]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:220][346]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:220][346]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:259][348]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:259][348]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:297][350]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:297][350]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:342][352]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:342][352]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:383][354]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:383][354]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:424][356]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:424][356]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:461][358]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:462][358]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:500][360]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:501][360]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:538][362]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:538][362]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:576][364]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:576][364]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:616][366]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:616][366]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:655][368]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:655][368]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:693][370]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:693][370]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:731][372]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:731][372]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:769][374]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:769][374]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:807][376]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:807][376]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:848][378]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:849][378]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:888][380]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:888][380]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:928][382]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:928][382]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:969][384]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.20:969][384]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:011][386]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:011][386]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:051][388]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:051][388]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:090][390]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:091][390]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:130][392]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:130][392]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:171][394]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:171][394]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:211][396]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:211][396]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:251][398]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:251][398]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:291][400]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:291][400]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:331][402]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:331][402]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:370][404]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:371][404]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:410][406]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:410][406]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:450][408]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:450][408]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:491][410]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:491][410]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:529][412]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:529][412]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:567][414]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:567][414]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:607][416]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:607][416]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:648][418]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:648][418]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:688][420]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:688][420]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:729][422]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:729][422]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:769][424]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:769][424]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:809][426]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:809][426]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:848][428]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:848][428]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:888][430]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:888][430]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:927][432]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:928][432]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:967][434]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.21:967][434]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:005][436]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:005][436]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:046][438]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:046][438]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:086][440]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:086][440]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:126][442]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:127][442]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:167][444]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:167][444]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:206][446]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:206][446]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:245][448]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:245][448]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:283][450]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:283][450]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:323][452]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:323][452]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:361][454]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:361][454]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:399][456]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:399][456]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:436][458]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:436][458]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:476][460]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:476][460]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:515][462]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:515][462]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:554][464]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:554][464]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:593][466]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:593][466]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:631][468]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:631][468]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:669][470]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:669][470]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:705][472]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:706][472]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:745][474]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:745][474]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:784][476]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:784][476]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:822][478]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:822][478]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:860][480]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:861][480]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:897][482]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:897][482]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:935][484]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:935][484]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:976][486]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.22:976][486]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.23:021][488]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.23:022][488]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.23:070][490]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.23:070][490]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.23:114][492]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.23:114][492]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.23:163][494]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.23:163][494]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.23:205][496]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.23:205][496]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.23:250][498]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.23:250][498]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.23:297][500]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.23:297][500]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.23:343][502]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.23:343][502]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.23:388][504]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.23:388][504]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.23:427][506]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.23:427][506]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.23:467][508]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.23:467][508]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.23:505][510]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.23:505][510]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.23:543][512]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.23:543][512]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.23:582][514]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.23:582][514]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.23:621][516]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.23:621][516]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.23:663][518]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.23:664][518]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.23:702][520]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.23:702][520]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.23:740][522]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.23:740][522]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.23:779][524]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.23:779][524]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.23:816][526]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.23:816][526]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.23:854][528]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.23:854][528]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.23:893][530]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.23:893][530]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.23:931][532]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.23:931][532]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.23:969][534]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.23:969][534]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:007][536]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:007][536]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:046][538]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:046][538]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:082][540]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:083][540]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:122][542]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:122][542]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:159][544]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:160][544]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:197][546]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:198][546]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:235][548]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:235][548]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:275][550]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:275][550]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:314][552]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:314][552]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:351][554]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:351][554]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:390][556]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:390][556]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:430][558]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:430][558]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:468][560]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:468][560]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:505][562]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:505][562]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:543][564]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:543][564]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:583][566]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:583][566]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:621][568]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:621][568]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:659][570]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:659][570]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:697][572]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:697][572]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:735][574]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:735][574]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:773][576]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:773][576]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:812][578]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:812][578]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:850][580]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:850][580]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:889][582]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:889][582]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:928][584]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:928][584]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:965][586]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.24:965][586]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:004][588]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:004][588]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:043][590]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:043][590]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:081][592]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:081][592]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:121][594]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:122][594]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:163][596]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:163][596]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:203][598]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:203][598]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:241][600]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:241][600]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:281][602]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:281][602]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:324][604]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:324][604]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:363][606]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:363][606]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:403][608]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:403][608]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:442][610]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:442][610]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:481][612]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:481][612]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:521][614]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:521][614]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:558][616]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:558][616]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:598][618]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:598][618]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:636][620]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:636][620]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:675][622]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:675][622]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:714][624]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:715][624]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:753][626]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:753][626]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:791][628]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:791][628]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:830][630]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:830][630]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:868][632]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:868][632]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:908][634]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:908][634]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:945][636]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:945][636]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:984][638]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.25:984][638]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:024][640]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:024][640]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:063][642]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:063][642]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:103][644]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:103][644]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:142][646]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:142][646]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:181][648]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:181][648]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:220][650]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:220][650]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:259][652]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:259][652]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:299][654]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:300][654]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:343][656]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:343][656]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:387][658]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:387][658]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:426][660]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:426][660]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:466][662]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:466][662]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:507][664]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:507][664]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:545][666]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:545][666]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:585][668]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:585][668]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:623][670]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:623][670]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:663][672]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:663][672]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:708][674]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:708][674]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:746][676]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:746][676]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:787][678]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:787][678]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:827][680]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:828][680]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:868][682]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:868][682]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:907][684]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:907][684]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:945][686]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:945][686]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:985][688]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.26:985][688]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.27:025][690]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.27:025][690]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.27:065][692]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.27:065][692]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.27:108][694]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.27:109][694]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.27:150][696]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.27:150][696]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.27:191][698]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.27:191][698]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.27:233][700]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.27:233][700]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.27:274][702]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.27:274][702]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.27:315][704]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.27:315][704]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.27:360][706]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.27:361][706]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.27:403][708]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.27:403][708]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.27:445][710]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.27:445][710]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.27:486][712]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.27:486][712]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.27:525][714]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.27:525][714]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.27:565][716]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.27:565][716]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.27:606][718]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.27:607][718]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.27:646][720]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.27:646][720]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.27:684][722]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.27:684][722]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.27:724][724]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.27:724][724]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.27:764][726]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.27:764][726]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.27:804][728]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.27:804][728]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.27:842][730]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.27:842][730]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.27:882][732]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.27:882][732]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.27:920][734]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.27:920][734]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.27:960][736]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.27:960][736]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.28:008][738]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.28:008][738]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.28:056][740]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.28:056][740]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.28:100][742]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.28:100][742]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.28:142][744]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.28:142][744]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.28:189][746]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.28:189][746]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.28:234][748]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.28:235][748]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.28:287][750]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.28:287][750]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.28:338][752]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.28:338][752]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.28:382][754]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.28:382][754]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.28:419][756]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.28:419][756]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.28:457][758]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.28:457][758]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.28:494][760]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.28:494][760]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.28:533][762]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.28:533][762]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.28:571][764]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.28:571][764]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.28:608][766]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.28:609][766]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.28:646][768]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.28:646][768]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.28:684][770]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.28:684][770]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.28:721][772]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.28:721][772]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.28:759][774]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.28:759][774]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.28:800][776]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.28:800][776]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.28:844][778]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.28:844][778]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.28:884][780]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.28:884][780]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.28:925][782]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.28:925][782]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.28:968][784]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.28:968][784]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:010][786]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:011][786]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:048][788]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:048][788]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:090][790]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:090][790]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:131][792]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:131][792]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:173][794]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:173][794]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:216][796]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:216][796]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:257][798]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:257][798]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:300][800]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:300][800]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:341][802]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:341][802]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:380][804]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:380][804]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:419][806]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:419][806]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:461][808]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:461][808]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:500][810]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:500][810]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:538][812]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:538][812]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:578][814]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:578][814]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:617][816]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:617][816]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:658][818]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:658][818]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:697][820]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:697][820]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:736][822]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:736][822]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:775][824]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:775][824]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:818][826]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:818][826]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:859][828]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:859][828]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:900][830]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:900][830]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:938][832]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:938][832]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:976][834]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.29:976][834]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:014][836]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:014][836]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:053][838]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:053][838]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:092][840]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:092][840]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:132][842]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:133][842]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:171][844]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:171][844]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:208][846]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:208][846]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:249][848]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:249][848]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:288][850]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:288][850]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:326][852]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:326][852]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:365][854]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:365][854]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:404][856]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:405][856]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:443][858]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:443][858]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:482][860]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:482][860]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:520][862]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:520][862]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:558][864]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:558][864]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:596][866]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:596][866]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:635][868]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:635][868]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:674][870]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:674][870]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:710][872]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:710][872]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:749][874]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:749][874]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:787][876]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:787][876]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:826][878]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:826][878]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:866][880]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:866][880]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:904][882]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:904][882]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:942][884]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:942][884]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:981][886]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.30:981][886]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:019][888]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:019][888]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:056][890]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:056][890]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:096][892]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:096][892]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:133][894]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:133][894]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:170][896]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:170][896]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:208][898]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:208][898]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:246][900]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:246][900]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:285][902]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:285][902]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:323][904]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:323][904]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:360][906]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:360][906]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:398][908]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:398][908]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:437][910]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:437][910]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:477][912]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:477][912]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:514][914]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:514][914]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:553][916]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:553][916]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:590][918]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:590][918]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:629][920]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:629][920]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:670][922]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:670][922]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:708][924]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:708][924]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:744][926]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:744][926]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:784][928]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:784][928]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:823][930]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:823][930]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:859][932]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:859][932]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:898][934]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:898][934]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:936][936]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:936][936]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:975][938]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.31:975][938]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:018][940]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:018][940]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:057][942]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:057][942]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:101][944]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:101][944]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:141][946]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:141][946]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:182][948]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:182][948]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:221][950]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:221][950]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:261][952]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:261][952]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:301][954]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:301][954]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:338][956]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:338][956]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:378][958]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:378][958]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:418][960]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:419][960]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:458][962]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:458][962]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:501][964]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:502][964]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:541][966]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:541][966]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:581][968]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:581][968]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:622][970]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:622][970]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:662][972]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:662][972]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:704][974]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:704][974]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:743][976]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:743][976]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:785][978]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:786][978]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:826][980]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:826][980]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:867][982]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:867][982]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:907][984]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:907][984]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:946][986]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:946][986]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:994][988]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.32:994][988]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.33:044][990]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.33:044][990]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.33:098][992]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.33:098][992]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.33:145][994]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.33:145][994]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.33:193][996]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.33:193][996]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.33:239][998]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.33:239][998]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.33:286][  0]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.33:286][  0]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.33:330][  2]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.33:330][  2]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.33:373][  4]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.33:373][  4]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.33:416][  6]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.33:416][  6]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.33:458][  8]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.33:458][  8]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.33:498][ 10]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.33:498][ 10]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.33:536][ 12]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.33:536][ 12]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.33:575][ 14]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.33:575][ 14]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.33:619][ 16]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.33:620][ 16]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.33:662][ 18]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.33:662][ 18]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.33:704][ 20]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.33:704][ 20]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.33:749][ 22]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.33:749][ 22]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.33:794][ 24]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.33:794][ 24]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.33:838][ 26]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.33:838][ 26]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.33:883][ 28]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.33:883][ 28]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.33:933][ 30]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.33:933][ 30]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.33:974][ 32]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.33:974][ 32]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.34:018][ 34]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.34:018][ 34]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.34:061][ 36]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.34:061][ 36]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.34:105][ 38]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.34:105][ 38]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.34:149][ 40]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.34:149][ 40]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.34:193][ 42]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.34:193][ 42]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.34:237][ 44]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.34:237][ 44]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.34:279][ 46]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.34:279][ 46]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.34:324][ 48]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.34:324][ 48]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.34:367][ 50]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.34:367][ 50]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.34:410][ 52]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.34:410][ 52]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.34:456][ 54]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.34:457][ 54]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.34:493][ 56]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.34:493][ 56]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.34:533][ 58]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.34:533][ 58]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.34:576][ 60]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.34:576][ 60]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.34:620][ 62]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.34:620][ 62]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.34:663][ 64]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.34:663][ 64]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.34:707][ 66]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.34:707][ 66]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.34:750][ 68]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.34:750][ 68]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.34:793][ 70]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.34:793][ 70]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.34:838][ 72]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.34:838][ 72]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.34:879][ 74]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.34:879][ 74]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.34:923][ 76]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.34:924][ 76]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.34:967][ 78]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.34:967][ 78]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.35:010][ 80]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.35:010][ 80]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.35:054][ 82]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.35:054][ 82]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.35:098][ 84]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.35:098][ 84]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.35:143][ 86]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.35:143][ 86]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.35:187][ 88]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.35:187][ 88]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.35:229][ 90]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.35:230][ 90]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.35:274][ 92]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.35:274][ 92]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.35:317][ 94]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.35:317][ 94]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.35:368][ 96]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.35:368][ 96]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.35:413][ 98]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.35:413][ 98]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.35:455][100]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.35:455][100]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.35:495][102]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.35:495][102]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.35:534][104]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.35:534][104]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.35:646][106]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.35:646][106]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-19.21.37:452][176]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000090F8512A20
+[2014.12.09-19.21.42:796][399]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.12.09-19.21.44:192][460]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/GameComponents'
+[2014.12.09-19.23.38:422][986]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.09-19.24.03:619][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameComponents/DebugHud" FILE="E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/GameComponents/DebugHud.uasset" SILENT=true
+[2014.12.09-19.24.12:928][496]LogSavePackage: Save=8341.168945ms
+[2014.12.09-19.24.12:928][496]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/DebugHud08F394C64EDDD72664973B9B4483AF11.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/GameComponents/DebugHud.uasset'
+[2014.12.09-19.24.17:653][571]BlueprintLog: New page: Compile DebugHud
+[2014.12.09-19.24.18:390][571]BlueprintEditorCompileResults: Info [0244.26] Compile of DebugHud successful! [in 522 ms]
+[2014.12.09-19.24.29:336][841]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.09-19.24.29:343][841]LogPlayLevel: [PIE] Compiling BotShip before PIE...
+[2014.12.09-19.24.29:418][841]LogOutputDevice:Warning: 
+
+Script Stack:
+AsteroidMiner_C.ExecuteUbergraph_AsteroidMiner
+AsteroidMiner_C.BndEvt__BotShip_6_K2Node_ActorBoundEvent_407_ActorDestroyedSignature__DelegateSignature
+
+[2014.12.09-19.24.29:418][841]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2014.12.09-19.24.29:419][841]LogCrashTracker: 
+
+
+[2014.12.09-19.24.29:919][841]LogCrashTracker: 
+
+
+[2014.12.09-19.24.29:919][841]LogWindows: === Critical error: ===
+Assertion failed: PC [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.6\Engine\Source\Runtime\Engine\Private\GameplayStatics.cpp] [Line: 131] 
+
+
+
+KERNELBASE.dll!UnknownFunction (0x00007ffd334a606c) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffd18632f6d) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffd184c60e8) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffd184a9182) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffd130fdbb7) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffd12e36e61) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b3b9af4) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b47943f) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b4973bd) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b4ba46a) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b498a5e) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b47999a) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b4bbd74) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b498a5e) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b3b9af4) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b4981c6) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffd12ef0851) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffd12e56bf8) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffd12ea304c) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffd13204f97) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffd1320ff43) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffd11c7a12b) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffd11c736f8) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffd11c4b703) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffd11738a5a) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffd11751ee3) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffd11497e53) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffd11940686) + 0 bytes [UnknownFile:0]
+UE4Editor.exe!FEngineLoop::Tick() (0x00007ff674f4cd94) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\launchengineloop.cpp:2214]
+UE4Editor.exe!GuardedMain() (0x00007ff674f4089f) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\launch.cpp:131]
+UE4Editor.exe!GuardedMainWrapper() (0x00007ff674f4090a) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() (0x00007ff674f4e3d9) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\windows\launchwindows.cpp:202]
+UE4Editor.exe!__tmainCRTStartup() (0x00007ff674f4f319) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL!UnknownFunction (0x00007ffd356816ad) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffd35ed4409) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffd35ed4409) + 0 bytes [UnknownFile:0]
+
+
+[2014.12.09-19.24.30:220][841]LogExit: Executing StaticShutdownAfterError
+[2014.12.09-19.24.30:227][841]LogWindows: FPlatformMisc::RequestExit(1)
+[2014.12.09-19.24.30:227][841]Log file closed, 12/09/14 19:24:30

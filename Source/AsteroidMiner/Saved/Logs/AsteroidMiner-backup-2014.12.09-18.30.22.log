@@ -1,0 +1,1261 @@
+﻿Log file open, 12/09/14 18:20:28
+LogInit:Display: Running engine for game: AsteroidMiner
+LogInit: Version: 4.6.0-2369412+++depot+UE4-Releases+4.6
+LogInit: API Version: 2369412
+LogInit: Compiled (64-bit): Nov 24 2014 21:54:04
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.6
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.6/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.12.09-18.20.28:880][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2014.12.09-18.20.28:941][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.12.09-18.20.28:974][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.12.09-18.20.28:989][  0]LogInit: Object subsystem initialized
+[2014.12.09-18.20.28:992][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2014.12.09-18.20.28:992][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.09-18.20.28:992][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2014.12.09-18.20.28:992][  0]LogInit: Selected Device Profile: [Windows]
+[2014.12.09-18.20.28:992][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.12.09-18.20.29:024][  0]LogInit: Computer: LLOYDS_PC
+[2014.12.09-18.20.29:024][  0]LogInit: User: 10021000
+[2014.12.09-18.20.29:024][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.12.09-18.20.29:024][  0]LogInit: High frequency timer resolution =2.337877 MHz
+[2014.12.09-18.20.29:024][  0]LogMemory: Memory total: Physical=5.9GB (6GB approx) Virtual=131072.0GB
+[2014.12.09-18.20.29:024][  0]LogMemory: Platform Memory Stats for Windows
+[2014.12.09-18.20.29:024][  0]LogMemory: Process Physical Memory: 47.18 MB used, 47.18 MB peak
+[2014.12.09-18.20.29:024][  0]LogMemory: Process Virtual Memory: 23.11 MB used, 24.40 MB peak
+[2014.12.09-18.20.29:025][  0]LogMemory: Physical Memory: 3407.42 MB used, 6077.92 MB total
+[2014.12.09-18.20.29:025][  0]LogMemory: Virtual Memory: 268.73 MB used, 134217728.00 MB total
+[2014.12.09-18.20.29:069][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 680 (Feature Level 11_0)
+[2014.12.09-18.20.29:069][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2014.12.09-18.20.29:071][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.12.09-18.20.29:071][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.12.09-18.20.29:071][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.12.09-18.20.29:080][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.12.09-18.20.29:101][  0]LogD3D11RHI: Async texture creation enabled
+[2014.12.09-18.20.29:185][  0]LogTextLocalizationManager: The requested culture ('en_GB') has no localization data; parent culture's ('en') localization data will be used.
+[2014.12.09-18.20.29:439][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.12.09-18.20.39:295][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.09-18.20.40:239][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.09-18.20.40:343][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.12.09-18.20.41:002][  0]LogDerivedDataCache: Loaded boot cache 0.66s 39MB C:/Users/10021_000/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2014.12.09-18.20.41:003][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/10021_000/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2014.12.09-18.20.41:005][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.12.09-18.20.41:005][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.12.09-18.20.41:112][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.12.09-18.20.41:125][  0]LogDerivedDataCache: Using Local data cache path C:/Users/10021_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2014.12.09-18.20.41:445][  0]LogCollisionProfile:Warning: Profile (Trigger) - Custom Channel Name = 'Projectile' hasn't been found
+[2014.12.09-18.20.41:445][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2014.12.09-18.20.41:445][  0]LogCollisionProfile:Warning: Profile (Projectile) ObjectTypeName (Projectile) is invalid. 
+[2014.12.09-18.20.41:793][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.12.09-18.20.41:793][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.12.09-18.20.42:701][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.12.09-18.20.42:816][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2014.12.09-18.20.50:647][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.12.09-18.20.51:047][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Binaries/Win64. Error: 0
+[2014.12.09-18.20.51:333][  0]SourceControl: Info Source control is disabled
+[2014.12.09-18.20.51:334][  0]SourceControl: Info Source control is disabled
+[2014.12.09-18.20.51:347][  0]SourceControl: Info Source control is disabled
+[2014.12.09-18.20.51:714][  0]LogObj: 23754 objects as part of root set at end of initial load.
+[2014.12.09-18.20.51:714][  0]LogUObjectAllocator: 5168136 out of 0 bytes used by permanent object pool.
+[2014.12.09-18.20.51:806][  0]LogEngine: Initializing Engine...
+[2014.12.09-18.20.52:093][  0]LogInit: XAudio2 using '37'' TFT-TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2014.12.09-18.20.52:103][  0]LogInit: FAudioDevice initialized.
+[2014.12.09-18.20.52:137][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.12.09-18.20.52:206][  0]LogDerivedDataCache: Saved boot cache 0.07s 39MB C:/Users/10021_000/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2014.12.09-18.20.52:233][  0]LogInit: Texture streaming: Enabled
+[2014.12.09-18.20.52:281][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2014.12.09-18.20.52:281][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.0-2369412+++depot+UE4-Releases+4.6
+[2014.12.09-18.20.52:283][  0]LogAnalytics: SetUserId a29c071cf10a93fac0ff457d50595e17
+[2014.12.09-18.20.52:283][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2014.12.09-18.20.52:308][  0]LogInit: Transaction tracking system initialized
+[2014.12.09-18.20.52:465][  0]BlueprintLog: New page: Editor Load
+[2014.12.09-18.20.52:509][  0]LogAssetRegistry: FAssetRegistry took 0.0104 seconds to start up
+[2014.12.09-18.20.52:510][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2014.12.09-18.20.53:455][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.09-18.20.54:122][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.09-18.20.54:445][  0]LogConsoleResponse:Display: 
+[2014.12.09-18.20.54:532][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-18.20.54:869][  0]SourceControl: Info Source control is disabled
+[2014.12.09-18.20.54:869][  0]Cmd: MAP LOAD FILE="E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Maps/AsteroidMiner.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.09-18.20.54:874][  0]LightingResults: New page: Lighting Build
+[2014.12.09-18.20.54:889][  0]MapCheck: New page: Map Check
+[2014.12.09-18.20.54:889][  0]LightingResults: New page: Lighting Build
+[2014.12.09-18.20.54:903][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000198E6BD940
+[2014.12.09-18.20.55:115][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/M_SkyBox.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-18.20.55:118][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Textures/HighResSkyBox.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-18.20.55:927][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Meshes/DetailedSun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-18.20.55:930][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/M_Sun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-18.20.55:935][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Textures/T_Fire.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-18.20.56:592][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/Objects/B_Asteroid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-18.20.56:597][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Meshes/Rock.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-18.20.56:600][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/M_Asteroid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-18.20.56:661][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/Outliner/PP_Outliner_Inst.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-18.20.56:663][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/Outliner/PP_Outliner_M.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-18.20.56:671][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/Outliner/MF_ConvolveTexture.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-18.20.56:682][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/Outliner/MF_ExtractDepth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-18.20.56:687][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/Outliner/MF_SampleSceneTextureNeighbourUVs.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-18.20.56:771][  0]LogBlueprint:Warning: [compiler] Warning  Remove from Viewport  is deprecated; Use RemoveFromParent instead
+[2014.12.09-18.20.56:773][  0]LogBlueprint:Warning: [compiler] Warning [0030.99] Compile of GameOverWidget successful, but with 1 Warning(s) [in 9 ms]
+[2014.12.09-18.20.56:777][  0]LogBlueprint:Warning: [compiler] Warning  Remove from Viewport  is deprecated; Use RemoveFromParent instead
+[2014.12.09-18.20.56:778][  0]LogBlueprint:Warning: [compiler] Warning [0030.99] Compile of GameOverWidget successful, but with 1 Warning(s) [in 3 ms]
+[2014.12.09-18.20.56:778][  0]LogBlueprint:Warning: [compiler] Warning [0030.99] Compile of GameOverWidget successful, but with 2 Warning(s) [in 0 ms]
+[2014.12.09-18.20.56:822][  0]LogBlueprint:Warning: [compiler] Warning  Remove from Viewport  is deprecated; Use RemoveFromParent instead
+[2014.12.09-18.20.56:825][  0]LogBlueprint:Warning: [compiler] Warning [0031.04] Compile of PauseMenuWidget successful, but with 1 Warning(s) [in 9 ms]
+[2014.12.09-18.20.56:830][  0]LogBlueprint:Warning: [compiler] Warning  Remove from Viewport  is deprecated; Use RemoveFromParent instead
+[2014.12.09-18.20.56:832][  0]LogBlueprint:Warning: [compiler] Warning [0031.05] Compile of PauseMenuWidget successful, but with 1 Warning(s) [in 5 ms]
+[2014.12.09-18.20.56:832][  0]LogBlueprint:Warning: [compiler] Warning [0031.05] Compile of PauseMenuWidget successful, but with 2 Warning(s) [in 0 ms]
+[2014.12.09-18.20.58:551][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.09-18.20.58:551][  0]LogAIModule: Creating AISystem for world AsteroidMiner
+[2014.12.09-18.20.58:552][  0]Cmd: MAP CHECKDEP
+[2014.12.09-18.20.58:552][  0]MapCheck: New page: AsteroidMiner - 9 Dec 2014 18:20:58
+[2014.12.09-18.20.58:791][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 238.72ms to complete.
+[2014.12.09-18.20.58:791][  0]LogFileHelpers: Loading map 'AsteroidMiner' took 3.922
+[2014.12.09-18.20.58:930][  0]LogCollectionManager: Loaded 0 collections in 0.002912 seconds
+[2014.12.09-18.20.59:120][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.12.09-18.20.59:132][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2014.12.09-18.20.59:173][  0]LogLoad: Full Startup: 33.39 seconds (BP compile: 1.17 seconds)
+[2014.12.09-18.20.59:520][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/AI'
+[2014.12.09-18.20.59:827][  0]LogRenderer:Warning: Reallocating scene render targets to support 768x872.
+[2014.12.09-18.21.01:081][  4]LogAssetRegistry: Asset discovery search completed in 8.5836 seconds
+[2014.12.09-18.21.01:124][  4]LogAnalytics: Event Editor.Usage.AssetClasses has too many attributes (41). May be truncated at the collector.
+[2014.12.09-18.21.11:942][ 62]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.09-18.21.11:942][ 62]LogPlayLevel: [PIE] Compiling AsteroidMiner before PIE...
+[2014.12.09-18.21.12:795][ 62]LogPlayLevel: PIE:  Blueprint regeneration took 853 ms (1 blueprints)
+[2014.12.09-18.21.12:795][ 62]PIE: New page: PIE session: AsteroidMiner (9 Dec 2014 18:21:12)
+[2014.12.09-18.21.12:846][ 62]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049660s)
+[2014.12.09-18.21.12:848][ 62]LogPlayLevel: PIE: World Init took: (0.001852s)
+[2014.12.09-18.21.12:848][ 62]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/AsteroidMiner.AsteroidMiner to /Game/Maps/UEDPIE_0_AsteroidMiner.AsteroidMiner (0.051901s)
+[2014.12.09-18.21.12:911][ 62]LogWorld: Game class is 'AsteroidMinerGameMode_C'
+[2014.12.09-18.21.12:916][ 62]LogAIModule: Creating AISystem for world AsteroidMiner
+[2014.12.09-18.21.12:917][ 62]LogWorld: Bringing World /Game/Maps/UEDPIE_0_AsteroidMiner.AsteroidMiner up for play (max tick rate 0) at 2014.12.09-18.21.12
+[2014.12.09-18.21.12:919][ 62]LogWorld: Bringing up level for play took: 0.002468
+[2014.12.09-18.21.12:921][ 62]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_AsteroidMiner 1.755
+[2014.12.09-18.21.12:971][ 62]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.13:048][ 63]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.13:081][ 64]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.13:104][ 65]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.13:129][ 66]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.13:155][ 67]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.13:187][ 68]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.13:214][ 69]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.13:242][ 70]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.13:267][ 71]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.13:292][ 72]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.13:317][ 73]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.13:342][ 74]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.13:373][ 75]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.13:402][ 76]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.13:426][ 77]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.13:449][ 78]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.13:476][ 79]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.13:506][ 80]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.13:531][ 81]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.13:558][ 82]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.13:584][ 83]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.13:611][ 84]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.13:637][ 85]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.13:660][ 86]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.13:685][ 87]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.13:713][ 88]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.13:741][ 89]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.13:771][ 90]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.13:798][ 91]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.13:824][ 92]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.13:849][ 93]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.13:874][ 94]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.13:899][ 95]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.13:922][ 96]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.13:946][ 97]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.13:967][ 98]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.13:988][ 99]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.14:012][100]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.14:037][101]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.14:062][102]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.14:086][103]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.14:110][104]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.14:133][105]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.14:158][106]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.14:181][107]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.14:207][108]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.14:232][109]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.14:271][110]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.14:299][111]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.14:326][112]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.14:353][113]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.14:383][114]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.14:413][115]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.14:441][116]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.14:467][117]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.14:502][118]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.14:529][119]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.14:559][120]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.14:588][121]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.14:612][122]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.14:636][123]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.14:662][124]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.14:686][125]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.14:712][126]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.14:736][127]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.14:758][128]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.14:782][129]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.14:809][130]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.14:836][131]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.14:862][132]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.14:889][133]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.14:913][134]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.14:935][135]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.14:955][136]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.14:977][137]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.14:996][138]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.15:020][139]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.15:042][140]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.15:066][141]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.15:087][142]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.15:110][143]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.15:135][144]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.15:157][145]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.15:181][146]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.15:205][147]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.15:233][148]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.15:254][149]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.15:276][150]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.15:298][151]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.15:321][152]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.15:343][153]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.15:366][154]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.15:388][155]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.15:412][156]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.15:434][157]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.15:459][158]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.15:482][159]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.15:506][160]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.15:529][161]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.15:559][162]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.15:581][163]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.15:605][164]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.15:628][165]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.15:650][166]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.15:681][167]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.15:710][168]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.15:733][169]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.15:755][170]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.15:779][171]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.15:800][172]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.15:822][173]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.15:846][174]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.15:871][175]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.15:898][176]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.15:922][177]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.15:945][178]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.15:967][179]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.15:988][180]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.16:012][181]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.16:034][182]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.16:056][183]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.16:078][184]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.16:102][185]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.16:125][186]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.16:148][187]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.16:172][188]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.16:198][189]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.16:222][190]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.16:245][191]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.16:267][192]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.16:296][193]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.16:322][194]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.16:348][195]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.16:373][196]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.16:403][197]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.16:431][198]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.16:454][199]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.16:482][200]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.16:515][201]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.16:542][202]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.16:571][203]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.16:598][204]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.16:626][205]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.16:652][206]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.16:677][207]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.16:700][208]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.16:725][209]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.16:747][210]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.16:772][211]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.16:794][212]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.16:818][213]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.16:844][214]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.16:870][215]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.16:898][216]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.16:924][217]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.16:949][218]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.16:972][219]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.16:994][220]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.17:017][221]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.17:039][222]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.17:063][223]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.17:085][224]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.17:109][225]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.17:131][226]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.17:154][227]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.17:179][228]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.17:204][229]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.17:231][230]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.17:254][231]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.17:281][232]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.17:302][233]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.17:324][234]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.17:347][235]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.17:370][236]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.17:393][237]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.17:415][238]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.17:437][239]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.17:458][240]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.17:482][241]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.17:507][242]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.17:531][243]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.17:531][243]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.17:533][243]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.17:561][244]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.17:584][245]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.17:584][245]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.17:587][245]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.17:611][246]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.17:635][247]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.17:635][247]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.17:638][247]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.17:664][248]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.17:685][249]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.17:685][249]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.17:690][249]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.17:714][250]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.17:735][251]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.17:735][251]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.17:738][251]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.17:762][252]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.17:784][253]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.17:785][253]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.17:788][253]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.17:814][254]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.17:837][255]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.17:838][255]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.17:840][255]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.17:865][256]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.17:887][257]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.17:887][257]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.17:890][257]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.17:920][258]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.17:943][259]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.17:943][259]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.17:946][259]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.17:970][260]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.17:990][261]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.17:990][261]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.17:993][261]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.18:018][262]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.18:042][263]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.18:042][263]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.18:044][263]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.18:070][264]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.18:091][265]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.18:091][265]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.18:094][265]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.18:118][266]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.18:137][267]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.18:137][267]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.18:140][267]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.18:174][268]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.18:197][269]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.18:197][269]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.18:200][269]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.18:224][270]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.18:245][271]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.18:246][271]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.18:249][271]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.18:275][272]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.18:294][273]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.18:294][273]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.18:297][273]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.18:317][274]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.18:337][275]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.18:337][275]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.18:339][275]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.18:362][276]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.18:381][277]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.18:381][277]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.18:383][277]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.18:407][278]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.18:429][279]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.18:430][279]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.18:432][279]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.18:455][280]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.18:480][281]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.18:480][281]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.18:482][281]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.18:510][282]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.18:533][283]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.18:533][283]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.18:536][283]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.18:563][284]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.18:588][285]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.18:588][285]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.18:590][285]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.18:615][286]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.18:636][287]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.18:636][287]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.18:639][287]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.18:663][288]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.18:685][289]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.18:686][289]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.18:689][289]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.18:716][290]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.18:739][291]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.18:739][291]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.18:742][291]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.18:767][292]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.18:789][293]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.18:789][293]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.18:792][293]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.18:825][294]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.18:848][295]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.18:848][295]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.18:851][295]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.18:877][296]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.18:901][297]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.18:901][297]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.18:905][297]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.18:934][298]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.18:954][299]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.18:954][299]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.18:957][299]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.18:984][300]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.19:006][301]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.19:006][301]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.19:008][301]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.19:037][302]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.19:057][303]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.19:058][303]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.19:060][303]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.19:086][304]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.19:109][305]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.19:109][305]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.19:112][305]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.19:139][306]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.19:160][307]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.19:160][307]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.19:162][307]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.19:187][308]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.19:210][309]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.19:210][309]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.19:213][309]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.19:240][310]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.19:271][311]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.19:271][311]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.19:273][311]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.19:299][312]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.19:323][313]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.19:323][313]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.19:326][313]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.19:355][314]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.19:376][315]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.19:376][315]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.19:378][315]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.19:403][316]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.19:425][317]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.19:426][317]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.19:429][317]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.19:453][318]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.19:474][319]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.19:474][319]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.19:478][319]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.19:503][320]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.19:523][321]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.19:524][321]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.19:527][321]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.19:552][322]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.19:578][323]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.19:578][323]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.19:583][323]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.19:611][324]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.19:632][325]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.19:632][325]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.19:635][325]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.19:661][326]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.19:684][327]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.19:684][327]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.19:687][327]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.19:711][328]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.19:733][329]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.19:733][329]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.19:735][329]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.19:759][330]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.19:779][331]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.19:779][331]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.19:782][331]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.19:807][332]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.19:827][333]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.19:827][333]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.19:830][333]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.19:855][334]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.19:875][335]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.19:876][335]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.19:879][335]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.19:905][336]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.19:925][337]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.19:925][337]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.19:928][337]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.19:952][338]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.19:971][339]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.19:971][339]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.19:973][339]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.19:996][340]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.20:016][341]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.20:016][341]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.20:019][341]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.20:040][342]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.20:061][343]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.20:061][343]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.20:064][343]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.20:086][344]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.20:104][345]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.20:104][345]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.20:108][345]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.20:131][346]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.20:151][347]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.20:151][347]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.20:154][347]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.20:179][348]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.20:199][349]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.20:200][349]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.20:202][349]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.20:234][350]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.20:253][351]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.20:253][351]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.20:257][351]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.20:278][352]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.20:298][353]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.20:298][353]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.20:301][353]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.20:321][354]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.20:343][355]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.20:343][355]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.20:346][355]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.20:370][356]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.20:389][357]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.20:390][357]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.20:393][357]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.20:417][358]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.20:439][359]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.20:439][359]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.20:442][359]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.20:465][360]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.20:483][361]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.20:483][361]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.20:486][361]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.20:510][362]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.20:534][363]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.20:534][363]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.20:537][363]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.20:568][364]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.20:588][365]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.20:588][365]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.20:591][365]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.20:613][366]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.20:634][367]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.20:634][367]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.20:637][367]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.20:663][368]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.20:686][369]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.20:686][369]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.20:689][369]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.20:714][370]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.20:733][371]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.20:734][371]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.20:736][371]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.20:759][372]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.20:778][373]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.20:778][373]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.20:781][373]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.20:804][374]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.20:825][375]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.20:825][375]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.20:828][375]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.20:853][376]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.20:876][377]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.20:876][377]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.20:879][377]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.20:905][378]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.20:925][379]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.20:925][379]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.20:928][379]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.20:952][380]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.20:972][381]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.20:972][381]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.20:975][381]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.20:995][382]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.21:016][383]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.21:016][383]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.21:019][383]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.21:041][384]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.21:059][385]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.21:059][385]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.21:062][385]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.21:086][386]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.21:105][387]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.21:105][387]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.21:109][387]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.21:134][388]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.21:155][389]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.21:155][389]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.21:158][389]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.21:187][390]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.21:211][391]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.21:212][391]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.21:215][391]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.21:242][392]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.21:266][393]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.21:267][393]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.21:270][393]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.21:304][394]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.21:331][395]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.21:331][395]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.21:334][395]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.21:364][396]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.21:388][397]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.21:388][397]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.21:391][397]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.21:423][398]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.21:451][399]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.21:452][399]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.21:456][399]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.21:487][400]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.21:515][401]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.21:515][401]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.21:519][401]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.21:555][402]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.21:580][403]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.21:580][403]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.21:584][403]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.21:617][404]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.21:645][405]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.21:645][405]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.21:648][405]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.21:673][406]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.21:697][407]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.21:697][407]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.21:699][407]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.21:722][408]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.21:749][409]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.21:749][409]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.21:752][409]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.21:777][410]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.21:801][411]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.21:801][411]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.21:804][411]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.21:825][412]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.21:848][413]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.21:848][413]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.21:851][413]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.21:875][414]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.21:899][415]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.21:899][415]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.21:902][415]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.21:927][416]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.21:948][417]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.21:948][417]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.21:950][417]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.21:978][418]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.21:997][419]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.21:997][419]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.22:000][419]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.22:022][420]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.22:043][421]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.22:043][421]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.22:046][421]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.22:070][422]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.22:091][423]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.22:092][423]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.22:095][423]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.22:120][424]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.22:142][425]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.22:142][425]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.22:145][425]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.22:170][426]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.22:199][427]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.22:199][427]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.22:203][427]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.22:230][428]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.22:255][429]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.22:255][429]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.22:258][429]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.22:282][430]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.22:308][431]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.22:308][431]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.22:311][431]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.22:336][432]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.22:356][433]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.22:356][433]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.22:359][433]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.22:384][434]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.22:409][435]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.22:409][435]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.22:411][435]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.22:439][436]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.22:460][437]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.22:460][437]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.22:463][437]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.22:486][438]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.22:510][439]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.22:510][439]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.22:513][439]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.22:539][440]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.22:564][441]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.22:564][441]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.22:567][441]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.22:589][442]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.22:610][443]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.22:610][443]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.22:613][443]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.22:639][444]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.22:658][445]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.22:658][445]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.22:661][445]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.22:684][446]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.22:706][447]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.22:706][447]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.22:709][447]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.22:734][448]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.22:755][449]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.22:755][449]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.22:758][449]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.22:784][450]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.22:806][451]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.22:806][451]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.22:808][451]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.22:834][452]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.22:857][453]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.22:857][453]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.22:860][453]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.22:886][454]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.22:911][455]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.22:911][455]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.22:914][455]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.22:940][456]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.22:960][457]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.22:960][457]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.22:963][457]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.22:986][458]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.23:006][459]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.23:006][459]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.23:009][459]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.23:032][460]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.23:053][461]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.23:053][461]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.23:055][461]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.23:078][462]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.23:100][463]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.23:100][463]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.23:103][463]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.23:128][464]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.23:150][465]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.23:150][465]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.23:153][465]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.23:181][466]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.23:205][467]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.23:205][467]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.23:208][467]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.23:236][468]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.23:259][469]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.23:260][469]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.23:263][469]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.23:288][470]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.23:310][471]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.23:310][471]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.23:313][471]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.23:338][472]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.23:360][473]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.23:360][473]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.23:363][473]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.23:384][474]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.23:407][475]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.23:407][475]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.23:410][475]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.23:437][476]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.23:460][477]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.23:460][477]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.23:464][477]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.23:490][478]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.23:516][479]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.23:516][479]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.23:519][479]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.23:545][480]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.23:570][481]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.23:570][481]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.23:573][481]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.23:600][482]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.23:625][483]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.23:625][483]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.23:628][483]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.23:653][484]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.23:677][485]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.23:677][485]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.23:681][485]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.23:707][486]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.23:730][487]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.23:731][487]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.23:734][487]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.23:760][488]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.23:783][489]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.23:783][489]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.23:786][489]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.23:811][490]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.23:835][491]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.23:835][491]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.23:838][491]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.23:862][492]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.23:884][493]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.23:884][493]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.23:887][493]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.23:915][494]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.23:940][495]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.23:940][495]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.23:943][495]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.23:966][496]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.23:987][497]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.23:987][497]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.23:990][497]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.24:013][498]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.24:034][499]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.24:035][499]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.24:038][499]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.24:063][500]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.24:084][501]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.24:084][501]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.24:086][501]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.24:110][502]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.24:132][503]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.24:132][503]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.24:135][503]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.24:161][504]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.24:184][505]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.24:184][505]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.24:187][505]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.24:211][506]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.24:235][507]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.24:236][507]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.24:240][507]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.24:269][508]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.24:293][509]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.24:293][509]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.24:296][509]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.24:322][510]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.24:345][511]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.24:345][511]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.24:348][511]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.24:372][512]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.24:396][513]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.24:396][513]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.24:399][513]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.24:428][514]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.24:452][515]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.24:452][515]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.24:456][515]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.24:484][516]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.24:511][517]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.24:511][517]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.24:514][517]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.24:540][518]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.24:565][519]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.24:566][519]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.24:569][519]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.24:603][520]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.24:631][521]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.24:631][521]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.24:634][521]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.24:662][522]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.24:685][523]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.24:685][523]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.24:688][523]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.24:713][524]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.24:736][525]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.24:736][525]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.24:739][525]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.24:769][526]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.24:792][527]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.24:792][527]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.24:795][527]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.24:818][528]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.24:840][529]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.24:840][529]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.24:842][529]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.24:865][530]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.24:884][531]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.24:884][531]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.24:887][531]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.24:912][532]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.24:935][533]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.24:935][533]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.24:939][533]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.24:964][534]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.24:983][535]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.24:983][535]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.24:986][535]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.25:009][536]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.25:029][537]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.25:029][537]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.25:033][537]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.25:056][538]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.25:076][539]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.25:076][539]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.25:079][539]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.25:101][540]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.25:120][541]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.25:120][541]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.25:123][541]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.25:147][542]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.25:167][543]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.25:167][543]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.25:169][543]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.25:194][544]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.25:217][545]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.25:217][545]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.25:220][545]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.25:246][546]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.25:270][547]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.25:270][547]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.25:272][547]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.25:297][548]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.25:317][549]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.25:317][549]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.25:320][549]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.25:345][550]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.25:366][551]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.25:366][551]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.25:369][551]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.25:392][552]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.25:414][553]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.25:414][553]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.25:416][553]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.25:440][554]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.25:465][555]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.25:465][555]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.25:467][555]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.25:488][556]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.25:511][557]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.25:511][557]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.25:513][557]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.25:537][558]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.25:561][559]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.25:561][559]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.25:564][559]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.25:589][560]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.25:611][561]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.25:611][561]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.25:614][561]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.25:636][562]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.25:656][563]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.25:656][563]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.25:659][563]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.25:683][564]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.25:702][565]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.25:702][565]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.25:705][565]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.25:727][566]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.25:752][567]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.25:752][567]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.25:755][567]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.25:782][568]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.25:802][569]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.25:802][569]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.25:804][569]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.25:828][570]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.25:848][571]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.25:849][571]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.25:852][571]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.25:877][572]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.25:899][573]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.25:899][573]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.25:903][573]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.25:929][574]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.25:949][575]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.25:949][575]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.25:952][575]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.25:976][576]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.25:996][577]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.25:996][577]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.25:999][577]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.26:021][578]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.26:042][579]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.26:042][579]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.26:045][579]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.26:068][580]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.26:089][581]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.26:089][581]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.26:092][581]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.26:120][582]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.26:140][583]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.26:140][583]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.26:143][583]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.26:165][584]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.26:187][585]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.26:187][585]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.26:191][585]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.26:215][586]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.26:237][587]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.26:237][587]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.26:240][587]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.26:267][588]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.26:290][589]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.26:290][589]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.26:293][589]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.26:323][590]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.26:347][591]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.26:347][591]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.26:350][591]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.26:378][592]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.26:401][593]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.26:401][593]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.26:404][593]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.26:433][594]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.26:456][595]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.26:456][595]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.26:460][595]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.26:484][596]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.26:505][597]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.26:505][597]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.26:508][597]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.26:535][598]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.26:571][599]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.26:571][599]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.26:575][599]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.26:603][600]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.26:628][601]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.26:628][601]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.26:631][601]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.26:658][602]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.26:686][603]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.26:686][603]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.26:689][603]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.26:715][604]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.26:738][605]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.26:738][605]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.26:741][605]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.26:766][606]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.26:788][607]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.26:788][607]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.26:790][607]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.26:813][608]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.26:833][609]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.26:833][609]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.26:836][609]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.26:858][610]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.26:880][611]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.26:881][611]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.26:883][611]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.26:908][612]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.26:931][613]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.26:931][613]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.26:934][613]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.26:956][614]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.26:976][615]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.26:976][615]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.26:979][615]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.27:003][616]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.27:021][617]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.27:021][617]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.27:024][617]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.27:047][618]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.27:065][619]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.27:065][619]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.27:069][619]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.27:091][620]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.27:115][621]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.27:115][621]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.27:118][621]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.27:143][622]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.27:164][623]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.27:164][623]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.27:168][623]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.27:193][624]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.27:218][625]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.27:218][625]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.27:221][625]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.27:247][626]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.27:273][627]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.27:273][627]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.27:276][627]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.27:302][628]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.27:322][629]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.27:322][629]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.27:325][629]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.27:350][630]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.27:371][631]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.27:371][631]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.27:374][631]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.27:400][632]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.27:420][633]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.27:420][633]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.27:423][633]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.27:448][634]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.27:469][635]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.27:469][635]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.27:472][635]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.27:496][636]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.27:518][637]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.27:518][637]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.27:520][637]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.27:549][638]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.27:572][639]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.27:572][639]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.27:575][639]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.27:598][640]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.27:617][641]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.27:617][641]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.27:620][641]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.27:642][642]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.27:661][643]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.27:661][643]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.27:665][643]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.27:688][644]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.27:708][645]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.27:708][645]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.27:710][645]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.27:733][646]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.27:755][647]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.27:755][647]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.27:758][647]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.27:780][648]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.27:800][649]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.27:800][649]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.27:803][649]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.27:823][650]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.27:843][651]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.27:843][651]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.27:846][651]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.27:873][652]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.27:893][653]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.27:893][653]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.27:896][653]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.27:922][654]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.27:943][655]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.27:943][655]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.27:946][655]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.27:968][656]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.27:985][657]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.27:986][657]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.27:989][657]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.28:010][658]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.28:031][659]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.28:031][659]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.28:034][659]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.28:055][660]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.28:076][661]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.28:076][661]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.28:079][661]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.28:101][662]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.28:120][663]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.28:120][663]LogScript:Warning: Attempt to take Sqrt() of negative number - returning 0.
+[2014.12.09-18.21.28:123][663]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.28:144][664]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-18.21.28:328][666]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001986887060
+[2014.12.09-18.21.32:558][829]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/GameComponents'
+[2014.12.09-18.27.20:374][645]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2014.12.09-18.27.21:788][676]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.12.09-18.27.21:833][676]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2014.12.09-18.27.21:944][676]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2014.12.09-18.27.21:944][676]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2014.12.09-18.27.21:944][676]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2014.12.09-18.27.21:944][676]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2014.12.09-18.27.21:947][676]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.12.09-18.27.21:982][676]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling.
+[2014.12.09-18.27.21:986][676]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling.
+[2014.12.09-18.27.21:990][676]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling.
+[2014.12.09-18.27.21:994][676]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_7, compiling.
+[2014.12.09-18.27.34:343][158]LogMaterialEditor: Saving and Compiling material M_HUD_Fuel_Bar
+[2014.12.09-18.27.36:615][158]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.12.09-18.27.36:732][158]LogMaterial: Missing cached shader map for material M_HUD_Fuel_Bar, compiling.
+[2014.12.09-18.27.36:776][158]LogMaterial: Missing cached shader map for material M_HUD_Fuel_Bar, compiling.
+[2014.12.09-18.27.36:790][158]LogMaterial: 0.007414 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.12.09-18.27.40:071][158]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_HUD_Fuel_Bar" FILE="E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/M_HUD_Fuel_Bar.uasset" SILENT=true
+[2014.12.09-18.27.41:852][158]LogSavePackage: Save=774.832031ms
+[2014.12.09-18.27.41:855][158]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/M_HUD_Fuel_BarAA9F66DA45A41A488F5F8C850DE6E1BD.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/M_HUD_Fuel_Bar.uasset'
+[2014.12.09-18.27.41:890][158]MaterialEditorStats: Info Base pass shader without light map: 31 instructions
+[2014.12.09-18.27.41:891][158]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2014.12.09-18.27.41:891][158]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.12.09-18.27.48:722][312]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/AsteroidMiner" FILE="E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Maps/AsteroidMiner.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.12.09-18.28.06:025][312]LogSavePackage: Save=16118.369141ms
+[2014.12.09-18.28.06:026][312]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/AsteroidMiner6A73A8294003CF9EF852E6921B8E3E34.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Maps/AsteroidMiner.umap'
+[2014.12.09-18.28.06:120][312]LogFileHelpers: Saving map 'AsteroidMiner' took 17.690
+[2014.12.09-18.28.06:131][312]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameComponents/DebugHud" FILE="E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/GameComponents/DebugHud.uasset" SILENT=true
+[2014.12.09-18.28.15:684][312]LogSavePackage: Save=8591.827148ms
+[2014.12.09-18.28.15:684][312]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/DebugHud75A2CC32460B6D7DA49B269E31370D67.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/GameComponents/DebugHud.uasset'
+[2014.12.09-18.28.59:801][ 15]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameComponents/DebugHud" FILE="E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/GameComponents/DebugHud.uasset" SILENT=true
+[2014.12.09-18.29.09:400][ 15]LogSavePackage: Save=8662.025391ms
+[2014.12.09-18.29.09:400][ 15]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/DebugHud88E4420A4CE4A13CDE33C2B45CF4F8B6.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/GameComponents/DebugHud.uasset'
+[2014.12.09-18.29.20:174][273]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.12.09-18.29.21:067][308]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/AI'
+[2014.12.09-18.30.08:006][679]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.09-18.30.08:155][679]LogPlayLevel: [PIE] Compiling DebugHud before PIE...
+[2014.12.09-18.30.08:805][679]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2014.12.09-18.30.08:913][679]LogPlayLevel: [PIE] Compiling AsteroidMiner before PIE...
+[2014.12.09-18.30.09:657][679]LogPlayLevel: [PIE] Compiling BotShip before PIE...
+[2014.12.09-18.30.09:740][679]LogOutputDevice:Warning: 
+
+Script Stack:
+AsteroidMiner_C.ExecuteUbergraph_AsteroidMiner
+AsteroidMiner_C.BndEvt__BotShip_6_K2Node_ActorBoundEvent_407_ActorDestroyedSignature__DelegateSignature
+
+[2014.12.09-18.30.09:740][679]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2014.12.09-18.30.09:740][679]LogCrashTracker: 
+
+
+[2014.12.09-18.30.10:387][679]LogCrashTracker: 
+
+
+[2014.12.09-18.30.10:387][679]LogWindows: === Critical error: ===
+Assertion failed: PC [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.6\Engine\Source\Runtime\Engine\Private\GameplayStatics.cpp] [Line: 131] 
+
+
+
+KERNELBASE.dll!UnknownFunction (0x00007ffd334a606c) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffd18a42f6d) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffd188d60e8) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffd188b9182) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffd130fdbb7) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffd12e36e61) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b3b9af4) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b47943f) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b4973bd) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b4ba46a) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b498a5e) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b47999a) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b4bbd74) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b498a5e) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b3b9af4) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1b4981c6) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffd12ef0851) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffd12e56bf8) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffd12ea304c) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffd13204f97) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffd1320ff43) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffd11c7a12b) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffd11c736f8) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffd11c4b703) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffd11738a5a) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffd11751ee3) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffd11497e53) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffd11940686) + 0 bytes [UnknownFile:0]
+UE4Editor.exe!FEngineLoop::Tick() (0x00007ff674f4cd94) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\launchengineloop.cpp:2214]
+UE4Editor.exe!GuardedMain() (0x00007ff674f4089f) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\launch.cpp:131]
+UE4Editor.exe!GuardedMainWrapper() (0x00007ff674f4090a) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() (0x00007ff674f4e3d9) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\windows\launchwindows.cpp:202]
+UE4Editor.exe!__tmainCRTStartup() (0x00007ff674f4f319) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL!UnknownFunction (0x00007ffd356816ad) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffd35ed4409) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffd35ed4409) + 0 bytes [UnknownFile:0]
+
+
+[2014.12.09-18.30.10:691][679]LogExit: Executing StaticShutdownAfterError
+[2014.12.09-18.30.10:705][679]LogWindows: FPlatformMisc::RequestExit(1)
+[2014.12.09-18.30.10:705][679]Log file closed, 12/09/14 18:30:10

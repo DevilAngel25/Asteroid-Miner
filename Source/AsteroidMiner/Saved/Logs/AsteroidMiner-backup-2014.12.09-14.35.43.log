@@ -1,0 +1,448 @@
+﻿Log file open, 12/09/14 14:32:41
+LogInit:Display: Running engine for game: AsteroidMiner
+LogInit: Version: 4.6.0-2369412+++depot+UE4-Releases+4.6
+LogInit: API Version: 2369412
+LogInit: Compiled (64-bit): Nov 24 2014 21:54:04
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.6
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.6/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.12.09-14.32.41:125][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2014.12.09-14.32.41:186][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.12.09-14.32.41:225][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.12.09-14.32.41:241][  0]LogInit: Object subsystem initialized
+[2014.12.09-14.32.41:245][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2014.12.09-14.32.41:245][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.09-14.32.41:245][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2014.12.09-14.32.41:245][  0]LogInit: Selected Device Profile: [Windows]
+[2014.12.09-14.32.41:245][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.12.09-14.32.41:282][  0]LogInit: Computer: LLOYDS_PC
+[2014.12.09-14.32.41:282][  0]LogInit: User: 10021000
+[2014.12.09-14.32.41:282][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.12.09-14.32.41:282][  0]LogInit: High frequency timer resolution =2.337877 MHz
+[2014.12.09-14.32.41:282][  0]LogMemory: Memory total: Physical=5.9GB (6GB approx) Virtual=131072.0GB
+[2014.12.09-14.32.41:282][  0]LogMemory: Platform Memory Stats for Windows
+[2014.12.09-14.32.41:282][  0]LogMemory: Process Physical Memory: 47.26 MB used, 47.26 MB peak
+[2014.12.09-14.32.41:282][  0]LogMemory: Process Virtual Memory: 23.18 MB used, 24.40 MB peak
+[2014.12.09-14.32.41:282][  0]LogMemory: Physical Memory: 2846.55 MB used, 6077.92 MB total
+[2014.12.09-14.32.41:282][  0]LogMemory: Virtual Memory: 269.23 MB used, 134217728.00 MB total
+[2014.12.09-14.32.41:337][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 680 (Feature Level 11_0)
+[2014.12.09-14.32.41:337][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2014.12.09-14.32.41:340][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.12.09-14.32.41:340][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.12.09-14.32.41:341][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.12.09-14.32.41:352][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.12.09-14.32.41:374][  0]LogD3D11RHI: Async texture creation enabled
+[2014.12.09-14.32.41:455][  0]LogTextLocalizationManager: The requested culture ('en_GB') has no localization data; parent culture's ('en') localization data will be used.
+[2014.12.09-14.32.41:711][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.12.09-14.32.51:665][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.09-14.32.52:453][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.09-14.32.52:546][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.12.09-14.32.52:675][  0]LogDerivedDataCache: Loaded boot cache 0.13s 39MB C:/Users/10021_000/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2014.12.09-14.32.52:675][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/10021_000/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2014.12.09-14.32.52:677][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.12.09-14.32.52:677][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.12.09-14.32.52:778][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.12.09-14.32.52:791][  0]LogDerivedDataCache: Using Local data cache path C:/Users/10021_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2014.12.09-14.32.53:034][  0]LogCollisionProfile:Warning: Profile (Trigger) - Custom Channel Name = 'Projectile' hasn't been found
+[2014.12.09-14.32.53:035][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2014.12.09-14.32.53:035][  0]LogCollisionProfile:Warning: Profile (Projectile) ObjectTypeName (Projectile) is invalid. 
+[2014.12.09-14.32.53:295][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.12.09-14.32.53:295][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.12.09-14.32.54:044][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.12.09-14.32.54:146][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2014.12.09-14.32.55:508][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.12.09-14.32.55:760][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Binaries/Win64. Error: 0
+[2014.12.09-14.32.56:057][  0]SourceControl: Info Source control is disabled
+[2014.12.09-14.32.56:057][  0]SourceControl: Info Source control is disabled
+[2014.12.09-14.32.56:070][  0]SourceControl: Info Source control is disabled
+[2014.12.09-14.32.56:283][  0]LogObj: 23754 objects as part of root set at end of initial load.
+[2014.12.09-14.32.56:283][  0]LogUObjectAllocator: 5168136 out of 0 bytes used by permanent object pool.
+[2014.12.09-14.32.56:373][  0]LogEngine: Initializing Engine...
+[2014.12.09-14.32.56:662][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.12.09-14.32.56:675][  0]LogInit: FAudioDevice initialized.
+[2014.12.09-14.32.56:711][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.12.09-14.32.56:772][  0]LogDerivedDataCache: Saved boot cache 0.06s 39MB C:/Users/10021_000/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2014.12.09-14.32.56:802][  0]LogInit: Texture streaming: Enabled
+[2014.12.09-14.32.56:850][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2014.12.09-14.32.56:850][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.0-2369412+++depot+UE4-Releases+4.6
+[2014.12.09-14.32.56:852][  0]LogAnalytics: SetUserId a29c071cf10a93fac0ff457d50595e17
+[2014.12.09-14.32.56:852][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2014.12.09-14.32.56:876][  0]LogInit: Transaction tracking system initialized
+[2014.12.09-14.32.57:042][  0]BlueprintLog: New page: Editor Load
+[2014.12.09-14.32.57:090][  0]LogAssetRegistry: FAssetRegistry took 0.0113 seconds to start up
+[2014.12.09-14.32.57:091][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2014.12.09-14.32.58:055][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.09-14.32.58:690][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.09-14.32.59:022][  0]LogConsoleResponse:Display: 
+[2014.12.09-14.32.59:108][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-14.32.59:440][  0]SourceControl: Info Source control is disabled
+[2014.12.09-14.32.59:440][  0]Cmd: MAP LOAD FILE="E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Maps/AsteroidMiner.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.09-14.32.59:445][  0]LightingResults: New page: Lighting Build
+[2014.12.09-14.32.59:461][  0]MapCheck: New page: Map Check
+[2014.12.09-14.32.59:461][  0]LightingResults: New page: Lighting Build
+[2014.12.09-14.32.59:479][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008CA3909940
+[2014.12.09-14.32.59:688][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/M_SkyBox.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-14.32.59:690][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Textures/HighResSkyBox.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-14.33.00:382][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Meshes/DetailedSun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-14.33.00:385][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/M_Sun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-14.33.00:390][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Textures/T_Fire.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-14.33.01:258][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/Objects/B_Asteroid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-14.33.01:263][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Meshes/Rock.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-14.33.01:265][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/M_Asteroid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-14.33.01:325][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/Outliner/PP_Outliner_Inst.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-14.33.01:327][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/Outliner/PP_Outliner_M.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-14.33.01:336][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/Outliner/MF_ConvolveTexture.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-14.33.01:347][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/Outliner/MF_ExtractDepth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-14.33.01:351][  0]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Materials/Outliner/MF_SampleSceneTextureNeighbourUVs.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-14.33.01:433][  0]LogBlueprint:Warning: [compiler] Warning  Remove from Viewport  is deprecated; Use RemoveFromParent instead
+[2014.12.09-14.33.01:435][  0]LogBlueprint:Warning: [compiler] Warning [0023.36] Compile of GameOverWidget successful, but with 1 Warning(s) [in 8 ms]
+[2014.12.09-14.33.01:439][  0]LogBlueprint:Warning: [compiler] Warning  Remove from Viewport  is deprecated; Use RemoveFromParent instead
+[2014.12.09-14.33.01:441][  0]LogBlueprint:Warning: [compiler] Warning [0023.37] Compile of GameOverWidget successful, but with 1 Warning(s) [in 4 ms]
+[2014.12.09-14.33.01:441][  0]LogBlueprint:Warning: [compiler] Warning [0023.37] Compile of GameOverWidget successful, but with 2 Warning(s) [in 0 ms]
+[2014.12.09-14.33.01:485][  0]LogBlueprint:Warning: [compiler] Warning  Remove from Viewport  is deprecated; Use RemoveFromParent instead
+[2014.12.09-14.33.01:487][  0]LogBlueprint:Warning: [compiler] Warning [0023.41] Compile of PauseMenuWidget successful, but with 1 Warning(s) [in 7 ms]
+[2014.12.09-14.33.01:491][  0]LogBlueprint:Warning: [compiler] Warning  Remove from Viewport  is deprecated; Use RemoveFromParent instead
+[2014.12.09-14.33.01:492][  0]LogBlueprint:Warning: [compiler] Warning [0023.42] Compile of PauseMenuWidget successful, but with 1 Warning(s) [in 4 ms]
+[2014.12.09-14.33.01:493][  0]LogBlueprint:Warning: [compiler] Warning [0023.42] Compile of PauseMenuWidget successful, but with 2 Warning(s) [in 0 ms]
+[2014.12.09-14.33.03:820][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.09-14.33.03:821][  0]LogAIModule: Creating AISystem for world AsteroidMiner
+[2014.12.09-14.33.03:822][  0]Cmd: MAP CHECKDEP
+[2014.12.09-14.33.03:823][  0]MapCheck: New page: AsteroidMiner - 9 Dec 2014 14:33:03
+[2014.12.09-14.33.04:075][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 252.32ms to complete.
+[2014.12.09-14.33.04:075][  0]LogFileHelpers: Loading map 'AsteroidMiner' took 4.635
+[2014.12.09-14.33.04:186][  0]LogCollectionManager: Loaded 0 collections in 0.002822 seconds
+[2014.12.09-14.33.04:372][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.12.09-14.33.04:383][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2014.12.09-14.33.04:413][  0]LogLoad: Full Startup: 26.34 seconds (BP compile: 1.18 seconds)
+[2014.12.09-14.33.04:766][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/AI'
+[2014.12.09-14.33.05:072][  0]LogRenderer:Warning: Reallocating scene render targets to support 768x872.
+[2014.12.09-14.33.06:367][  4]LogAssetRegistry: Asset discovery search completed in 9.2887 seconds
+[2014.12.09-14.33.06:404][  4]LogAnalytics: Event Editor.Usage.AssetClasses has too many attributes (41). May be truncated at the collector.
+[2014.12.09-14.33.19:051][371]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.09-14.33.19:051][371]LogPlayLevel: [PIE] Compiling AsteroidMiner before PIE...
+[2014.12.09-14.33.19:898][371]LogPlayLevel: PIE:  Blueprint regeneration took 847 ms (1 blueprints)
+[2014.12.09-14.33.19:899][371]PIE: New page: PIE session: AsteroidMiner (9 Dec 2014 14:33:19)
+[2014.12.09-14.33.19:947][371]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047602s)
+[2014.12.09-14.33.19:948][371]LogPlayLevel: PIE: World Init took: (0.001398s)
+[2014.12.09-14.33.19:949][371]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/AsteroidMiner.AsteroidMiner to /Game/Maps/UEDPIE_0_AsteroidMiner.AsteroidMiner (0.049477s)
+[2014.12.09-14.33.20:006][371]LogWorld: Game class is 'AsteroidMinerGameMode_C'
+[2014.12.09-14.33.20:010][371]LogAIModule: Creating AISystem for world AsteroidMiner
+[2014.12.09-14.33.20:011][371]LogWorld: Bringing World /Game/Maps/UEDPIE_0_AsteroidMiner.AsteroidMiner up for play (max tick rate 0) at 2014.12.09-14.33.20
+[2014.12.09-14.33.20:013][371]LogWorld: Bringing up level for play took: 0.002665
+[2014.12.09-14.33.20:016][371]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_AsteroidMiner 0.85
+[2014.12.09-14.33.20:045][371]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.20:045][371]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.20:125][372]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.20:151][373]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.20:172][374]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.20:194][375]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.20:216][376]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.20:241][377]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.20:266][378]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.20:289][379]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.20:312][380]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.20:336][381]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.20:357][382]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.20:380][383]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.20:401][384]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.20:423][385]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.20:444][386]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.20:465][387]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.20:487][388]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.20:508][389]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.20:530][390]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.20:552][391]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.20:573][392]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.20:596][393]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.20:619][394]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.20:642][395]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.20:669][396]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.20:697][397]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.20:724][398]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.20:751][399]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.20:773][400]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.20:796][401]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.20:839][402]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.20:867][403]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.20:895][404]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.20:928][405]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.20:954][406]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.20:981][407]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.21:006][408]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.21:035][409]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.21:058][410]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.21:084][411]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.21:106][412]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.21:131][413]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.21:152][414]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.21:175][415]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.21:198][416]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.21:220][417]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.21:242][418]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.21:263][419]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.21:285][420]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.21:307][421]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.21:329][422]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.21:354][423]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.21:375][424]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.21:395][425]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.21:419][426]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.21:444][427]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.21:468][428]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.21:492][429]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.21:514][430]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.21:538][431]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.21:560][432]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.21:582][433]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.21:605][434]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.21:626][435]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.21:649][436]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.21:672][437]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.21:694][438]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.21:716][439]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.21:737][440]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.21:759][441]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.21:782][442]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.21:803][443]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.21:824][444]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.21:846][445]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.21:869][446]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.21:890][447]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.21:911][448]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.21:932][449]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.21:953][450]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.21:974][451]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.21:996][452]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.22:019][453]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.22:039][454]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.22:061][455]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.22:083][456]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.22:105][457]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.22:133][458]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.22:159][459]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.22:180][460]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.22:205][461]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.22:226][462]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.22:251][463]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.22:272][464]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.22:295][465]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.22:317][466]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.22:340][467]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.22:362][468]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.22:384][469]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.22:407][470]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.22:430][471]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.22:451][472]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.22:471][473]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.22:495][474]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.22:516][475]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.22:538][476]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.22:563][477]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.22:586][478]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.22:609][479]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.22:631][480]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.22:655][481]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.22:678][482]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.22:701][483]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.22:725][484]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.22:747][485]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.22:771][486]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.22:794][487]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.22:817][488]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.22:841][489]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.22:863][490]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.22:883][491]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.22:905][492]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.22:927][493]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.22:952][494]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.22:973][495]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.22:995][496]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.23:017][497]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.23:039][498]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.23:062][499]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.23:082][500]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.23:104][501]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.23:125][502]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.23:146][503]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.23:169][504]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.23:192][505]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.23:213][506]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.23:235][507]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.23:256][508]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.23:277][509]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.23:299][510]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.23:321][511]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.23:343][512]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.23:365][513]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.23:387][514]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.23:408][515]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.23:431][516]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.23:452][517]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.23:474][518]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.23:496][519]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.23:517][520]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.23:538][521]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.23:560][522]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.23:582][523]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.23:605][524]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.23:627][525]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.23:648][526]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.23:670][527]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.23:694][528]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.23:716][529]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.23:738][530]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.23:763][531]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.23:786][532]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.23:808][533]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.23:831][534]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.23:851][535]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.23:872][536]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.23:897][537]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.23:920][538]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.23:943][539]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.23:966][540]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.23:989][541]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.24:016][542]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.24:037][543]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.24:060][544]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.24:082][545]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.24:104][546]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.24:127][547]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.24:151][548]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.24:173][549]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.24:194][550]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.24:216][551]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.24:237][552]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.24:262][553]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.24:286][554]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.24:310][555]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.24:333][556]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.24:356][557]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.24:378][558]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.24:397][559]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.24:421][560]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.24:444][561]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.24:467][562]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.24:491][563]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.24:515][564]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.24:540][565]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.24:564][566]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.24:590][567]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.24:612][568]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.24:634][569]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.24:659][570]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.24:682][571]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.24:707][572]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.24:731][573]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.24:758][574]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.24:779][575]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.24:805][576]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.24:831][577]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.24:854][578]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.24:877][579]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.24:901][580]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.24:924][581]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.24:947][582]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.24:968][583]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.24:993][584]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.25:015][585]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.25:039][586]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.25:064][587]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.25:087][588]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.25:112][589]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.25:135][590]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.25:159][591]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.25:181][592]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.25:201][593]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.25:225][594]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.25:296][598]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.12.09-14.33.25:422][599]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008CABDE6160
+[2014.12.09-14.33.30:698][840]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/MoonMinerGameMode.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-14.33.30:700][840]LogLinker:Warning: Asset 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/AsteroidMinerGameMode.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.09-14.33.51:424][964]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2014.12.09-14.33.53:213][ 27]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.12.09-14.33.53:884][ 56]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/GameComponents'
+[2014.12.09-14.34.04:301][601]BlueprintLog: New page: Compile AsteroidMinerGameMode
+[2014.12.09-14.34.04:442][601]BlueprintEditorCompileResults: Info [0086.37] Compile of AsteroidMinerGameMode successful! [in 138 ms]
+[2014.12.09-14.34.06:317][693]LogSavePackage: Save=65.050468ms
+[2014.12.09-14.34.06:317][693]LogSavePackage: Moving 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Saved/AsteroidMinerGameMode0AACF6D44B70435570142888305163AF.tmp' to 'E:/Other Files/UnrealEngine_4.5/Projects/AsteroidMiner4.6/Content/Blueprints/GameComponents/AsteroidMinerGameMode.uasset'
+[2014.12.09-14.34.17:654][112]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.09-14.34.17:661][112]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2014.12.09-14.34.17:760][112]LogPlayLevel: [PIE] Compiling AsteroidMiner before PIE...
+[2014.12.09-14.34.18:554][112]LogPlayLevel: PIE:  Blueprint regeneration took 900 ms (2 blueprints)
+[2014.12.09-14.34.18:555][112]PIE: New page: PIE session: AsteroidMiner (9 Dec 2014 14:34:18)
+[2014.12.09-14.34.18:605][112]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049279s)
+[2014.12.09-14.34.18:606][112]LogPlayLevel: PIE: World Init took: (0.001454s)
+[2014.12.09-14.34.18:606][112]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/AsteroidMiner.AsteroidMiner to /Game/Maps/UEDPIE_0_AsteroidMiner.AsteroidMiner (0.051127s)
+[2014.12.09-14.34.18:645][112]LogWorld: Game class is 'AsteroidMinerGameMode_C'
+[2014.12.09-14.34.18:648][112]LogAIModule: Creating AISystem for world AsteroidMiner
+[2014.12.09-14.34.18:650][112]LogWorld: Bringing World /Game/Maps/UEDPIE_0_AsteroidMiner.AsteroidMiner up for play (max tick rate 0) at 2014.12.09-14.34.18
+[2014.12.09-14.34.18:651][112]LogWorld: Bringing up level for play took: 0.002409
+[2014.12.09-14.34.18:654][112]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_AsteroidMiner 1.488
+[2014.12.09-14.34.21:354][204]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008CAF4C2CA0
+[2014.12.09-14.34.54:806][200]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.09-14.34.54:941][200]LogPlayLevel: [PIE] Compiling DebugHud before PIE...
+[2014.12.09-14.34.55:512][200]LogPlayLevel: [PIE] Compiling AsteroidMiner before PIE...
+[2014.12.09-14.34.56:280][200]LogPlayLevel: [PIE] Compiling BotShip before PIE...
+[2014.12.09-14.34.56:401][200]LogOutputDevice:Warning: 
+
+Script Stack:
+AsteroidMiner_C.ExecuteUbergraph_AsteroidMiner
+AsteroidMiner_C.BndEvt__BotShip_6_K2Node_ActorBoundEvent_407_ActorDestroyedSignature__DelegateSignature
+
+[2014.12.09-14.34.56:401][200]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2014.12.09-14.34.56:401][200]LogCrashTracker: 
+
+
+[2014.12.09-14.34.56:981][200]LogCrashTracker: 
+
+
+[2014.12.09-14.34.56:981][200]LogWindows: === Critical error: ===
+Assertion failed: PC [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.6\Engine\Source\Runtime\Engine\Private\GameplayStatics.cpp] [Line: 131] 
+
+
+
+KERNELBASE.dll!UnknownFunction (0x00007ffd334a606c) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffd18632f6d) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffd184c60e8) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffd184a9182) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffd130fdbb7) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffd12e36e61) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd180b9af4) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1817943f) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd181973bd) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd181ba46a) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd18198a5e) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd1817999a) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd181bbd74) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd18198a5e) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd180b9af4) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x00007ffd181981c6) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffd12ef0851) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffd12e56bf8) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffd12ea304c) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffd13204f97) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffd1320ff43) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffd11c7a12b) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffd11c736f8) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffd11c4b703) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffd11738a5a) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffd11751ee3) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffd11497e53) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffd11940686) + 0 bytes [UnknownFile:0]
+UE4Editor.exe!FEngineLoop::Tick() (0x00007ff674f4cd94) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\launchengineloop.cpp:2214]
+UE4Editor.exe!GuardedMain() (0x00007ff674f4089f) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\launch.cpp:131]
+UE4Editor.exe!GuardedMainWrapper() (0x00007ff674f4090a) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() (0x00007ff674f4e3d9) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\windows\launchwindows.cpp:202]
+UE4Editor.exe!__tmainCRTStartup() (0x00007ff674f4f319) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL!UnknownFunction (0x00007ffd356816ad) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffd35ed4409) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffd35ed4409) + 0 bytes [UnknownFile:0]
+
+
+[2014.12.09-14.34.57:289][200]LogExit: Executing StaticShutdownAfterError
+[2014.12.09-14.34.57:301][200]LogWindows: FPlatformMisc::RequestExit(1)
+[2014.12.09-14.34.57:301][200]Log file closed, 12/09/14 14:34:57
